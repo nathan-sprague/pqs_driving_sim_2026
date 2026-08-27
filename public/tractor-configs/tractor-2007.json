@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 4,
+  "name": "tractor_2007",
+  "specs": {
+    "massLb": 850,
+    "powerHp": 16,
+    "topSpeedMph": 5,
+    "durability": 72,
+    "centerOfMassInches": [15.5, 22, 0],
+    "transmission": "automatic",
+    "lengthMetres": 2.8,
+    "widthMetres": 1.05
+  },
+  "tractor": {
+    "position": [
+      0,
+      0.313397,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0.029459
+    ]
+  },
+  "parts": {
+    "16hp-briggs": {
+      "file": "/assets/models/tractor/engine/16hp_briggs.glb",
+      "position": [
+        1.012144,
+        0.134425,
+        -0.229439
+      ],
+      "rotation": [
+        0,
+        -1.570796,
+        0
+      ]
+    },
+    "16hp-briggs-2": {
+      "file": "/assets/models/tractor/engine/16hp_briggs.glb",
+      "position": [
+        0.614501,
+        0.133443,
+        -0.212714
+      ],
+      "rotation": [
+        0,
+        -1.570796,
+        0
+      ]
+    },
+    "16hp-briggs-3": {
+      "file": "/assets/models/tractor/engine/16hp_briggs.glb",
+      "position": [
+        1.04771,
+        0.479021,
+        0.003
+      ],
+      "rotation": [
+        0,
+        -1.570796,
+        0
+      ]
+    },
+    "16hp-briggs-4": {
+      "file": "/assets/models/tractor/engine/16hp_briggs.glb",
+      "position": [
+        0.644312,
+        0.485477,
+        -0.006
+      ],
+      "rotation": [
+        0,
+        -1.570796,
+        0
+      ]
+    },
+    "16hp-briggs-5": {
+      "file": "/assets/models/tractor/engine/16hp_briggs.glb",
+      "position": [
+        0.637057,
+        0.168307,
+        0.309
+      ],
+      "rotation": [
+        0,
+        -1.570796,
+        0
+      ]
+    },
+    "16hp-briggs-6": {
+      "file": "/assets/models/tractor/engine/16hp_briggs.glb",
+      "position": [
+        1.023169,
+        0.146864,
+        0.248105
+      ],
+      "rotation": [
+        0,
+        -1.570796,
+        0
+      ]
+    },
+    "front-wheel3": {
+      "file": "/assets/models/tractor/front_wheel/front_wheel3.glb",
+      "position": [
+        1.793016,
+        -0.052717,
+        0.392147
+      ],
+      "rotation": [
+        0,
+        1.570796,
+        0
+      ]
+    },
+    "front-wheel3-2": {
+      "file": "/assets/models/tractor/front_wheel/front_wheel3.glb",
+      "position": [
+        1.770684,
+        -0.052018,
+        -0.394364
+      ],
+      "rotation": [
+        0,
+        1.570796,
+        0
+      ]
+    },
+    "rear-wheel": {
+      "file": "/assets/models/tractor/rear_wheel/rear_wheel.glb",
+      "position": [
+        -0.433094,
+        0.081831,
+        -0.501778
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "rear-wheel-2": {
+      "file": "/assets/models/tractor/rear_wheel/rear_wheel.glb",
+      "position": [
+        -0.455243,
+        0.082892,
+        0.478123
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "2007-tractor-body": {
+      "file": "/assets/models/tractor/bodies/2007_tractor_body.glb",
+      "position": [
+        -0.42846,
+        0.074,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "eyeLevel": {
+    "position": [
+      -0.614971,
+      1.095989,
+      0
+    ],
+    "rotation": [
+      0,
+      1.570796,
+      0
+    ],
+    "personVisible": true
+  },
+  "display": {
+    "position": [
+      -0.378844,
+      0.718046,
+      -0.392
+    ],
+    "rotation": [
+      -0.933262,
+      -0.515727,
+      -0.425564
+    ],
+    "scale": [
+      0.67,
+      0.79,
+      1
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 4,
+  "name": "tractor_2023",
+  "specs": {
+    "massLb": 950,
+    "powerHp": 34,
+    "topSpeedMph": 6,
+    "durability": 92,
+    "centerOfMassInches": [17, 23.5, 0],
+    "transmission": "automatic",
+    "lengthMetres": 3.05,
+    "widthMetres": 1.1
+  },
+  "tractor": {
+    "position": [
+      0.016731,
+      -0.057888,
+      0
+    ],
+    "rotation": [
+      0.012462,
+      0.048799,
+      -0.043057
+    ]
+  },
+  "parts": {
+    "front-wheel": {
+      "file": "/assets/models/tractor/front_wheel/front_wheel.glb",
+      "position": [
+        1.771748,
+        0.349075,
+        -0.300306
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "front-wheel-2": {
+      "file": "/assets/models/tractor/front_wheel/front_wheel.glb",
+      "position": [
+        1.733032,
+        0.326532,
+        0.461059
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "rear-wheel": {
+      "file": "/assets/models/tractor/rear_wheel/rear_wheel.glb",
+      "position": [
+        -0.231256,
+        0.425524,
+        0.385439
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "rear-wheel-2": {
+      "file": "/assets/models/tractor/rear_wheel/rear_wheel.glb",
+      "position": [
+        -0.230393,
+        0.404319,
+        -0.376528
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "joystick": {
+      "file": "/assets/models/tractor/joysticks/joystick.glb",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "2023-tractor-body": {
+      "file": "/assets/models/tractor/bodies/2023_tractor_body.glb",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "eyeLevel": {
+    "position": [
+      -0.143991,
+      1.827172,
+      0.006644
+    ],
+    "rotation": [
+      0,
+      1.570796,
+      0
+    ],
+    "personVisible": true
+  },
+  "display": null
+}

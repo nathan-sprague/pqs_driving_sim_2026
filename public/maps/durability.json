@@ -1,0 +1,3341 @@
+{
+  "version": 1,
+  "name": "durability",
+  "vehicleStart": {
+    "position": [
+      -44.308971533981506,
+      0.6,
+      -20.50238426595603
+    ],
+    "rotation": [
+      0,
+      1.5900000000000003,
+      0
+    ],
+    "yaw": 1.5900000000000003
+  },
+  "blocks": [
+    {
+      "id": "9756e794-c430-477a-b6f9-1e5ce5981d6a",
+      "name": "spectator barrier",
+      "type": "box",
+      "position": [
+        -35.273042208561925,
+        0.5,
+        -40.89266345953174
+      ],
+      "size": [
+        0.4,
+        1,
+        53.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#9e968f",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "5198f017-0611-49cc-b118-488e7d45becf",
+      "name": "track_far_barrier",
+      "type": "box",
+      "position": [
+        -60.60858400011651,
+        0.5,
+        -37.1113042658352
+      ],
+      "size": [
+        0.3,
+        1,
+        93.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#a09b98",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "1d03dcf0-2230-449a-b521-4cdbce20cdcd",
+      "name": "pull_spectator5",
+      "type": "human",
+      "position": [
+        -27.75278985485217,
+        1.4507845362572376,
+        -31.992015090928515
+      ],
+      "rotation": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "behavior": "sit",
+      "waypoints": [
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "waypointLoop": false,
+      "flagColor": "none",
+      "fleeFromTractor": true,
+      "structuralDamage": 0
+    },
+    {
+      "id": "6d5f5d0f-f981-40d7-815c-9012fc7aaace",
+      "name": "pull_spectator1",
+      "type": "human",
+      "position": [
+        -27.791257090580526,
+        1.5177724095544516,
+        -28.26381215850559
+      ],
+      "rotation": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "behavior": "sit",
+      "waypoints": [
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "waypointLoop": false,
+      "flagColor": "none",
+      "fleeFromTractor": true,
+      "structuralDamage": 0
+    },
+    {
+      "id": "08a26d8f-c369-47b0-9f4b-757e1bb2fef1",
+      "name": "bleacher_support_left3",
+      "type": "box",
+      "position": [
+        -26.02060163647614,
+        2.266749315430914,
+        -34.95379874875091
+      ],
+      "size": [
+        1,
+        1,
+        0.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#b0b0b0",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "d19a376c-87c6-4730-857f-e2dee241d4e6",
+      "name": "bleacher_support_right3",
+      "type": "box",
+      "position": [
+        -25.988080038956067,
+        2.3653865004132415,
+        -26.892325234210656
+      ],
+      "size": [
+        1,
+        1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#9d9c9b",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "7852283c-0477-4e32-bba0-7fd6a8e23505",
+      "name": "bleacher_step5",
+      "type": "box",
+      "position": [
+        -26.185080828443123,
+        1.8739350054732413,
+        -30.90615169488563
+      ],
+      "size": [
+        1.4,
+        0.7,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#474747",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "24d15d9d-abfe-42bc-b15d-34d7a44c5382",
+      "name": "pull_spectator4",
+      "type": "human",
+      "position": [
+        -26.36470630475562,
+        2.1911408667422037,
+        -31.20195800426346
+      ],
+      "rotation": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "behavior": "sit",
+      "waypoints": [
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "waypointLoop": false,
+      "flagColor": "none",
+      "fleeFromTractor": true,
+      "structuralDamage": 0
+    },
+    {
+      "id": "8c474f43-b2fb-4f9b-bffd-79997c0d0fa2",
+      "name": "pull_spectator2",
+      "type": "human",
+      "position": [
+        -26.42784662737977,
+        2.258128740039418,
+        -28.57704004495742
+      ],
+      "rotation": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "behavior": "sit",
+      "waypoints": [
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "waypointLoop": false,
+      "flagColor": "none",
+      "fleeFromTractor": true,
+      "structuralDamage": 0
+    },
+    {
+      "id": "0372384c-8945-4bee-b82b-842f1f49ada9",
+      "name": "bleacher_seat3",
+      "type": "box",
+      "position": [
+        -25.989155759406714,
+        2.6207323511005516,
+        -30.892734565867634
+      ],
+      "size": [
+        0.6,
+        0.1,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#cccccc",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "40e8665b-7ec2-40c8-8d1f-086e56b8b3af",
+      "name": "bleacher_seat2",
+      "type": "box",
+      "position": [
+        -27.384365145747363,
+        1.8844604036509154,
+        -30.892734565867627
+      ],
+      "size": [
+        0.6,
+        0.1,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#cccccc",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "745173f0-5ae9-4532-acb3-2cccab73a8c0",
+      "name": "beacher_step4",
+      "type": "box",
+      "position": [
+        -27.580290214783773,
+        1.1376630580236056,
+        -30.892734565867627
+      ],
+      "size": [
+        1.4,
+        0.7,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#474747",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "b0d2a781-70dd-4fa3-9223-c444f4ab8a0a",
+      "name": "bleacher_support_right2",
+      "type": "box",
+      "position": [
+        -27.383289425296717,
+        1.6291145529636053,
+        -26.878908105192654
+      ],
+      "size": [
+        1,
+        1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#9d9c9b",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "898da6f4-6f43-40bd-a090-f4c92330a078",
+      "name": "bleacher_support_left2",
+      "type": "box",
+      "position": [
+        -27.41581102281679,
+        1.530477367981278,
+        -34.94038161973292
+      ],
+      "size": [
+        1,
+        1,
+        0.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#b0b0b0",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "bf072626-f92b-4770-9531-e8b8a197bda2",
+      "name": "bleacher_seat1",
+      "type": "box",
+      "position": [
+        -28.90405068304217,
+        1.3711839392063474,
+        -30.892734565867627
+      ],
+      "size": [
+        0.6,
+        0.1,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#cccccc",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "5e0ce982-1e6d-4b59-a42b-27210f07d635",
+      "name": "bleacher_step3",
+      "type": "box",
+      "position": [
+        -28.97275651750011,
+        0.6243865935790376,
+        -30.892734565867627
+      ],
+      "size": [
+        1.4,
+        0.7,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#474747",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "1a00c00b-357e-4d17-a506-41cce468600e",
+      "name": "bleacher_support_right1",
+      "type": "box",
+      "position": [
+        -28.90297496259152,
+        1.1158380885190373,
+        -26.878908105192654
+      ],
+      "size": [
+        1,
+        1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#9d9c9b",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "09dca51c-b0e1-48ac-bc5c-6937a448117a",
+      "name": "bleacher_support_left1",
+      "type": "box",
+      "position": [
+        -28.935496560111595,
+        1.01720090353671,
+        -34.94038161973292
+      ],
+      "size": [
+        1,
+        1,
+        0.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#b0b0b0",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "c0a22979-91f5-4c33-a340-83f3f883006b",
+      "name": "pull_spectator3",
+      "type": "human",
+      "position": [
+        -29.139117814611524,
+        0.9644743667190399,
+        -30.207235988665726
+      ],
+      "rotation": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "behavior": "sit",
+      "waypoints": [
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "waypointLoop": false,
+      "flagColor": "none",
+      "fleeFromTractor": true,
+      "structuralDamage": 0
+    },
+    {
+      "id": "a4f37d98-32f2-40c6-bc99-51f52864794f",
+      "name": "pull_staff1",
+      "type": "human",
+      "position": [
+        -38.29975171594265,
+        0,
+        -25.911575572640043
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "behavior": "waypoints",
+      "waypoints": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          4,
+          1
+        ],
+        [
+          0,
+          8,
+          1
+        ]
+      ],
+      "waypointLoop": true,
+      "flagColor": "none",
+      "fleeFromTractor": true,
+      "structuralDamage": 0
+    },
+    {
+      "id": "3ccc42a3-0eac-460e-91df-ffe54792b689",
+      "name": "bleacher_ramp",
+      "type": "box",
+      "position": [
+        -28.025787961463596,
+        0.9687451221090078,
+        -35.828107319757976
+      ],
+      "size": [
+        7.2,
+        0.6,
+        1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0.3839724354387525
+      ],
+      "color": "#424242",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "a8ef2613-0f9b-46a5-8b2f-6f693f490400",
+      "name": "bleacher_step2",
+      "type": "box",
+      "position": [
+        -29.996466745058004,
+        0.13656738626422804,
+        -30.914606843183215
+      ],
+      "size": [
+        1,
+        1,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#4f4f4f",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "9865edcc-83fc-49d1-84c1-08cf902ba6f5",
+      "name": "bleacher_step1",
+      "type": "box",
+      "position": [
+        -30.4,
+        -0.10000000000000031,
+        -30.914606843183215
+      ],
+      "size": [
+        1,
+        1,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#4f4f4f",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "e848da05-63de-4429-977e-59ac76f1597b",
+      "name": "pull_spectator6",
+      "type": "human",
+      "position": [
+        -29.142342151829617,
+        0.9998246731227982,
+        -41.71448167304823
+      ],
+      "rotation": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "behavior": "sit",
+      "waypoints": [
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "waypointLoop": false,
+      "flagColor": "none",
+      "fleeFromTractor": true,
+      "structuralDamage": 0
+    },
+    {
+      "id": "a339dcd4-4bfc-4531-b95f-69df176871af",
+      "name": "pull_spectator7",
+      "type": "human",
+      "position": [
+        -28.14896369290271,
+        1.6347241872267442,
+        -43.755455681039635
+      ],
+      "rotation": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "behavior": "sit",
+      "waypoints": [
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "waypointLoop": false,
+      "flagColor": "none",
+      "fleeFromTractor": true,
+      "structuralDamage": 0
+    },
+    {
+      "id": "99c097a0-15f4-4180-8253-dbd92d59f307",
+      "name": "Ground line",
+      "type": "line",
+      "position": [
+        -42.59345202494354,
+        0.02,
+        -23.595255562126237
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "points": [
+        [
+          -2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          4,
+          -1.8
+        ],
+        [
+          4,
+          -25.9
+        ],
+        [
+          -2.2,
+          -36.1
+        ],
+        [
+          -6.9,
+          -36.1
+        ],
+        [
+          -11,
+          -33.8
+        ],
+        [
+          -11,
+          -3.7
+        ],
+        [
+          -6.9,
+          -0.2
+        ],
+        [
+          -1.5,
+          0
+        ]
+      ],
+      "thickness": 0.1,
+      "curved": true,
+      "color": "#ffffff"
+    },
+    {
+      "id": "3ff1480d-8fd5-4a76-83e6-fa8da83d345d",
+      "name": "Ground line",
+      "type": "line",
+      "position": [
+        -45.321920816203715,
+        0.02,
+        -27.536209100507364
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "points": [
+        [
+          -2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          4,
+          -1.4
+        ],
+        [
+          4,
+          -15.6
+        ],
+        [
+          2,
+          -23.1
+        ],
+        [
+          -2.6,
+          -23.1
+        ],
+        [
+          -5.1,
+          -17.1
+        ],
+        [
+          -5.1,
+          -3.1
+        ],
+        [
+          -3.5,
+          0
+        ],
+        [
+          -1.9,
+          0
+        ]
+      ],
+      "thickness": 0.1,
+      "curved": true,
+      "color": "#ffffff"
+    },
+    {
+      "id": "2bf0d948-4c24-47f9-af6c-6646005ce345",
+      "name": "Cart",
+      "type": "cart",
+      "position": [
+        -44.11295591158409,
+        0,
+        -13.630854385131748
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#000000",
+      "structuralDamage": 0
+    },
+    {
+      "id": "334b1cf3-29a2-431c-b137-79a9d90c8832",
+      "name": "parking_stop1",
+      "type": "box",
+      "position": [
+        -39.40096435330248,
+        0.1,
+        -31.83177349140425
+      ],
+      "size": [
+        1.9,
+        0.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#000000",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": true,
+      "massKg": 25,
+      "structuralDamage": 0.3
+    },
+    {
+      "id": "0fa3c642-dc2c-4e7b-b470-0b1dee1d1248",
+      "name": "parking_stop1 copy",
+      "type": "box",
+      "position": [
+        -38.74248912531356,
+        0.1,
+        -30.83177349140425
+      ],
+      "size": [
+        1.9,
+        0.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0.3665191429188092,
+        0
+      ],
+      "color": "#000000",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0.3
+    },
+    {
+      "id": "9866adfd-87fa-4f34-a55e-7eb14f70fc1c",
+      "name": "parking_stop1 copy",
+      "type": "box",
+      "position": [
+        -38.97784627937096,
+        0.04050014564002616,
+        -32.970738792773886
+      ],
+      "size": [
+        1.9,
+        0.2,
+        0.1
+      ],
+      "rotation": [
+        0,
+        -0.8203047484373349,
+        0
+      ],
+      "color": "#000000",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": true,
+      "massKg": 25,
+      "structuralDamage": 0.3
+    },
+    {
+      "id": "5640c5c8-4c3d-4703-ba4e-335e20efe328",
+      "name": "parking_stop1 copy",
+      "type": "box",
+      "position": [
+        -40.017325502473575,
+        0.1,
+        -41.087237917076145
+      ],
+      "size": [
+        1.9,
+        0.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#000000",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0.3
+    },
+    {
+      "id": "b210a0f8-6a71-4588-8d75-3d2acb154172",
+      "name": "parking_stop1 copy copy",
+      "type": "box",
+      "position": [
+        -39.92888699719107,
+        0.1,
+        -37.70546643246389
+      ],
+      "size": [
+        1.9,
+        0.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0.5759586531581288,
+        0
+      ],
+      "color": "#000000",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0.5
+    },
+    {
+      "id": "7e767628-79c9-4096-979b-37a69f869ba5",
+      "name": "parking_stop1 copy copy copy",
+      "type": "box",
+      "position": [
+        -39.102345793406805,
+        0.1,
+        -35.430138579553415
+      ],
+      "size": [
+        1.9,
+        0.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0.3490658503988659,
+        0
+      ],
+      "color": "#000000",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0.5
+    },
+    {
+      "id": "85974b41-26fe-42a5-9ca1-2fc444d5a4cb",
+      "name": "parking_stop1 copy copy copy copy copy",
+      "type": "box",
+      "position": [
+        -39.312816753437076,
+        0.1,
+        -47.759729546370224
+      ],
+      "size": [
+        1.9,
+        0.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0.47123889803846897,
+        0
+      ],
+      "color": "#000000",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 1
+    },
+    {
+      "id": "612835b7-3eea-47af-813b-2da4a3772ae7",
+      "name": "parking_stop1 copy copy",
+      "type": "box",
+      "position": [
+        -38.45765000356841,
+        0.1,
+        -40.087237917076145
+      ],
+      "size": [
+        1.9,
+        0.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0.5061454830783556,
+        0
+      ],
+      "color": "#000000",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0.3
+    },
+    {
+      "id": "e2eb0319-0ade-4723-8757-0e2c963ba9a4",
+      "name": "parking_stop1 copy copy copy",
+      "type": "box",
+      "position": [
+        -40.13420532678032,
+        0.1,
+        -41.81982894529246
+      ],
+      "size": [
+        1.9,
+        0.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0.6981317007977318,
+        0
+      ],
+      "color": "#000000",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0.3
+    },
+    {
+      "id": "1fa016b2-1727-4f8b-b9e8-55e41c25810e",
+      "name": "parking_stop1 copy copy copy copy",
+      "type": "box",
+      "position": [
+        -39.99356971706827,
+        0.1,
+        -44.71169457184391
+      ],
+      "size": [
+        1.9,
+        0.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        -0.5934119456780721,
+        0
+      ],
+      "color": "#000000",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 1
+    },
+    {
+      "id": "48028c73-c848-44ee-876a-ddbc347360d3",
+      "name": "parking_stop1 copy copy copy copy copy",
+      "type": "box",
+      "position": [
+        -38.9022465775787,
+        0.1,
+        -43.91009105179004
+      ],
+      "size": [
+        1.9,
+        0.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0.3665191429188092,
+        0
+      ],
+      "color": "#000000",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0.3
+    },
+    {
+      "id": "61a0577a-bc34-4e64-a365-2c22ceb8fe86",
+      "name": "parking_stop1 copy copy copy copy copy copy",
+      "type": "box",
+      "position": [
+        -39.9614750878371,
+        0.1,
+        -46.87017850660185
+      ],
+      "size": [
+        1.9,
+        0.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#000000",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0.3
+    },
+    {
+      "id": "e81084e7-cc34-458f-89b5-7745cf632c2a",
+      "name": "parking_stop1 copy copy copy copy",
+      "type": "box",
+      "position": [
+        -39.13420532678032,
+        0.1,
+        -34.627376452891056
+      ],
+      "size": [
+        1.9,
+        0.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#000000",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0.3
+    },
+    {
+      "id": "f894f93b-7ca1-4eaf-be27-b901e24f8da9",
+      "name": "parking_stop1 copy copy copy copy copy",
+      "type": "box",
+      "position": [
+        -42.03858945850884,
+        0.1,
+        -51.89889521351609
+      ],
+      "size": [
+        1.9,
+        0.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#000000",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 4
+    },
+    {
+      "id": "84282377-d18a-422b-b9ff-088bd797e80f",
+      "name": "parking_stop1 copy copy copy copy copy copy",
+      "type": "box",
+      "position": [
+        -39.232497706803876,
+        0.07345931927327978,
+        -38.81982894529246
+      ],
+      "size": [
+        1.9,
+        0.2,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#000000",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": true,
+      "massKg": 25,
+      "structuralDamage": 0.3
+    },
+    {
+      "id": "98e703dd-c007-490b-b28d-598f84ecb18e",
+      "name": "parking_stop1 copy copy copy copy copy copy copy",
+      "type": "box",
+      "position": [
+        -39.14123456946062,
+        0.1,
+        -36.73984958895712
+      ],
+      "size": [
+        1.9,
+        0.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#000000",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0.5
+    },
+    {
+      "id": "f82a256d-2a48-4faf-9389-7a9cde621e51",
+      "name": "parking_stop1 copy copy copy copy copy copy copy copy",
+      "type": "box",
+      "position": [
+        -40.353712177871394,
+        0.1,
+        -48.80107713194237
+      ],
+      "size": [
+        1.9,
+        0.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#000000",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0.3
+    },
+    {
+      "id": "206ad33e-8580-478a-9fd4-dc3c7d1653a3",
+      "name": "parking_stop1 copy",
+      "type": "box",
+      "position": [
+        -39.29453034312486,
+        0.1,
+        -29.18256545312864
+      ],
+      "size": [
+        1.9,
+        0.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#000000",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0.3
+    },
+    {
+      "id": "85f1b207-f179-475c-9614-ca76ed679a50",
+      "name": "parking_stop1 copy copy",
+      "type": "box",
+      "position": [
+        -41.51849409826907,
+        0.1,
+        -26.71874080189513
+      ],
+      "size": [
+        1.9,
+        0.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        -0.9599310885968813,
+        0
+      ],
+      "color": "#000000",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0.5
+    },
+    {
+      "id": "a17c917d-e476-4cd0-b899-a3bc6e6d3514",
+      "name": "parking_stop1 copy copy copy",
+      "type": "box",
+      "position": [
+        -39.86433573724145,
+        0.07017644426501368,
+        -25.656911598636857
+      ],
+      "size": [
+        1.9,
+        0.2,
+        0.1
+      ],
+      "rotation": [
+        0,
+        -1.5009831567151233,
+        0
+      ],
+      "color": "#000000",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": true,
+      "massKg": 25,
+      "structuralDamage": 0.3
+    },
+    {
+      "id": "5a6cb66d-1fcf-45b9-9984-f6a1d9b68d64",
+      "name": "durability_start_barrier1",
+      "type": "box",
+      "position": [
+        -47.6,
+        0.5201563342838018,
+        -23.150738247603755
+      ],
+      "size": [
+        26.3,
+        1,
+        0.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c67a34",
+      "sign": null,
+      "invisible": true,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "7584dc9f-45c3-4aea-bb81-bb5282b61a8b",
+      "name": "durability_hitch_threshold",
+      "type": "threshold",
+      "position": [
+        -43.99723941304719,
+        1.25,
+        -18.708071832052937
+      ],
+      "size": [
+        1.6,
+        2.5,
+        0.08
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "thresholdAction": "objects",
+      "initiallyActive": true,
+      "message": "",
+      "messageDuration": 3,
+      "stopDuration": 2,
+      "objectChanges": [
+        {
+          "id": "5a6cb66d-1fcf-45b9-9984-f6a1d9b68d64",
+          "action": "remove"
+        },
+        {
+          "id": "8a189878-7f9a-4d10-96c1-eb5b3a974e86",
+          "action": "add"
+        },
+        {
+          "id": "9292aa12-0010-421f-a003-b0f3937cf9aa",
+          "action": "remove"
+        },
+        {
+          "id": "54a42639-d712-4f6c-8926-f22bd0fccbcd",
+          "action": "add"
+        },
+        {
+          "id": "dee80965-e82d-4016-bb22-9a6ded744638",
+          "action": "remove"
+        }
+      ],
+      "chunkChanges": []
+    },
+    {
+      "id": "8a189878-7f9a-4d10-96c1-eb5b3a974e86",
+      "name": "barrier_start",
+      "type": "box",
+      "position": [
+        -41.99596259643514,
+        0.41685470364503896,
+        -25.50080207641901
+      ],
+      "size": [
+        0.4,
+        1,
+        4.3
+      ],
+      "rotation": [
+        0,
+        0.15707963267948966,
+        0
+      ],
+      "color": "#c67a34",
+      "sign": null,
+      "invisible": true,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "b6957adb-9fe7-4f68-96dd-6814f5acf703",
+      "name": "barrier_finish",
+      "type": "box",
+      "position": [
+        -45.67186508104573,
+        0.47767406342689167,
+        -54.78364954678528
+      ],
+      "size": [
+        1,
+        1,
+        9.6
+      ],
+      "rotation": [
+        0,
+        -0.3839724354387525,
+        0
+      ],
+      "color": "#c67a34",
+      "sign": null,
+      "invisible": true,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "3b2344ea-df98-4fb1-8838-037acaf42f78",
+      "name": "lap_pt1",
+      "type": "threshold",
+      "position": [
+        -52.876208295868395,
+        1.25,
+        -43.22912965031928
+      ],
+      "size": [
+        4,
+        2.5,
+        0.08
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "thresholdAction": "objects",
+      "initiallyActive": true,
+      "message": "",
+      "messageDuration": 3,
+      "stopDuration": 2,
+      "objectChanges": [
+        {
+          "id": "8a189878-7f9a-4d10-96c1-eb5b3a974e86",
+          "action": "add"
+        },
+        {
+          "id": "b6957adb-9fe7-4f68-96dd-6814f5acf703",
+          "action": "remove"
+        },
+        {
+          "id": "54a42639-d712-4f6c-8926-f22bd0fccbcd",
+          "action": "remove"
+        }
+      ],
+      "chunkChanges": []
+    },
+    {
+      "id": "03b47220-2bfd-4fa6-a2b2-4eb0c48c5405",
+      "name": "Threshold",
+      "type": "threshold",
+      "position": [
+        -39.23033009964135,
+        1.25,
+        -30.180737543612018
+      ],
+      "size": [
+        4,
+        2.5,
+        0.08
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "thresholdAction": "objects",
+      "initiallyActive": true,
+      "message": "",
+      "messageDuration": 3,
+      "stopDuration": 2,
+      "objectChanges": [
+        {
+          "id": "8a189878-7f9a-4d10-96c1-eb5b3a974e86",
+          "action": "remove"
+        },
+        {
+          "id": "b6957adb-9fe7-4f68-96dd-6814f5acf703",
+          "action": "add"
+        }
+      ],
+      "chunkChanges": []
+    },
+    {
+      "id": "9292aa12-0010-421f-a003-b0f3937cf9aa",
+      "name": "course_barrier_east",
+      "type": "box",
+      "position": [
+        -47.39495247660938,
+        0.5155881658387551,
+        -63.307245035595656
+      ],
+      "size": [
+        26.3,
+        1,
+        0.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c67a34",
+      "sign": null,
+      "invisible": true,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "54a42639-d712-4f6c-8926-f22bd0fccbcd",
+      "name": "GO LEFT SIGN",
+      "type": "box",
+      "position": [
+        -46.01825493188771,
+        1.1002809919825767,
+        -28.017276332793063
+      ],
+      "size": [
+        2.4,
+        0.9,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#000000",
+      "sign": {
+        "type": "text",
+        "text": "<- GO LEFT <-"
+      },
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "dee80965-e82d-4016-bb22-9a6ded744638",
+      "name": "back_into_cart_sign",
+      "type": "box",
+      "position": [
+        -44.22872878885771,
+        0.5,
+        -23.582338525462923
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#000000",
+      "sign": {
+        "type": "text",
+        "text": "Back Into Cart"
+      },
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "b40d6133-5044-4adf-9d13-f60fc33582aa",
+      "name": "Threshold",
+      "type": "threshold",
+      "position": [
+        -52.93523876386966,
+        1.25,
+        -35.532577571871286
+      ],
+      "size": [
+        4,
+        2.5,
+        0.08
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "thresholdAction": "lap-pt1",
+      "initiallyActive": true,
+      "message": "",
+      "messageDuration": 3,
+      "stopDuration": 2,
+      "objectChanges": [],
+      "chunkChanges": []
+    },
+    {
+      "id": "b45bad6c-5e2c-4185-867c-53ab98d2ef9e",
+      "name": "lap_pt1",
+      "type": "threshold",
+      "position": [
+        -42.48502676860406,
+        1.25,
+        -25.4
+      ],
+      "size": [
+        4.8,
+        2.9,
+        0.08
+      ],
+      "rotation": [
+        0,
+        -1.0471975511965976,
+        0
+      ],
+      "thresholdAction": "lap-pt2",
+      "initiallyActive": true,
+      "message": "",
+      "messageDuration": 3,
+      "stopDuration": 2,
+      "objectChanges": [],
+      "chunkChanges": []
+    },
+    {
+      "id": "a3ffec30-63e2-4651-95e9-faf8eeb7b31f",
+      "name": "disqualify_durability_threshold",
+      "type": "threshold",
+      "position": [
+        -55.1010943792552,
+        1.25,
+        -42.53033434398601
+      ],
+      "size": [
+        31.8,
+        2.5,
+        0.08
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "thresholdAction": "durability-disqualify",
+      "initiallyActive": true,
+      "message": "",
+      "messageDuration": 3,
+      "stopDuration": 2,
+      "objectChanges": [],
+      "chunkChanges": []
+    },
+    {
+      "id": "a142db60-4476-4362-932d-d31f333a63b0",
+      "name": "parking_stop1 copy copy copy",
+      "type": "box",
+      "position": [
+        -38.92888699719107,
+        0.055139798163510556,
+        -38.132104276918795
+      ],
+      "size": [
+        1.9,
+        0.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        -0.5759586531581288,
+        0
+      ],
+      "color": "#000000",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0.3
+    },
+    {
+      "id": "9a020087-3b31-427e-b796-8afa678f9039",
+      "name": "parking_stop1 copy copy copy copy copy",
+      "type": "box",
+      "position": [
+        -39.20158635900047,
+        0.1,
+        -45.77632037558464
+      ],
+      "size": [
+        1.9,
+        0.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#000000",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0.3
+    },
+    {
+      "id": "1d6c4e91-520b-413c-b13a-049c4bf6373c",
+      "name": "bleacher_support_right2 copy",
+      "type": "box",
+      "position": [
+        -27.426189440375424,
+        1.6291145529636053,
+        -36.768232133917174
+      ],
+      "size": [
+        1,
+        1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#9d9c9b",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "1f16940f-ba51-4d3a-9daf-8f8379a42e88",
+      "name": "bleacher_step1 copy",
+      "type": "box",
+      "position": [
+        -30.442900015078703,
+        -0.10000000000000031,
+        -40.80393087190773
+      ],
+      "size": [
+        1,
+        1,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#4f4f4f",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "4de49060-f7e2-4e34-9ec6-6e6017800296",
+      "name": "bleacher_step2 copy",
+      "type": "box",
+      "position": [
+        -30.039366760136712,
+        0.13656738626422804,
+        -40.80393087190773
+      ],
+      "size": [
+        1,
+        1,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#4f4f4f",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "2413cc5f-97d3-48da-8e9a-e0e7d22e438c",
+      "name": "bleacher_ramp copy",
+      "type": "box",
+      "position": [
+        -28.068687976542304,
+        0.9687451221090078,
+        -45.71743134848249
+      ],
+      "size": [
+        7.2,
+        0.6,
+        1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0.3839724354387525
+      ],
+      "color": "#424242",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "ecbd9c27-b6e4-4c14-acca-2939874eafc3",
+      "name": "bleacher_support_left1 copy",
+      "type": "box",
+      "position": [
+        -28.978396575190303,
+        1.01720090353671,
+        -44.829705648457434
+      ],
+      "size": [
+        1,
+        1,
+        0.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#b0b0b0",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "e3aecbc2-1154-4543-9b7b-87e411112873",
+      "name": "bleacher_support_right1 copy",
+      "type": "box",
+      "position": [
+        -28.94587497767023,
+        1.1158380885190373,
+        -36.768232133917174
+      ],
+      "size": [
+        1,
+        1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#9d9c9b",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "18dc782c-99b2-4713-914d-54c9bcbb8df5",
+      "name": "bleacher_step3 copy",
+      "type": "box",
+      "position": [
+        -29.015656532578816,
+        0.6243865935790376,
+        -40.782058594592144
+      ],
+      "size": [
+        1.4,
+        0.7,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#474747",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "dd5b3049-47d0-46eb-8cbd-e2b90246f1c6",
+      "name": "bleacher_seat1 copy",
+      "type": "box",
+      "position": [
+        -28.946950698120876,
+        1.3711839392063474,
+        -40.782058594592144
+      ],
+      "size": [
+        0.6,
+        0.1,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#cccccc",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "0d6af480-d043-4039-931a-ae4cc722f0e2",
+      "name": "bleacher_support_left2 copy",
+      "type": "box",
+      "position": [
+        -27.458711037895497,
+        1.530477367981278,
+        -44.829705648457434
+      ],
+      "size": [
+        1,
+        1,
+        0.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#b0b0b0",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "d7ce5583-a86c-4513-838f-a6ae198591a1",
+      "name": "beacher_step4 copy",
+      "type": "box",
+      "position": [
+        -27.62319022986248,
+        1.1376630580236056,
+        -40.782058594592144
+      ],
+      "size": [
+        1.4,
+        0.7,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#474747",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "eca68993-46d7-471b-90ae-05d2682d9f8a",
+      "name": "bleacher_seat2 copy",
+      "type": "box",
+      "position": [
+        -27.42726516082607,
+        1.8844604036509154,
+        -40.782058594592144
+      ],
+      "size": [
+        0.6,
+        0.1,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#cccccc",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "aa35fedd-8ad2-4b7d-b953-e8b9d6064ff0",
+      "name": "bleacher_seat3 copy",
+      "type": "box",
+      "position": [
+        -26.03205577448542,
+        2.6207323511005516,
+        -40.78205859459215
+      ],
+      "size": [
+        0.6,
+        0.1,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#cccccc",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "22a2e9c4-76fb-419f-b78b-1f57d4b9dd0e",
+      "name": "bleacher_step5 copy",
+      "type": "box",
+      "position": [
+        -26.22798084352183,
+        1.8739350054732413,
+        -40.795475723610146
+      ],
+      "size": [
+        1.4,
+        0.7,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#474747",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "9549547d-b693-4080-ae57-41f5222c3bc2",
+      "name": "bleacher_support_right3 copy",
+      "type": "box",
+      "position": [
+        -26.030980054034774,
+        2.3653865004132415,
+        -36.78164926293517
+      ],
+      "size": [
+        1,
+        1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#9d9c9b",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "61e30bc7-edf9-495d-b472-1257d6f0e9d7",
+      "name": "bleacher_support_left3 copy",
+      "type": "box",
+      "position": [
+        -26.063501651554848,
+        2.266749315430914,
+        -44.84312277747543
+      ],
+      "size": [
+        1,
+        1,
+        0.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#b0b0b0",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "047ea3ea-ff61-416d-90b8-a59da44339fa",
+      "name": "bleacher_support_right2 copy copy",
+      "type": "box",
+      "position": [
+        -27.426125939139016,
+        1.6291145529636053,
+        -46.56770429015047
+      ],
+      "size": [
+        1,
+        1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#9d9c9b",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "4aba0053-827d-443a-a4f7-9fe39453068f",
+      "name": "bleacher_step1 copy copy",
+      "type": "box",
+      "position": [
+        -30.442836513842295,
+        -0.10000000000000031,
+        -50.60340302814103
+      ],
+      "size": [
+        1,
+        1,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#4f4f4f",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "4929916e-fd22-46fc-8e43-125d69bc7d37",
+      "name": "bleacher_step2 copy copy",
+      "type": "box",
+      "position": [
+        -30.039303258900304,
+        0.13656738626422804,
+        -50.60340302814103
+      ],
+      "size": [
+        1,
+        1,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#4f4f4f",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "ed086e68-7066-4ac2-9dc7-f66051f6d1e2",
+      "name": "bleacher_ramp copy copy",
+      "type": "box",
+      "position": [
+        -28.068624475305896,
+        0.9687451221090078,
+        -55.51690350471579
+      ],
+      "size": [
+        7.2,
+        0.6,
+        1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0.3839724354387525
+      ],
+      "color": "#424242",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "23a7683a-82c2-4b0e-965f-534cb7b8a657",
+      "name": "bleacher_support_left1 copy copy",
+      "type": "box",
+      "position": [
+        -28.978333073953895,
+        1.01720090353671,
+        -54.629177804690734
+      ],
+      "size": [
+        1,
+        1,
+        0.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#b0b0b0",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "1ee3a2dc-6f60-4fee-9f9b-555387b9eceb",
+      "name": "bleacher_support_right1 copy copy",
+      "type": "box",
+      "position": [
+        -28.94581147643382,
+        1.1158380885190373,
+        -46.56770429015047
+      ],
+      "size": [
+        1,
+        1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#9d9c9b",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "fef67714-3088-4871-9a6f-423e6c26a5b7",
+      "name": "bleacher_step3 copy copy",
+      "type": "box",
+      "position": [
+        -29.01559303134241,
+        0.6243865935790376,
+        -50.58153075082544
+      ],
+      "size": [
+        1.4,
+        0.7,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#474747",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "0eee4c97-8bdc-4097-9583-c0169d6a151b",
+      "name": "bleacher_seat1 copy copy",
+      "type": "box",
+      "position": [
+        -28.946887196884468,
+        1.3711839392063474,
+        -50.58153075082544
+      ],
+      "size": [
+        0.6,
+        0.1,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#cccccc",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "b2e5a1fc-3901-41f1-901b-a58cf9f00100",
+      "name": "bleacher_support_left2 copy copy",
+      "type": "box",
+      "position": [
+        -27.45864753665909,
+        1.530477367981278,
+        -54.629177804690734
+      ],
+      "size": [
+        1,
+        1,
+        0.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#b0b0b0",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "4e5c0ece-43a8-4393-84c7-dbeba5766d3b",
+      "name": "beacher_step4 copy copy",
+      "type": "box",
+      "position": [
+        -27.623126728626072,
+        1.1376630580236056,
+        -50.58153075082544
+      ],
+      "size": [
+        1.4,
+        0.7,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#474747",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "98bc0b84-3e1a-4cbd-8e01-f71e0db6561a",
+      "name": "bleacher_seat2 copy copy",
+      "type": "box",
+      "position": [
+        -27.427201659589663,
+        1.8844604036509154,
+        -50.58153075082544
+      ],
+      "size": [
+        0.6,
+        0.1,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#cccccc",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "3ba477c4-0016-4de5-9cd4-fc41e9b0da23",
+      "name": "bleacher_seat3 copy copy",
+      "type": "box",
+      "position": [
+        -26.031992273249013,
+        2.6207323511005516,
+        -50.58153075082545
+      ],
+      "size": [
+        0.6,
+        0.1,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#cccccc",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "741ae710-395f-4ec2-8f81-e8404bb78643",
+      "name": "bleacher_step5 copy copy",
+      "type": "box",
+      "position": [
+        -26.227917342285423,
+        1.8739350054732413,
+        -50.594947879843446
+      ],
+      "size": [
+        1.4,
+        0.7,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#474747",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "664dcdab-90ef-4f31-bb72-95d961d4ba20",
+      "name": "bleacher_support_right3 copy copy",
+      "type": "box",
+      "position": [
+        -26.030916552798367,
+        2.3653865004132415,
+        -46.58112141916847
+      ],
+      "size": [
+        1,
+        1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#9d9c9b",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "bd373828-11d7-4d5d-88d2-16cf7d575749",
+      "name": "bleacher_support_left3 copy copy",
+      "type": "box",
+      "position": [
+        -26.06343815031844,
+        2.266749315430914,
+        -54.64259493370873
+      ],
+      "size": [
+        1,
+        1,
+        0.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#b0b0b0",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "fb682b73-18e6-4a7c-918b-a828a161df21",
+      "name": "pull_area_barrier_large",
+      "type": "box",
+      "position": [
+        -24.6214764838986,
+        2.4628193013853013,
+        -45.610471005414055
+      ],
+      "size": [
+        0.5,
+        5.1,
+        50.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#787878",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": false,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "ccfeac46-815a-4b5b-b010-3fd957cabd43",
+      "name": "pull_area_barrier_large copy",
+      "type": "box",
+      "position": [
+        -24.6527635100409,
+        1.2336563508418132,
+        -1.6329314579654621
+      ],
+      "size": [
+        0.5,
+        2.4,
+        25.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#787878",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "1b956e6c-d0b8-49d9-8d13-1acaee8b52c1",
+      "name": "spectator_barrier2",
+      "type": "box",
+      "position": [
+        -30.16954246987404,
+        0.44889396459217146,
+        -14.194700815362886
+      ],
+      "size": [
+        10.5,
+        1,
+        0.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#958b7e",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "db0f99c5-4ccb-432f-8b28-c78347d2b1c1",
+      "name": "pull_area_barrier_large3",
+      "type": "box",
+      "position": [
+        -42.68066971198939,
+        0.7514209370196232,
+        9.607644820410707
+      ],
+      "size": [
+        0.5,
+        2.1,
+        35.7
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#787878",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": false,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "e2e7f9e9-61b1-4a0c-8da9-c3deb00b4e11",
+      "name": "car",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        -18.392355783156912,
+        -0.079733342262156,
+        -29.23920466540345
+      ],
+      "size": [
+        0.146,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ee007d37-c4df-48be-b8ff-c490b059df1d",
+      "name": "car copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        -1.0909141445542971,
+        0.07133091440045103,
+        -107.27046677658268
+      ],
+      "size": [
+        0.146,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "931c3b02-fb7b-434b-be87-2b5bffa56042",
+      "name": "car copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        -18.85364687385373,
+        -0.079733342262156,
+        -43.31253764557246
+      ],
+      "size": [
+        0.146,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "4ed64b80-eaf4-43f2-ac2c-81631388e9d8",
+      "name": "car copy copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        -18.763427838086848,
+        -0.079733342262156,
+        -39.63775035726308
+      ],
+      "size": [
+        0.146,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "0cf6c7d9-779b-45d3-8236-8d780e743286",
+      "name": "car copy copy copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        -18.723206133936596,
+        -0.079733342262156,
+        -33.5683135901016
+      ],
+      "size": [
+        0.146,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "bf5aec5f-29e2-45b9-92e3-91f8e7a0341d",
+      "name": "tractor generic",
+      "type": "asset",
+      "asset": "tractor_generic.glb",
+      "position": [
+        -68.04589991411072,
+        0,
+        -31.00892118257774
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        3.490658503988659,
+        0
+      ]
+    },
+    {
+      "id": "baf6799a-c7c7-4b6e-a8d3-b56db988becb",
+      "name": "tractor generic copy",
+      "type": "asset",
+      "asset": "tractor_generic.glb",
+      "position": [
+        -67.04589991411072,
+        0,
+        -22.817273904562263
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        4.1887902047863905,
+        0
+      ]
+    },
+    {
+      "id": "11653db1-1a93-4a33-b368-c7584b8ea789",
+      "name": "tractor generic copy copy",
+      "type": "asset",
+      "asset": "tractor_generic.glb",
+      "position": [
+        -66.04589991411072,
+        0,
+        -50.480294513711996
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        -4.1887902047863905,
+        0
+      ]
+    },
+    {
+      "id": "991641d5-d79c-4ac5-9cc9-8b885fb7433b",
+      "name": "tractor generic copy",
+      "type": "asset",
+      "asset": "tractor_generic.glb",
+      "position": [
+        -67.04589991411072,
+        0,
+        -40.89446635321248
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        -3.490658503988659,
+        0
+      ]
+    },
+    {
+      "id": "baa5bbf2-55d4-4cf6-bad9-483c3d6a1db6",
+      "name": "disqualify_durability_threshold2",
+      "type": "threshold",
+      "position": [
+        -37.386680574526935,
+        1.25,
+        -41.53033434398601
+      ],
+      "size": [
+        31.8,
+        2.5,
+        0.08
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "thresholdAction": "durability-disqualify",
+      "initiallyActive": true,
+      "message": "",
+      "messageDuration": 3,
+      "stopDuration": 2,
+      "objectChanges": [],
+      "chunkChanges": []
+    },
+    {
+      "id": "ec54805e-15aa-4fc9-b637-779f07114cc6",
+      "name": "disqualify_durability_threshold3",
+      "type": "threshold",
+      "position": [
+        -41.860153207482995,
+        1.25,
+        -46.154574305205486
+      ],
+      "size": [
+        5,
+        2.5,
+        0.08
+      ],
+      "rotation": [
+        -3.141592653589793,
+        1.4221261128616582,
+        -3.141592653589793
+      ],
+      "thresholdAction": "durability-disqualify",
+      "initiallyActive": true,
+      "message": "",
+      "messageDuration": 3,
+      "stopDuration": 2,
+      "objectChanges": [],
+      "chunkChanges": []
+    },
+    {
+      "id": "44cecf56-e3c0-4ef7-8b2f-b4e73021a84f",
+      "name": "disqualify_durability_threshold3 copy",
+      "type": "threshold",
+      "position": [
+        -41.13617340234404,
+        1.25,
+        -41.207341636518095
+      ],
+      "size": [
+        5,
+        2.5,
+        0.08
+      ],
+      "rotation": [
+        -3.141592653589793,
+        1.4221261128616582,
+        -3.141592653589793
+      ],
+      "thresholdAction": "durability-disqualify",
+      "initiallyActive": true,
+      "message": "",
+      "messageDuration": 3,
+      "stopDuration": 2,
+      "objectChanges": [],
+      "chunkChanges": []
+    },
+    {
+      "id": "ddc2d600-2cc5-4ecf-9b8c-db69f03d616c",
+      "name": "disqualify_durability_threshold5",
+      "type": "threshold",
+      "position": [
+        -40.928467612528635,
+        1.25,
+        -34.014172646200464
+      ],
+      "size": [
+        9,
+        2.5,
+        0.08
+      ],
+      "rotation": [
+        -4.111477021136473e-16,
+        1.5266619587148538,
+        6.543257843191097e-16
+      ],
+      "thresholdAction": "durability-disqualify",
+      "initiallyActive": true,
+      "message": "",
+      "messageDuration": 3,
+      "stopDuration": 2,
+      "objectChanges": [],
+      "chunkChanges": []
+    },
+    {
+      "id": "e1a7ceca-bf8c-4c06-9a59-f55d0c6d5993",
+      "name": "disqualify_durability_threshold6",
+      "type": "threshold",
+      "position": [
+        -49.831898247089576,
+        1.25,
+        -38.08120948012685
+      ],
+      "size": [
+        16.8,
+        2.5,
+        0.08
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "thresholdAction": "durability-disqualify",
+      "initiallyActive": true,
+      "message": "",
+      "messageDuration": 3,
+      "stopDuration": 2,
+      "objectChanges": [],
+      "chunkChanges": []
+    },
+    {
+      "id": "8f21ce12-986d-4fda-afeb-cca0804b1bed",
+      "name": "disqualify_durability_threshold10",
+      "type": "threshold",
+      "position": [
+        -46.103826746989796,
+        1.25,
+        -48.30169500313781
+      ],
+      "size": [
+        8,
+        2.5,
+        0.08
+      ],
+      "rotation": [
+        0,
+        0.5283686841274206,
+        0
+      ],
+      "thresholdAction": "durability-disqualify",
+      "initiallyActive": true,
+      "message": "",
+      "messageDuration": 3,
+      "stopDuration": 2,
+      "objectChanges": [],
+      "chunkChanges": []
+    },
+    {
+      "id": "18db8ef1-72d1-42c2-8e03-204157a2b25e",
+      "name": "disqualify_durability_threshold9",
+      "type": "threshold",
+      "position": [
+        -45.103826746989796,
+        1.25,
+        -59.13913543351213
+      ],
+      "size": [
+        18,
+        2.5,
+        0.08
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "thresholdAction": "durability-disqualify",
+      "initiallyActive": true,
+      "message": "",
+      "messageDuration": 3,
+      "stopDuration": 2,
+      "objectChanges": [],
+      "chunkChanges": []
+    },
+    {
+      "id": "9e0de2eb-d7ed-4138-b4b3-c933b7338f15",
+      "name": "disqualify_durability_threshold11",
+      "type": "threshold",
+      "position": [
+        -45.103826746989796,
+        1.25,
+        -29.423070545275472
+      ],
+      "size": [
+        8,
+        2.5,
+        0.08
+      ],
+      "rotation": [
+        0,
+        0.005235987755982988,
+        0
+      ],
+      "thresholdAction": "durability-disqualify",
+      "initiallyActive": true,
+      "message": "",
+      "messageDuration": 3,
+      "stopDuration": 2,
+      "objectChanges": [],
+      "chunkChanges": []
+    }
+  ],
+  "groups": [
+    {
+      "id": "2ce22812-0ba8-476a-b264-f36d4fa1a242",
+      "name": "pull_bleacher1",
+      "objectIds": [
+        "b0d2a781-70dd-4fa3-9223-c444f4ab8a0a",
+        "9865edcc-83fc-49d1-84c1-08cf902ba6f5",
+        "a8ef2613-0f9b-46a5-8b2f-6f693f490400",
+        "3ccc42a3-0eac-460e-91df-ffe54792b689",
+        "09dca51c-b0e1-48ac-bc5c-6937a448117a",
+        "1a00c00b-357e-4d17-a506-41cce468600e",
+        "5e0ce982-1e6d-4b59-a42b-27210f07d635",
+        "bf072626-f92b-4770-9531-e8b8a197bda2",
+        "898da6f4-6f43-40bd-a090-f4c92330a078",
+        "745173f0-5ae9-4532-acb3-2cccab73a8c0",
+        "40e8665b-7ec2-40c8-8d1f-086e56b8b3af",
+        "0372384c-8945-4bee-b82b-842f1f49ada9",
+        "7852283c-0477-4e32-bba0-7fd6a8e23505",
+        "d19a376c-87c6-4730-857f-e2dee241d4e6",
+        "08a26d8f-c369-47b0-9f4b-757e1bb2fef1"
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "7e662fdd-3149-4b39-925b-9a777915959f",
+      "name": "pull_bleacher2",
+      "objectIds": [
+        "1d6c4e91-520b-413c-b13a-049c4bf6373c",
+        "1f16940f-ba51-4d3a-9daf-8f8379a42e88",
+        "4de49060-f7e2-4e34-9ec6-6e6017800296",
+        "2413cc5f-97d3-48da-8e9a-e0e7d22e438c",
+        "ecbd9c27-b6e4-4c14-acca-2939874eafc3",
+        "e3aecbc2-1154-4543-9b7b-87e411112873",
+        "18dc782c-99b2-4713-914d-54c9bcbb8df5",
+        "dd5b3049-47d0-46eb-8cbd-e2b90246f1c6",
+        "0d6af480-d043-4039-931a-ae4cc722f0e2",
+        "d7ce5583-a86c-4513-838f-a6ae198591a1",
+        "eca68993-46d7-471b-90ae-05d2682d9f8a",
+        "aa35fedd-8ad2-4b7d-b953-e8b9d6064ff0",
+        "22a2e9c4-76fb-419f-b78b-1f57d4b9dd0e",
+        "9549547d-b693-4080-ae57-41f5222c3bc2",
+        "61e30bc7-edf9-495d-b472-1257d6f0e9d7"
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "73814cda-b552-4265-8749-bcaf144c4edc",
+      "name": "pull_bleacher3",
+      "objectIds": [
+        "047ea3ea-ff61-416d-90b8-a59da44339fa",
+        "4aba0053-827d-443a-a4f7-9fe39453068f",
+        "4929916e-fd22-46fc-8e43-125d69bc7d37",
+        "ed086e68-7066-4ac2-9dc7-f66051f6d1e2",
+        "23a7683a-82c2-4b0e-965f-534cb7b8a657",
+        "1ee3a2dc-6f60-4fee-9f9b-555387b9eceb",
+        "fef67714-3088-4871-9a6f-423e6c26a5b7",
+        "0eee4c97-8bdc-4097-9583-c0169d6a151b",
+        "b2e5a1fc-3901-41f1-901b-a58cf9f00100",
+        "4e5c0ece-43a8-4393-84c7-dbeba5766d3b",
+        "98bc0b84-3e1a-4cbd-8e01-f71e0db6561a",
+        "3ba477c4-0016-4de5-9cd4-fc41e9b0da23",
+        "741ae710-395f-4ec2-8f81-e8404bb78643",
+        "664dcdab-90ef-4f31-bb72-95d961d4ba20",
+        "bd373828-11d7-4d5d-88d2-16cf7d575749"
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "33a7f8df-106d-4182-bda9-c6d5e1fd9509",
+      "name": "parked_cars",
+      "objectIds": [
+        "931c3b02-fb7b-434b-be87-2b5bffa56042",
+        "e2e7f9e9-61b1-4a0c-8da9-c3deb00b4e11",
+        "4ed64b80-eaf4-43f2-ac2c-81631388e9d8",
+        "0cf6c7d9-779b-45d3-8236-8d780e743286"
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "94718fe0-d62f-4901-b128-31d7047c53e6",
+      "name": "tractor_display",
+      "objectIds": [
+        "baf6799a-c7c7-4b6e-a8d3-b56db988becb",
+        "bf5aec5f-29e2-45b9-92e3-91f8e7a0341d",
+        "11653db1-1a93-4a33-b368-c7584b8ea789",
+        "991641d5-d79c-4ac5-9cc9-8b885fb7433b"
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "03049b63-173f-4a70-aef9-fe41e1bcf574",
+      "name": "durability_disqualify_group",
+      "objectIds": [
+        "9292aa12-0010-421f-a003-b0f3937cf9aa",
+        "baa5bbf2-55d4-4cf6-bad9-483c3d6a1db6",
+        "ec54805e-15aa-4fc9-b637-779f07114cc6",
+        "44cecf56-e3c0-4ef7-8b2f-b4e73021a84f",
+        "ddc2d600-2cc5-4ecf-9b8c-db69f03d616c",
+        "e1a7ceca-bf8c-4c06-9a59-f55d0c6d5993",
+        "8f21ce12-986d-4fda-afeb-cca0804b1bed",
+        "18db8ef1-72d1-42c2-8e03-204157a2b25e",
+        "9e0de2eb-d7ed-4138-b4b3-c933b7338f15",
+        "a3ffec30-63e2-4651-95e9-faf8eeb7b31f"
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4849 @@
+{
+  "version": 1,
+  "name": "maneuverability",
+  "vehicleStart": {
+    "position": [
+      42.10927605764856,
+      0.6,
+      4.449124772573383
+    ],
+    "rotation": [
+      0,
+      0.09750000000000277,
+      0
+    ],
+    "yaw": 0.09750000000000277
+  },
+  "blocks": [
+    {
+      "id": "8b430ef7-a605-4887-9a95-93f78066fa31",
+      "name": "Maneuverability post",
+      "type": "post",
+      "position": [
+        46.323520734487886,
+        0,
+        3.277553116071413
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "6ca01c4e-3a9d-4911-b830-7072e41996f1",
+      "name": "Maneuverability post",
+      "type": "post",
+      "position": [
+        45.723520734487884,
+        0,
+        3.277553116071413
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "7b95771a-d84f-447d-bf59-99589b9e355a",
+      "name": "Maneuverability post",
+      "type": "post",
+      "position": [
+        45.42352073448789,
+        0,
+        3.277553116071413
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "1ac27460-2389-464b-8dc9-2c353f0575cb",
+      "name": "Maneuverability post",
+      "type": "post",
+      "position": [
+        46.02352073448788,
+        0,
+        3.277553116071413
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "5c75a8ca-cb44-457a-9c3a-1ddde1ac8213",
+      "name": "Maneuverability post",
+      "type": "post",
+      "position": [
+        46.62352073448788,
+        0,
+        3.277553116071414
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "a94bb687-094b-4bf1-930e-0cda38c497b6",
+      "name": "Maneuverability post copy",
+      "type": "post",
+      "position": [
+        46.62352073448788,
+        0,
+        5.17755311607144
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "350752bc-b5d7-4c27-94ae-91d937070e3b",
+      "name": "Maneuverability post copy",
+      "type": "post",
+      "position": [
+        46.323520734487886,
+        0,
+        5.17755311607144
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "ef2660ac-9f9c-48cb-ad7d-7c977db89431",
+      "name": "Maneuverability post copy",
+      "type": "post",
+      "position": [
+        45.723520734487884,
+        0,
+        5.17755311607144
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "e2eabbd5-f2b4-4f88-bb0f-912a8d0a141d",
+      "name": "Maneuverability post copy",
+      "type": "post",
+      "position": [
+        45.42352073448789,
+        0,
+        5.17755311607144
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "44fda80e-c45b-4f0a-94e2-d41328f059c7",
+      "name": "Maneuverability post copy",
+      "type": "post",
+      "position": [
+        46.02352073448788,
+        0,
+        5.17755311607144
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "26fed7ab-2c2f-48d9-bdb5-c1e592bccbae",
+      "name": "Maneuverability post copy copy",
+      "type": "post",
+      "position": [
+        46.92352073448789,
+        0,
+        3.2775531160714126
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "6ce52149-7f44-40b2-978e-afd22c62a290",
+      "name": "Maneuverability post copy copy",
+      "type": "post",
+      "position": [
+        46.92352073448789,
+        0,
+        2.9775531160714155
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "32e0f40f-737d-4c5d-b571-81c9d9af0a07",
+      "name": "Maneuverability post copy copy",
+      "type": "post",
+      "position": [
+        46.92352073448789,
+        0,
+        2.377553116071421
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "c55d2de9-af1e-49a7-95ed-b68bd5e4f539",
+      "name": "Maneuverability post copy copy",
+      "type": "post",
+      "position": [
+        46.92352073448789,
+        0,
+        2.077553116071424
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "6d24c626-a2a2-4ae5-9300-acf2d64b6474",
+      "name": "Maneuverability post copy copy",
+      "type": "post",
+      "position": [
+        46.92352073448789,
+        0,
+        2.677553116071404
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "12aa6a01-8994-4cd4-b1fb-a56bc3810410",
+      "name": "Maneuverability post copy copy",
+      "type": "post",
+      "position": [
+        48.12352073448788,
+        0,
+        5.17755311607144
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "5f667e5d-c009-40e9-ae9b-ee3ed33a1317",
+      "name": "Maneuverability post copy copy",
+      "type": "post",
+      "position": [
+        47.823520734487886,
+        0,
+        5.17755311607144
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "618fed42-38c4-45b3-9341-2281607387f5",
+      "name": "Maneuverability post copy copy",
+      "type": "post",
+      "position": [
+        47.223520734487884,
+        0,
+        5.17755311607144
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "bfdac34e-76db-4113-a416-224e0af65233",
+      "name": "Maneuverability post copy copy",
+      "type": "post",
+      "position": [
+        46.92352073448789,
+        0,
+        5.17755311607144
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "a05fe157-44b0-45c9-b216-f1d76daeebe2",
+      "name": "Maneuverability post copy copy",
+      "type": "post",
+      "position": [
+        47.52352073448788,
+        0,
+        5.17755311607144
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "41e234fc-a9cd-44c6-86c3-ae1e2abdab2c",
+      "name": "Maneuverability post copy copy copy",
+      "type": "post",
+      "position": [
+        49.62840477310565,
+        0,
+        4.877553116071444
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "3373ef1d-e602-48ed-b36d-a397bffc5c3c",
+      "name": "Maneuverability post copy copy copy",
+      "type": "post",
+      "position": [
+        49.62840477310565,
+        0,
+        4.5775531160714396
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "808de063-162c-4834-a34f-21d23ef2aca1",
+      "name": "Maneuverability post copy copy copy",
+      "type": "post",
+      "position": [
+        49.62840477310565,
+        0,
+        3.977553116071431
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "e530851b-9f88-4e06-9a36-34aa7d497a4e",
+      "name": "Maneuverability post copy copy copy",
+      "type": "post",
+      "position": [
+        49.62840477310565,
+        0,
+        3.677553116071434
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "7f3fc3f1-9198-4ec8-8b5e-d462bde9b941",
+      "name": "Maneuverability post copy copy copy",
+      "type": "post",
+      "position": [
+        49.62840477310565,
+        0,
+        4.277553116071428
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "c9cf7067-c2f2-487d-978c-4de665eef9c5",
+      "name": "Maneuverability post copy copy copy",
+      "type": "post",
+      "position": [
+        48.364783246846244,
+        0,
+        -0.314504076588622
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "43bf2d24-b258-46fc-86e8-cc314f72b5ed",
+      "name": "Maneuverability post copy copy copy",
+      "type": "post",
+      "position": [
+        48.06478324684625,
+        0,
+        -0.314504076588622
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "aef3e1f6-9355-443b-95c7-4e2ddfbe1c52",
+      "name": "Maneuverability post copy copy copy",
+      "type": "post",
+      "position": [
+        47.464783246846245,
+        0,
+        -0.3145040765886238
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "9d44ce87-31a4-49b7-ae10-b80362b41472",
+      "name": "Maneuverability post copy copy copy",
+      "type": "post",
+      "position": [
+        47.16478324684624,
+        0,
+        -0.314504076588622
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "a5b60ec4-9405-4de6-8599-d2c284258373",
+      "name": "Maneuverability post copy copy copy",
+      "type": "post",
+      "position": [
+        47.76478324684624,
+        0,
+        -0.314504076588622
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "8c44f02b-8da7-4d15-812c-1a2e988ccb81",
+      "name": "Maneuverability post copy copy copy copy",
+      "type": "post",
+      "position": [
+        49.586303792592695,
+        0,
+        3.304458294469737
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "53001bba-9e46-42eb-b35d-c912dff272ad",
+      "name": "Maneuverability post copy copy copy copy",
+      "type": "post",
+      "position": [
+        49.586303792592695,
+        0,
+        2.7044582944697426
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "f3435a7a-9642-49d4-a767-3c51dd674c24",
+      "name": "Maneuverability post copy copy copy copy",
+      "type": "post",
+      "position": [
+        49.586303792592695,
+        0,
+        2.4044582944697455
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "b5fc763b-b0d3-499b-92f9-236327b1e26e",
+      "name": "Maneuverability post copy copy copy copy",
+      "type": "post",
+      "position": [
+        49.586303792592695,
+        0,
+        3.0044582944697398
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "ae34ef18-649a-4d87-81cc-c2514925802b",
+      "name": "Maneuverability post copy copy copy copy",
+      "type": "post",
+      "position": [
+        49.870975756870855,
+        0,
+        -0.29932528773135214
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "995eae67-7c20-428a-9e49-006ea9538259",
+      "name": "Maneuverability post copy copy copy copy",
+      "type": "post",
+      "position": [
+        49.57097575687086,
+        0,
+        -0.29932528773135214
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "d45c8911-9806-4759-9c75-7be3fa0b00ce",
+      "name": "Maneuverability post copy copy copy copy",
+      "type": "post",
+      "position": [
+        48.97097575687086,
+        0,
+        -0.29932528773135214
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "0bdfaa55-7368-435a-abe6-b1ad778731d2",
+      "name": "Maneuverability post copy copy copy copy",
+      "type": "post",
+      "position": [
+        48.67097575687086,
+        0,
+        -0.29932528773135214
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "25d92c1c-2b6a-438a-b0bc-83d84e473c10",
+      "name": "Maneuverability post copy copy copy copy",
+      "type": "post",
+      "position": [
+        49.270975756870854,
+        0,
+        -0.29932528773135214
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "e8134afb-158a-4ffb-8480-105fd15271fc",
+      "name": "Maneuverability post copy copy copy",
+      "type": "post",
+      "position": [
+        49.62352073448788,
+        0,
+        5.177553116071441
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "f07ff30e-4592-4f2e-bce5-d36feeb34a05",
+      "name": "Maneuverability post copy copy copy",
+      "type": "post",
+      "position": [
+        49.323520734487886,
+        0,
+        5.177553116071441
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "389b77fe-be41-4278-a1b1-50831b8a72b0",
+      "name": "Maneuverability post copy copy copy",
+      "type": "post",
+      "position": [
+        48.723520734487884,
+        0,
+        5.177553116071441
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "874fa543-d2ae-492e-b55c-3a811b1e62d5",
+      "name": "Maneuverability post copy copy copy",
+      "type": "post",
+      "position": [
+        48.42352073448789,
+        0,
+        5.17755311607144
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "3ea55e8a-6acf-4f35-839e-c003707768b8",
+      "name": "Maneuverability post copy copy copy",
+      "type": "post",
+      "position": [
+        49.02352073448788,
+        0,
+        5.177553116071441
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "c793f03a-3ad4-45c1-8e82-1ad6d92fc2c6",
+      "name": "Maneuverability post copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        51.34667026452674,
+        0,
+        -0.2852472901984866
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "99d6cd65-36c1-466e-a41d-b0513da1fb8f",
+      "name": "Maneuverability post copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        51.046670264526746,
+        0,
+        -0.2852472901984866
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "5603f615-44f7-4d33-bb63-0d2e51d609bd",
+      "name": "Maneuverability post copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        50.44667026452674,
+        0,
+        -0.2852472901984866
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "95eb8d3a-04c7-488f-b8d1-2020ae4a6015",
+      "name": "Maneuverability post copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        50.14667026452674,
+        0,
+        -0.2852472901984866
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "3e550e0e-f386-4348-871e-7b99ce664fc4",
+      "name": "Maneuverability post copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        50.74667026452674,
+        0,
+        -0.2852472901984866
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "2d583c41-5bf6-41b8-bc2f-869ddedb792d",
+      "name": "Maneuverability post copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        46.93210508406354,
+        0,
+        1.777443679218262
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "7bc4aea1-5de2-4fc3-a439-75b69246c0fe",
+      "name": "Maneuverability post copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        46.93210508406354,
+        0,
+        1.1774436792182676
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "114769bf-1067-431b-a273-54cf1e322b74",
+      "name": "Maneuverability post copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        46.93210508406354,
+        0,
+        0.8774436792182563
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "baab2808-a228-46a7-8b17-ffd74e4149de",
+      "name": "Maneuverability post copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        46.93210508406354,
+        0,
+        1.4774436792182648
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "2df72527-8228-42e6-9217-7bb2a6698c66",
+      "name": "Maneuverability post copy copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        46.93940148027714,
+        0,
+        0.5827912277923817
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "538c77eb-65a6-438d-9a20-3e4133cfe754",
+      "name": "Maneuverability post copy copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        46.93940148027714,
+        0,
+        -0.017208772207612633
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "fd4e08c8-9437-4f8b-b86e-d0410c98e334",
+      "name": "Maneuverability post copy copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        46.93940148027714,
+        0,
+        -0.317208772207624
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "ea3c1e7c-f10c-4159-a55e-01ecece28238",
+      "name": "Maneuverability post copy copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        46.93940148027714,
+        0,
+        0.2827912277923845
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "5df7e93d-63b0-455b-aab9-7af680c03f94",
+      "name": "Maneuverability post copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        54.14666473588816,
+        0,
+        7.678778470459461
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "b2f47e68-8f82-434b-90a3-6add0c568818",
+      "name": "Maneuverability post copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        54.14666473588816,
+        0,
+        7.078778470459467
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "1093bd44-d3c3-463b-9686-2537869d7c2a",
+      "name": "Maneuverability post copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        54.14666473588816,
+        0,
+        6.778778470459455
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "1baea88a-7bc6-4e72-a42c-662dd11e21d3",
+      "name": "Maneuverability post copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        54.14666473588816,
+        0,
+        7.378778470459464
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "34f40634-3852-45f6-bef4-7e014745552d",
+      "name": "Maneuverability post copy copy copy copy",
+      "type": "post",
+      "position": [
+        52.46280434468422,
+        0,
+        0.994391362779564
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "e423cab0-942c-40d9-b633-e3f8ad0544d5",
+      "name": "Maneuverability post copy copy copy copy",
+      "type": "post",
+      "position": [
+        52.46280434468422,
+        0,
+        0.6943913627795526
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "6c5494c4-9337-47e2-a4a7-95b034024a38",
+      "name": "Maneuverability post copy copy copy copy",
+      "type": "post",
+      "position": [
+        52.46280434468422,
+        0,
+        0.09439136277955829
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "d6c31b3f-8772-4d23-a96a-9d603f0699dd",
+      "name": "Maneuverability post copy copy copy copy",
+      "type": "post",
+      "position": [
+        52.46280434468422,
+        0,
+        -0.20560863722043887
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "3f354b4e-c0cf-4c65-8124-68026a28bb62",
+      "name": "Maneuverability post copy copy copy copy",
+      "type": "post",
+      "position": [
+        52.46280434468422,
+        0,
+        0.39439136277955544
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "bd50e10e-6262-427e-b4c0-ad2d1db0177e",
+      "name": "Maneuverability post copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        52.50675511463471,
+        0,
+        2.4753006456354405
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "feb61322-d269-465f-9b6a-30bfab373919",
+      "name": "Maneuverability post copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        52.50675511463471,
+        0,
+        2.175300645635443
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "7b913e73-6295-40f6-ab7e-06c5d1daa210",
+      "name": "Maneuverability post copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        52.50675511463471,
+        0,
+        1.5753006456354348
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "c84bde90-73c3-4fd6-8bfa-97f49d57c51c",
+      "name": "Maneuverability post copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        52.50675511463471,
+        0,
+        1.2753006456354372
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "151c6473-afba-424d-8d66-ac84c97e2120",
+      "name": "Maneuverability post copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        52.50675511463471,
+        0,
+        1.8753006456354462
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "6093716f-fa34-49a5-a39e-0b49979facd1",
+      "name": "Maneuverability post copy copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        52.48047997852867,
+        0,
+        4.053655482444126
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "8ed594c1-c676-4e97-a8ca-ea4ae8868e0e",
+      "name": "Maneuverability post copy copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        52.48047997852867,
+        0,
+        3.7536554824441146
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "51586ef9-a372-45af-9cb9-eadac57d517f",
+      "name": "Maneuverability post copy copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        52.48047997852867,
+        0,
+        3.153655482444092
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "afbe1772-44bb-45a9-a008-2a7b7e95eb15",
+      "name": "Maneuverability post copy copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        52.48047997852867,
+        0,
+        2.8536554824440947
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "eccc9f36-1bc6-494c-a98c-b3dcbad3444f",
+      "name": "Maneuverability post copy copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        52.48047997852867,
+        0,
+        3.4536554824441033
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "be4adfd1-6e60-447c-812e-766c155e727e",
+      "name": "Maneuverability post copy copy copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        52.46794960362511,
+        0,
+        5.597827078138392
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "a7e6a010-5969-43d8-81b2-ed9f8af99496",
+      "name": "Maneuverability post copy copy copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        52.46794960362511,
+        0,
+        5.297827078138388
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "d9534ff9-c637-4897-a27b-2a0af8463bb4",
+      "name": "Maneuverability post copy copy copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        52.46794960362511,
+        0,
+        4.697827078138394
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "f7371a98-2939-4c70-a253-71086a23a175",
+      "name": "Maneuverability post copy copy copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        52.46794960362511,
+        0,
+        4.397827078138375
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "f41f4074-1aeb-476e-8200-609e389a9e6b",
+      "name": "Maneuverability post copy copy copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        52.46794960362511,
+        0,
+        4.997827078138391
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "7eaf1d5a-97bc-4df0-b9bc-95d0ed6eb81c",
+      "name": "Maneuverability post copy copy",
+      "type": "post",
+      "position": [
+        53.953108258321635,
+        0,
+        5.610495894705364
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "69d288e9-6fac-47f2-89d2-73d4a7a4c187",
+      "name": "Maneuverability post copy copy",
+      "type": "post",
+      "position": [
+        53.65310825832164,
+        0,
+        5.610495894705364
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "a43460aa-b951-47dd-b1b3-94d9088f9224",
+      "name": "Maneuverability post copy copy",
+      "type": "post",
+      "position": [
+        53.053108258321636,
+        0,
+        5.610495894705364
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "8ee1998a-3ba9-4b84-a4df-096e8cfbe652",
+      "name": "Maneuverability post copy copy",
+      "type": "post",
+      "position": [
+        52.75310825832164,
+        0,
+        5.610495894705364
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "b462340c-3757-4571-ab8c-8a91d14718cd",
+      "name": "Maneuverability post copy copy",
+      "type": "post",
+      "position": [
+        53.35310825832164,
+        0,
+        5.610495894705364
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "9ce154ab-0237-4ca4-9caf-d7346385d143",
+      "name": "Maneuverability post copy copy copy copy",
+      "type": "post",
+      "position": [
+        52.40850774977044,
+        0,
+        8.825115245878788
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "7f4e925f-65f8-4845-988f-76caf0fa9d8e",
+      "name": "Maneuverability post copy copy copy copy",
+      "type": "post",
+      "position": [
+        52.40850774977044,
+        0,
+        8.525115245878776
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "ee577ccb-2581-4eaa-a284-11401207f74b",
+      "name": "Maneuverability post copy copy copy copy",
+      "type": "post",
+      "position": [
+        52.40850774977044,
+        0,
+        7.925115245878784
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "6d7a818a-8cd4-4ce8-a434-44fbfeabda45",
+      "name": "Maneuverability post copy copy copy copy",
+      "type": "post",
+      "position": [
+        52.40850774977044,
+        0,
+        7.625115245878787
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "e42ff859-2ff7-444e-b21a-333d15f4e793",
+      "name": "Maneuverability post copy copy copy copy",
+      "type": "post",
+      "position": [
+        52.40850774977044,
+        0,
+        8.225115245878781
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "ecfa2ed5-c97f-425c-bde5-e8d621ac92b3",
+      "name": "Maneuverability post copy copy copy",
+      "type": "post",
+      "position": [
+        53.88538732980869,
+        0,
+        7.6373693091611
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "ac919478-26c8-43ce-bdc6-b7066c18a096",
+      "name": "Maneuverability post copy copy copy",
+      "type": "post",
+      "position": [
+        53.5853873298087,
+        0,
+        7.6373693091611
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "5e8b94d6-4092-49ba-9a8d-d1f3eb98b900",
+      "name": "Maneuverability post copy copy copy",
+      "type": "post",
+      "position": [
+        52.985387329808695,
+        0,
+        7.6373693091611
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "32459c38-3492-4652-b1c9-c64866c55b71",
+      "name": "Maneuverability post copy copy copy",
+      "type": "post",
+      "position": [
+        52.6853873298087,
+        0,
+        7.6373693091611
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "24d486d2-8aac-4996-8095-72fc6fa06da8",
+      "name": "Maneuverability post copy copy copy",
+      "type": "post",
+      "position": [
+        53.2853873298087,
+        0,
+        7.6373693091611
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "116eaa9d-eb21-4bbd-93a2-538031ac6bba",
+      "name": "Maneuverability post copy copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        54.16559666630798,
+        0,
+        6.4895092550046325
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "3add1f02-b1bb-48c0-9be2-9c5df3423f88",
+      "name": "Maneuverability post copy copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        54.16559666630798,
+        0,
+        5.889509255004624
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "9ab45aa6-041d-4603-bbfc-e1459ac9be96",
+      "name": "Maneuverability post copy copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        54.16559666630798,
+        0,
+        5.589509255004627
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "5dec1f3e-6025-45d8-95a1-7cdff062c6df",
+      "name": "Maneuverability post copy copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        54.16559666630798,
+        0,
+        6.189509255004635
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "d6d2be00-4368-49d6-956c-a76d6db471e8",
+      "name": "Maneuverability post copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        49.673244028385504,
+        0,
+        6.623107459504422
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "e7da0930-ee93-4362-97ed-4a693347ec33",
+      "name": "Maneuverability post copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        49.673244028385504,
+        0,
+        6.323107459504425
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "ed64b3c2-b0fe-4c77-a3b9-4db484e21329",
+      "name": "Maneuverability post copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        49.673244028385504,
+        0,
+        5.7231074595044165
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "bc7d2c6a-5eaf-4e1c-94be-465ef2251413",
+      "name": "Maneuverability post copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        49.673244028385504,
+        0,
+        5.423107459504412
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "86fadde7-5868-423a-bae4-749017f308aa",
+      "name": "Maneuverability post copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        49.673244028385504,
+        0,
+        6.023107459504428
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "c24d3d84-0fff-472e-86a2-0a35c135a669",
+      "name": "Maneuverability post copy copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        49.71227572536574,
+        0,
+        8.140869881907445
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "61cb0102-820e-478e-a216-9d74c4e66e80",
+      "name": "Maneuverability post copy copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        49.71227572536574,
+        0,
+        7.840869881907449
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "47c9fdfb-8010-494e-95db-7f2fb781b02d",
+      "name": "Maneuverability post copy copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        49.71227572536574,
+        0,
+        7.24086988190744
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "039d53da-d5d9-4b1c-b61f-a16eaaa8fa6f",
+      "name": "Maneuverability post copy copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        49.71227572536574,
+        0,
+        6.940869881907443
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "29cbd5de-a115-4016-a2bb-31509b64dfd4",
+      "name": "Maneuverability post copy copy copy copy copy copy",
+      "type": "post",
+      "position": [
+        49.71227572536574,
+        0,
+        7.540869881907438
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "f038633d-e570-4193-8d06-869141c87765",
+      "name": "Maneuverability post 39",
+      "type": "post",
+      "position": [
+        49.753850561483524,
+        0,
+        9.706618526894314
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "f25ee8f8-c5e7-49f6-9d1e-e24036641ae3",
+      "name": "Maneuverability post 38",
+      "type": "post",
+      "position": [
+        49.753850561483524,
+        0,
+        9.406618526894302
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "942ebabd-1753-4409-a877-cafe89aee366",
+      "name": "Maneuverability post 37",
+      "type": "post",
+      "position": [
+        49.753850561483524,
+        0,
+        8.806618526894308
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "d3ece206-bab7-4bab-8bed-f2ea1095e700",
+      "name": "Maneuverability post36",
+      "type": "post",
+      "position": [
+        49.753850561483524,
+        0,
+        8.50661852689431
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "604c4fcc-8597-46d9-a03f-5f8eecef4b45",
+      "name": "Maneuverability post 35",
+      "type": "post",
+      "position": [
+        49.753850561483524,
+        0,
+        9.106618526894305
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "af36d47c-a937-4d6b-8e69-da2bcdec41fb",
+      "name": "Maneuverability post34",
+      "type": "post",
+      "position": [
+        52.421783785702125,
+        0,
+        10.3639836011949
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "a702cb33-8d80-41ca-982f-af0e902ba2d8",
+      "name": "Maneuverability post 33",
+      "type": "post",
+      "position": [
+        52.421783785702125,
+        0,
+        10.063983601194902
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "e45db7a5-b3a6-4e71-9d57-7327456a55c3",
+      "name": "Maneuverability post32",
+      "type": "post",
+      "position": [
+        52.421783785702125,
+        0,
+        9.463983601194894
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "6a813e55-4efe-4ad5-b454-0e8689f54d5b",
+      "name": "Maneuverability post 31",
+      "type": "post",
+      "position": [
+        52.421783785702125,
+        0,
+        9.163983601194897
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "31a75e2d-3855-47dd-8b4f-18ab486c8e4c",
+      "name": "Maneuverability post 30",
+      "type": "post",
+      "position": [
+        52.421783785702125,
+        0,
+        9.763983601194905
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "617639b9-2527-4342-8bcc-eed13bca1fc1",
+      "name": "Maneuverability post29",
+      "type": "post",
+      "position": [
+        52.388233516283684,
+        0,
+        11.81672193300884
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "7c7d7a0b-4978-4ad4-9287-ac7f3039b5ee",
+      "name": "Maneuverability post28",
+      "type": "post",
+      "position": [
+        52.388233516283684,
+        0,
+        11.516721933008835
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "3277b0e1-d2ef-4cf9-97a2-7957a572194d",
+      "name": "Maneuverability post 27",
+      "type": "post",
+      "position": [
+        52.388233516283684,
+        0,
+        10.916721933008834
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "d03d426f-d9a6-4ade-a3a0-5ede6745b093",
+      "name": "Maneuverability post 26",
+      "type": "post",
+      "position": [
+        52.388233516283684,
+        0,
+        10.61672193300883
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "845c72ff-affa-405f-b3c9-225f2a822f73",
+      "name": "Maneuverability post25",
+      "type": "post",
+      "position": [
+        52.388233516283684,
+        0,
+        11.21672193300883
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "edf15c36-bb46-4718-8bb0-189245cc6feb",
+      "name": "Maneuverability post 24",
+      "type": "post",
+      "position": [
+        49.7175753192272,
+        0,
+        11.216530155512043
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "2e855b10-1f75-490c-a2f5-ce9c710fbef8",
+      "name": "Maneuverability post23",
+      "type": "post",
+      "position": [
+        49.7175753192272,
+        0,
+        10.916530155512039
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "b61e0170-4124-465d-baa9-baf5189f4365",
+      "name": "Maneuverability post 22",
+      "type": "post",
+      "position": [
+        49.7175753192272,
+        0,
+        10.316530155512037
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "5a99c578-2c26-4e50-89c9-0c484bedb91a",
+      "name": "Maneuverability post 21",
+      "type": "post",
+      "position": [
+        49.7175753192272,
+        0,
+        10.01653015551204
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "ab4bcf42-0666-417e-be14-64d6c8e66aa6",
+      "name": "Maneuverability post20",
+      "type": "post",
+      "position": [
+        49.7175753192272,
+        0,
+        10.616530155512041
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "77bb841c-5e63-4dd6-87b3-2598572562f0",
+      "name": "Maneuverability post 19",
+      "type": "post",
+      "position": [
+        52.346348775729375,
+        0,
+        12.046917053827794
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "08a52491-ca12-4dd8-8892-a9e166d743e4",
+      "name": "Maneuverability post 16",
+      "type": "post",
+      "position": [
+        52.046348775729385,
+        0,
+        12.0631170051476
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "8a70a1ec-20ac-488d-89d9-8dceb6d2bf01",
+      "name": "Maneuverability post 15",
+      "type": "post",
+      "position": [
+        51.44634877572938,
+        0,
+        12.046917053827794
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "5ae2ecc6-3816-4d45-b38b-edb90fadaf83",
+      "name": "Maneuverability post14",
+      "type": "post",
+      "position": [
+        51.146348775729386,
+        0,
+        12.046917053827794
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "e2de32ba-d4e3-4134-a330-c2727134a4e9",
+      "name": "Maneuverability post 13",
+      "type": "post",
+      "position": [
+        51.74634877572938,
+        0,
+        12.046917053827794
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "1d4111bb-e8c1-4855-9afb-bd857343a446",
+      "name": "Maneuverability post 12",
+      "type": "post",
+      "position": [
+        52.22368682981364,
+        0,
+        -0.28344111683852
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "78d90ef3-d2d0-4c64-b606-5d72580ce3c3",
+      "name": "Maneuverability post11",
+      "type": "post",
+      "position": [
+        51.623686829813636,
+        0,
+        -0.28344111683852
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "065c8770-3b5a-47d2-9aa2-4c9cb1a04ca2",
+      "name": "Maneuverability post10",
+      "type": "post",
+      "position": [
+        51.92368682981363,
+        0,
+        -0.28344111683852
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "445fffff-254b-4a67-9009-63825f989f0a",
+      "name": "Maneuverability post9",
+      "type": "post",
+      "position": [
+        49.72092146048686,
+        0,
+        11.480163499656957
+      ],
+      "rotation": [
+        -1.2246467991473532e-16,
+        -1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "e719e673-4a68-45be-a661-0caa3899fde8",
+      "name": "Maneuverability post8",
+      "type": "post",
+      "position": [
+        49.72092146048686,
+        0,
+        12.080163499656958
+      ],
+      "rotation": [
+        -1.2246467991473532e-16,
+        -1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "c1f68069-2bf5-4a92-88c6-61187732769d",
+      "name": "Maneuverability post 7",
+      "type": "post",
+      "position": [
+        49.72092146048686,
+        0,
+        11.780163499656961
+      ],
+      "rotation": [
+        -1.2246467991473532e-16,
+        -1.5707963267948966,
+        0
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "43adf44f-0b23-4a83-9793-c6d8fa9e01ec",
+      "name": "Maneuverability post6",
+      "type": "post",
+      "position": [
+        52.07805643405292,
+        0,
+        9.68333589250295
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "b87f037e-918f-4dc3-9697-e79b98a2516a",
+      "name": "Maneuverability post 5",
+      "type": "post",
+      "position": [
+        51.47805643405292,
+        0,
+        9.68333589250295
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "e97662ce-2ac8-4714-96ac-511da463df7a",
+      "name": "Maneuverability post4",
+      "type": "post",
+      "position": [
+        51.778056434052914,
+        0,
+        9.68333589250295
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "60c0394c-e37a-4397-ad4e-e38de7a0a26a",
+      "name": "Maneuverability post 3",
+      "type": "post",
+      "position": [
+        50.732080173345565,
+        0,
+        11.985551979674266
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "77294ea6-f787-4661-894e-2ff5dadb22d1",
+      "name": "Maneuverability post2",
+      "type": "post",
+      "position": [
+        50.132080173345564,
+        0,
+        11.985551979674266
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "d1adf9dd-0a0b-40a6-8abf-94009f59657d",
+      "name": "Maneuverability post1",
+      "type": "post",
+      "position": [
+        50.43208017334556,
+        0,
+        11.985551979674266
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "color": "#f0c229",
+      "classification": "yellow",
+      "structuralDamage": 0
+    },
+    {
+      "id": "dbb229c2-fd0e-43b4-b432-ece6710c59e1",
+      "name": "score post1",
+      "type": "post",
+      "position": [
+        49.18670715090002,
+        0,
+        4.545699923667479
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#ff0000",
+      "classification": "red",
+      "structuralDamage": 0
+    },
+    {
+      "id": "72d3e3ac-f7ff-4955-8947-7efcab2d5b5e",
+      "name": "score post2",
+      "type": "post",
+      "position": [
+        53.64603172887364,
+        0,
+        6.075915473670083
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#ff0000",
+      "classification": "red",
+      "structuralDamage": 0
+    },
+    {
+      "id": "eaf8cf25-3736-401f-b84d-823dd502b1f1",
+      "name": "score post3",
+      "type": "post",
+      "position": [
+        51.74910113922489,
+        0,
+        11.568736857279216
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color": "#ff0000",
+      "classification": "red",
+      "structuralDamage": 0
+    },
+    {
+      "id": "084768ce-4648-4fda-888e-bd199430a984",
+      "name": "start_maneuvering",
+      "type": "threshold",
+      "position": [
+        45.17085641087063,
+        1,
+        4.286631426820119
+      ],
+      "size": [
+        2.1,
+        2.5,
+        0.08
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "thresholdAction": "maneuver-start",
+      "initiallyActive": true,
+      "message": "",
+      "messageDuration": 3,
+      "stopDuration": 2,
+      "objectChanges": [],
+      "chunkChanges": []
+    },
+    {
+      "id": "e1c3d2ea-9807-4072-a079-755319321bd1",
+      "name": "Ground line",
+      "type": "line",
+      "position": [
+        45.16130827435986,
+        0.02,
+        4.37092736639535
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "points": [
+        [
+          -1,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "thickness": 0.1,
+      "curved": false,
+      "color": "#af0e0e"
+    },
+    {
+      "id": "76441cb4-d595-4b72-afb7-2531900d96a5",
+      "name": "maneuver_dq1",
+      "type": "threshold",
+      "position": [
+        47.319313472722094,
+        1.25,
+        5.52907727513326
+      ],
+      "size": [
+        4,
+        2.5,
+        0.08
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "thresholdAction": "maneuver-stop",
+      "initiallyActive": true,
+      "message": "",
+      "messageDuration": 3,
+      "stopDuration": 2,
+      "objectChanges": [],
+      "chunkChanges": []
+    },
+    {
+      "id": "3bc96496-3f57-446a-a33c-94516ba02094",
+      "name": "maneuver_dq2",
+      "type": "threshold",
+      "position": [
+        48.930236347410236,
+        1.25,
+        8.733802238678571
+      ],
+      "size": [
+        6.6,
+        2.5,
+        0.08
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "thresholdAction": "maneuver-stop",
+      "initiallyActive": true,
+      "message": "",
+      "messageDuration": 3,
+      "stopDuration": 2,
+      "objectChanges": [],
+      "chunkChanges": []
+    },
+    {
+      "id": "af88e3c9-bef0-43de-9d57-67e824778b93",
+      "name": "maneuver_dq3",
+      "type": "threshold",
+      "position": [
+        50.73631267192211,
+        1.25,
+        12.62889687820951
+      ],
+      "size": [
+        3.2,
+        2.5,
+        0.1
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "thresholdAction": "maneuver-stop",
+      "initiallyActive": true,
+      "message": "",
+      "messageDuration": 3,
+      "stopDuration": 2,
+      "objectChanges": [],
+      "chunkChanges": []
+    },
+    {
+      "id": "5f914a9c-1788-44e8-ad1e-532df33e262a",
+      "name": "maneuver_dq4",
+      "type": "threshold",
+      "position": [
+        52.92380995513196,
+        1.25,
+        9.706558621149433
+      ],
+      "size": [
+        4,
+        2.5,
+        0.08
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "thresholdAction": "maneuver-stop",
+      "initiallyActive": true,
+      "message": "",
+      "messageDuration": 3,
+      "stopDuration": 2,
+      "objectChanges": [],
+      "chunkChanges": []
+    },
+    {
+      "id": "54b34246-25a9-4e33-96df-01b3ea3faa21",
+      "name": "maneuver_dq5",
+      "type": "threshold",
+      "position": [
+        52.68919784251307,
+        1.25,
+        2.4412885152191413
+      ],
+      "size": [
+        5.7,
+        2.5,
+        0.08
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "thresholdAction": "maneuver-stop",
+      "initiallyActive": true,
+      "message": "",
+      "messageDuration": 3,
+      "stopDuration": 2,
+      "objectChanges": [],
+      "chunkChanges": []
+    },
+    {
+      "id": "3bcdd4c4-ff38-4ae2-b79e-e41dd4e8dcb9",
+      "name": "maneuver_dq6",
+      "type": "threshold",
+      "position": [
+        54.63619754262005,
+        1.25,
+        6.696995789593277
+      ],
+      "size": [
+        2.1,
+        2.5,
+        0.08
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "thresholdAction": "maneuver-stop",
+      "initiallyActive": true,
+      "message": "",
+      "messageDuration": 3,
+      "stopDuration": 2,
+      "objectChanges": [],
+      "chunkChanges": []
+    },
+    {
+      "id": "5b4fe1f7-a77e-4c96-909a-2358ab44ddd0",
+      "name": "maneuver_dq7",
+      "type": "threshold",
+      "position": [
+        53.99635895811138,
+        1.25,
+        8.005066579724936
+      ],
+      "size": [
+        1.7,
+        2.5,
+        0.08
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "thresholdAction": "maneuver-stop",
+      "initiallyActive": true,
+      "message": "",
+      "messageDuration": 3,
+      "stopDuration": 2,
+      "objectChanges": [],
+      "chunkChanges": []
+    },
+    {
+      "id": "1b2f0f22-9039-4b4d-9f2e-84fb928e1e19",
+      "name": "maneuver_dq8",
+      "type": "threshold",
+      "position": [
+        53.77575436746893,
+        1.25,
+        5.11123923892471
+      ],
+      "size": [
+        1.6,
+        2.5,
+        0.08
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "thresholdAction": "maneuver-stop",
+      "initiallyActive": true,
+      "message": "",
+      "messageDuration": 3,
+      "stopDuration": 2,
+      "objectChanges": [],
+      "chunkChanges": []
+    },
+    {
+      "id": "adf23d7a-e37d-43a7-9df3-3e55da850fea",
+      "name": "maneuver_dq9",
+      "type": "threshold",
+      "position": [
+        46.5304372324071,
+        1.25,
+        0.9858322891254607
+      ],
+      "size": [
+        3,
+        2.5,
+        0.08
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "thresholdAction": "maneuver-stop",
+      "initiallyActive": true,
+      "message": "",
+      "messageDuration": 3,
+      "stopDuration": 2,
+      "objectChanges": [],
+      "chunkChanges": []
+    },
+    {
+      "id": "406c1e67-2bc1-4bbd-b2a6-d8c5619996f3",
+      "name": "maneuver_dq10",
+      "type": "threshold",
+      "position": [
+        49.56630014144047,
+        1.25,
+        -0.6208065885886791
+      ],
+      "size": [
+        6.1,
+        2.5,
+        0.08
+      ],
+      "rotation": [
+        -3.141592653589793,
+        4.440892098500626e-16,
+        -3.141592653589793
+      ],
+      "thresholdAction": "maneuver-stop",
+      "initiallyActive": true,
+      "message": "",
+      "messageDuration": 3,
+      "stopDuration": 2,
+      "objectChanges": [],
+      "chunkChanges": []
+    },
+    {
+      "id": "00a0d8dd-fc97-4da9-96e9-60341a11123a",
+      "name": "roof2 copy",
+      "type": "box",
+      "position": [
+        64.5201790254516,
+        6.9890750563263495,
+        15.163651164899944
+      ],
+      "size": [
+        18.3,
+        0.1,
+        41.8
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.054105206811824215
+      ],
+      "color": "#a5a09c",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": false,
+      "movable": true,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "0a6dc180-59b2-4fb7-9893-66604df1a599",
+      "name": "roof copy",
+      "type": "box",
+      "position": [
+        46.120830724863886,
+        6.9890750563263495,
+        15.128832929503632
+      ],
+      "size": [
+        18.3,
+        0.1,
+        41.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0.053859055430807844
+      ],
+      "color": "#a5a09c",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": false,
+      "movable": true,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "1ec67b7d-9e6e-4102-83ad-a00f90d6ecbc",
+      "name": "Block copy",
+      "type": "box",
+      "position": [
+        55.23804071854954,
+        6.870865068791466,
+        15.234246027358699
+      ],
+      "size": [
+        1,
+        0.9,
+        41.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c67a34",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": false,
+      "movable": true,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "38f32dea-6cc0-4fd1-b8f4-7c64f9224787",
+      "name": "barn_post copy copy copy copy copy",
+      "type": "box",
+      "position": [
+        54.57455684231728,
+        6.2,
+        27.939561665305735
+      ],
+      "size": [
+        0.4,
+        35.3,
+        0.4
+      ],
+      "rotation": [
+        0,
+        0,
+        1.5707963267948963
+      ],
+      "color": "#c55934",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": false,
+      "movable": true,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "89b36143-06f2-4e25-835f-a636c1a55495",
+      "name": "barn_post copy copy copy copy",
+      "type": "box",
+      "position": [
+        37.164470475703304,
+        3,
+        27.9302611458012
+      ],
+      "size": [
+        0.4,
+        6,
+        0.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c55934",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": false,
+      "movable": true,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "321870b2-a3f2-48f5-8db3-5738957cabd2",
+      "name": "barn_post copy copy copy copy",
+      "type": "box",
+      "position": [
+        54.56949383253499,
+        6.2,
+        15.317728341281308
+      ],
+      "size": [
+        0.4,
+        35.3,
+        0.4
+      ],
+      "rotation": [
+        0,
+        0,
+        1.5707963267948963
+      ],
+      "color": "#c55934",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": false,
+      "movable": true,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "75f3c005-a893-4ae6-8045-6e4cea4a7041",
+      "name": "barn_post copy copy copy",
+      "type": "box",
+      "position": [
+        72.15660861105047,
+        3,
+        27.92186153861604
+      ],
+      "size": [
+        0.4,
+        6,
+        0.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c55934",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": false,
+      "movable": true,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "ed2a0892-9853-4f13-8847-e5e316b448cf",
+      "name": "barn_post copy copy copy",
+      "type": "box",
+      "position": [
+        37.159407465921014,
+        3,
+        15.308427821776776
+      ],
+      "size": [
+        0.4,
+        6,
+        0.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c55934",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": false,
+      "movable": true,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "edcf590d-0a6f-44d3-8f21-dad89e300111",
+      "name": "barn_post copy copy",
+      "type": "box",
+      "position": [
+        72.1515456012682,
+        3,
+        15.300028214591617
+      ],
+      "size": [
+        0.4,
+        6,
+        0.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c55934",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": false,
+      "movable": true,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "cc7b2a7b-5cb3-4278-8cd3-68edcf2dc89e",
+      "name": "barn_post copy copy copy",
+      "type": "box",
+      "position": [
+        54.559213352044935,
+        6.2,
+        -5.274339819601108
+      ],
+      "size": [
+        0.4,
+        35.3,
+        0.4
+      ],
+      "rotation": [
+        0,
+        0,
+        1.5707963267948963
+      ],
+      "color": "#c55934",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": false,
+      "movable": true,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "c4ea6f6a-1a0b-4ff8-81e3-4ae563e4bd70",
+      "name": "barn_post copy copy",
+      "type": "box",
+      "position": [
+        37.14912698543096,
+        3,
+        -5.283640339105643
+      ],
+      "size": [
+        0.4,
+        6,
+        0.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c55934",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": false,
+      "movable": true,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "119adca3-3433-4560-ba6b-3681fa5ea653",
+      "name": "barn_post copy",
+      "type": "box",
+      "position": [
+        72.14126512077812,
+        3,
+        -5.292039946290805
+      ],
+      "size": [
+        0.4,
+        6,
+        0.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c55934",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": true,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "3f22c292-1bce-4a2e-a514-3e6fba4192d4",
+      "name": "bleacher_support_right2 copy",
+      "type": "box",
+      "position": [
+        67.49340616768254,
+        1.6291145529636053,
+        17.48149463787994
+      ],
+      "size": [
+        1,
+        1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#9d9c9b",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "b43d164a-440e-4969-bf4e-91759c53e68d",
+      "name": "bleacher_step1 copy",
+      "type": "box",
+      "position": [
+        64.47669559297925,
+        -0.10000000000000031,
+        13.445795899889378
+      ],
+      "size": [
+        1,
+        1,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#4f4f4f",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "de628bdd-4ba6-457f-b320-2fa3cb0df5ef",
+      "name": "bleacher_step2 copy",
+      "type": "box",
+      "position": [
+        64.88022884792125,
+        0.13656738626422804,
+        13.445795899889378
+      ],
+      "size": [
+        1,
+        1,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#4f4f4f",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "b643a077-5ca8-4534-83cb-05feb4d69a18",
+      "name": "bleacher_ramp copy",
+      "type": "box",
+      "position": [
+        66.85090763151567,
+        0.9687451221090078,
+        8.532295423314615
+      ],
+      "size": [
+        7.2,
+        0.6,
+        1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0.3839724354387525
+      ],
+      "color": "#424242",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "85b36478-c4e0-4b98-9971-3e4d6a1edaf2",
+      "name": "bleacher_support_left1 copy",
+      "type": "box",
+      "position": [
+        65.94119903286767,
+        1.01720090353671,
+        9.420021123339673
+      ],
+      "size": [
+        1,
+        1,
+        0.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#b0b0b0",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "a992a9bc-2c94-489e-a2c0-779a771c1961",
+      "name": "bleacher_support_right1 copy",
+      "type": "box",
+      "position": [
+        65.97372063038773,
+        1.1158380885190373,
+        17.48149463787994
+      ],
+      "size": [
+        1,
+        1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#9d9c9b",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "c3d968af-bc51-4c57-ae47-ccc25d9578c3",
+      "name": "bleacher_step3 copy",
+      "type": "box",
+      "position": [
+        65.90393907547914,
+        0.6243865935790376,
+        13.467668177204965
+      ],
+      "size": [
+        1.4,
+        0.7,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#474747",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "9d179d24-a80f-46bf-a406-e9970fdbf036",
+      "name": "bleacher_seat1 copy",
+      "type": "box",
+      "position": [
+        65.97264490993709,
+        1.3711839392063474,
+        13.467668177204965
+      ],
+      "size": [
+        0.6,
+        0.1,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#cccccc",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "6b22969e-5812-4ae2-87df-aed085779676",
+      "name": "bleacher_support_left2 copy",
+      "type": "box",
+      "position": [
+        67.46088457016248,
+        1.530477367981278,
+        9.420021123339673
+      ],
+      "size": [
+        1,
+        1,
+        0.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#b0b0b0",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "159aaef4-f2d2-4910-850d-c061e182f84c",
+      "name": "beacher_step4 copy",
+      "type": "box",
+      "position": [
+        67.29640537819549,
+        1.1376630580236056,
+        13.467668177204965
+      ],
+      "size": [
+        1.4,
+        0.7,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#474747",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "509aff94-204a-4605-b2bd-a71dc8575bf1",
+      "name": "bleacher_seat2 copy",
+      "type": "box",
+      "position": [
+        67.4923304472319,
+        1.8844604036509154,
+        13.467668177204965
+      ],
+      "size": [
+        0.6,
+        0.1,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#cccccc",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "130c6ebf-2a0f-4938-bf9a-b4daeee07ca0",
+      "name": "bleacher_seat3 copy",
+      "type": "box",
+      "position": [
+        68.88753983357253,
+        2.6207323511005516,
+        13.467668177204958
+      ],
+      "size": [
+        0.6,
+        0.1,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#cccccc",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "32e16460-fea7-4ed5-9609-456d57d5e368",
+      "name": "bleacher_step5 copy",
+      "type": "box",
+      "position": [
+        68.69161476453613,
+        1.8739350054732413,
+        13.454251048186963
+      ],
+      "size": [
+        1.4,
+        0.7,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#474747",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "92d42003-67da-4372-a4d0-433e6483888f",
+      "name": "bleacher_support_right3 copy",
+      "type": "box",
+      "position": [
+        68.88861555402318,
+        2.3653865004132415,
+        17.46807750886194
+      ],
+      "size": [
+        1,
+        1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#9d9c9b",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "b0f49845-687c-4bee-a60f-ab4e96ee7658",
+      "name": "bleacher_support_left3 copy",
+      "type": "box",
+      "position": [
+        68.85609395650312,
+        2.266749315430914,
+        9.406603994321678
+      ],
+      "size": [
+        1,
+        1,
+        0.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#b0b0b0",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "e02fbdfe-492e-4b17-b5c3-5c7b65e680a3",
+      "name": "bleacher_support_right2 copy copy",
+      "type": "box",
+      "position": [
+        67.58165152340632,
+        1.6291145529636053,
+        7.63055550500966
+      ],
+      "size": [
+        1,
+        1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#9d9c9b",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "9502340b-0749-4ca4-9b87-d831e6052727",
+      "name": "bleacher_step1 copy copy",
+      "type": "box",
+      "position": [
+        64.56494094870303,
+        -0.10000000000000031,
+        3.594856767019097
+      ],
+      "size": [
+        1,
+        1,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#4f4f4f",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "c90044f4-0bfa-47d8-b4d0-14ceb801e6ae",
+      "name": "bleacher_step2 copy copy",
+      "type": "box",
+      "position": [
+        64.96847420364503,
+        0.13656738626422804,
+        3.594856767019097
+      ],
+      "size": [
+        1,
+        1,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#4f4f4f",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "1a2f60e8-e0be-490f-a362-54415ca249c5",
+      "name": "bleacher_ramp copy copy",
+      "type": "box",
+      "position": [
+        66.93915298723944,
+        0.9687451221090078,
+        -1.3186437095556656
+      ],
+      "size": [
+        7.2,
+        0.6,
+        1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0.3839724354387525
+      ],
+      "color": "#424242",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "669f6ac9-710d-408b-8775-b38ee400267a",
+      "name": "bleacher_support_left1 copy copy",
+      "type": "box",
+      "position": [
+        66.02944438859143,
+        1.01720090353671,
+        -0.43091800953060844
+      ],
+      "size": [
+        1,
+        1,
+        0.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#b0b0b0",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "44a87294-be8a-4bb5-bff6-8b757a0b4e76",
+      "name": "bleacher_support_right1 copy copy",
+      "type": "box",
+      "position": [
+        66.06196598611152,
+        1.1158380885190373,
+        7.63055550500966
+      ],
+      "size": [
+        1,
+        1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#9d9c9b",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "5ccede90-9421-4b8b-a63e-c610bb6a665a",
+      "name": "bleacher_step3 copy copy",
+      "type": "box",
+      "position": [
+        65.99218443120293,
+        0.6243865935790376,
+        3.6167290443346847
+      ],
+      "size": [
+        1.4,
+        0.7,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#474747",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "c5cb4242-957a-42d8-b60c-34d929be93f3",
+      "name": "bleacher_seat1 copy copy",
+      "type": "box",
+      "position": [
+        66.06089026566086,
+        1.3711839392063474,
+        3.6167290443346847
+      ],
+      "size": [
+        0.6,
+        0.1,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#cccccc",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "8bf2fec0-58af-4ed5-b676-b32f24a3667e",
+      "name": "bleacher_support_left2 copy copy",
+      "type": "box",
+      "position": [
+        67.54912992588625,
+        1.530477367981278,
+        -0.43091800953060844
+      ],
+      "size": [
+        1,
+        1,
+        0.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#b0b0b0",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "3950e3e0-ac5f-4732-ac09-7d9349182147",
+      "name": "beacher_step4 copy copy",
+      "type": "box",
+      "position": [
+        67.38465073391926,
+        1.1376630580236056,
+        3.6167290443346847
+      ],
+      "size": [
+        1.4,
+        0.7,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#474747",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "cf9898d0-ebb8-4941-9a75-d43348b9f731",
+      "name": "bleacher_seat2 copy copy",
+      "type": "box",
+      "position": [
+        67.58057580295568,
+        1.8844604036509154,
+        3.6167290443346847
+      ],
+      "size": [
+        0.6,
+        0.1,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#cccccc",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "4acb9d19-f6ac-4e8e-80c9-c99555c33353",
+      "name": "bleacher_seat3 copy copy",
+      "type": "box",
+      "position": [
+        68.97578518929633,
+        2.6207323511005516,
+        3.6167290443346776
+      ],
+      "size": [
+        0.6,
+        0.1,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#cccccc",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "a388318d-4b0b-440c-8da2-a1eadc9a72cc",
+      "name": "bleacher_step5 copy copy",
+      "type": "box",
+      "position": [
+        68.77986012025993,
+        1.8739350054732413,
+        3.6033119153166826
+      ],
+      "size": [
+        1.4,
+        0.7,
+        8.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#474747",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "80b6c078-8253-44b9-af72-ebe86c02a0c1",
+      "name": "bleacher_support_right3 copy copy",
+      "type": "box",
+      "position": [
+        68.97686090974697,
+        2.3653865004132415,
+        7.617138375991658
+      ],
+      "size": [
+        1,
+        1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#9d9c9b",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "447f001d-247c-41e8-8aae-314616df6aae",
+      "name": "bleacher_support_left3 copy copy",
+      "type": "box",
+      "position": [
+        68.94433931222689,
+        2.266749315430914,
+        -0.4443351385486034
+      ],
+      "size": [
+        1,
+        1,
+        0.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#b0b0b0",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "675b25a8-078f-4f74-b4f7-290219190cd0",
+      "name": "roof2 copy copy",
+      "type": "box",
+      "position": [
+        17.95272949875367,
+        6.9716791193354934,
+        16.163651164899946
+      ],
+      "size": [
+        18.3,
+        0.1,
+        41.8
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.054105206811824215
+      ],
+      "color": "#a5a09c",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": false,
+      "movable": true,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "bdcaf662-76b2-4a43-b47c-f1203ef83376",
+      "name": "roof copy copy",
+      "type": "box",
+      "position": [
+        -0.44661880183404534,
+        6.9716791193354934,
+        16.12883292950363
+      ],
+      "size": [
+        18.3,
+        0.1,
+        41.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0.053859055430807844
+      ],
+      "color": "#a5a09c",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": false,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "285fb98a-ac6b-4cfb-af42-baeb86f1f113",
+      "name": "barn_middle_support",
+      "type": "box",
+      "position": [
+        8.670591191851607,
+        6.853469131800611,
+        16.2342460273587
+      ],
+      "size": [
+        1,
+        0.9,
+        41.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c67a34",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": false,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "34a37109-e3a8-43b4-b3a0-3eb2cdca18b8",
+      "name": "barn_post copy copy copy copy copy copy",
+      "type": "box",
+      "position": [
+        8.007107315619342,
+        6.182604063009142,
+        28.939561665305735
+      ],
+      "size": [
+        0.4,
+        35.3,
+        0.4
+      ],
+      "rotation": [
+        0,
+        0,
+        1.5707963267948963
+      ],
+      "color": "#c55934",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": false,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "d4871cf6-b956-4414-bdb8-b777c432666c",
+      "name": "barn_post copy copy copy copy copy",
+      "type": "box",
+      "position": [
+        -9.402979050994631,
+        2.982604063009145,
+        28.9302611458012
+      ],
+      "size": [
+        0.4,
+        6,
+        0.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c55934",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": false,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "dc567398-33e4-431d-8c03-d447fe105f40",
+      "name": "barn_post copy copy copy copy copy",
+      "type": "box",
+      "position": [
+        8.002044305837051,
+        6.182604063009142,
+        16.31772834128131
+      ],
+      "size": [
+        0.4,
+        35.3,
+        0.4
+      ],
+      "rotation": [
+        0,
+        0,
+        1.5707963267948963
+      ],
+      "color": "#c55934",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": false,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "9a32ca61-8cdf-4af5-b727-863f4500c206",
+      "name": "barn_post copy copy copy copy",
+      "type": "box",
+      "position": [
+        25.58915908435253,
+        2.982604063009145,
+        28.92186153861604
+      ],
+      "size": [
+        0.4,
+        6,
+        0.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c55934",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": false,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "70332bd3-0e44-4ab8-b0d9-6d3cca6b649a",
+      "name": "barn_post copy copy copy copy",
+      "type": "box",
+      "position": [
+        -9.408042060776921,
+        2.982604063009145,
+        16.308427821776775
+      ],
+      "size": [
+        0.4,
+        6,
+        0.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c55934",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": false,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "1e5c6ace-c617-42de-9203-c6173ba71d98",
+      "name": "barn_post copy copy copy",
+      "type": "box",
+      "position": [
+        25.584096074570255,
+        2.982604063009145,
+        16.300028214591617
+      ],
+      "size": [
+        0.4,
+        6,
+        0.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c55934",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": false,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "a7941de8-dedd-4b0b-8175-56b0290794f1",
+      "name": "barn_post copy copy copy copy",
+      "type": "box",
+      "position": [
+        7.9917638253469985,
+        6.182604063009142,
+        -4.274339819601108
+      ],
+      "size": [
+        0.4,
+        35.3,
+        0.4
+      ],
+      "rotation": [
+        0,
+        0,
+        1.5707963267948963
+      ],
+      "color": "#c55934",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": false,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "0945dfac-3bbe-4621-a0d5-93d2a6607ac6",
+      "name": "barn_post copy copy copy",
+      "type": "box",
+      "position": [
+        -9.418322541266974,
+        2.982604063009145,
+        -4.283640339105643
+      ],
+      "size": [
+        0.4,
+        6,
+        0.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c55934",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": false,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "937f842a-fc4b-42c9-9222-53aa07d5a249",
+      "name": "barn_post copy copy",
+      "type": "box",
+      "position": [
+        25.573815594080173,
+        2.982604063009145,
+        -4.292039946290805
+      ],
+      "size": [
+        0.4,
+        6,
+        0.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c55934",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    }
+  ],
+  "groups": [
+    {
+      "id": "e6497301-75b5-4ae4-a2c8-0eefbec2e7f8",
+      "name": "maneuverability_barn",
+      "objectIds": [
+        "00a0d8dd-fc97-4da9-96e9-60341a11123a",
+        "0a6dc180-59b2-4fb7-9893-66604df1a599",
+        "1ec67b7d-9e6e-4102-83ad-a00f90d6ecbc",
+        "38f32dea-6cc0-4fd1-b8f4-7c64f9224787",
+        "89b36143-06f2-4e25-835f-a636c1a55495",
+        "321870b2-a3f2-48f5-8db3-5738957cabd2",
+        "75f3c005-a893-4ae6-8045-6e4cea4a7041",
+        "ed2a0892-9853-4f13-8847-e5e316b448cf",
+        "edcf590d-0a6f-44d3-8f21-dad89e300111",
+        "cc7b2a7b-5cb3-4278-8cd3-68edcf2dc89e",
+        "c4ea6f6a-1a0b-4ff8-81e3-4ae563e4bd70",
+        "119adca3-3433-4560-ba6b-3681fa5ea653"
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "9c5ec391-734e-4525-a048-f21f07c596ae",
+      "name": "maneuverability_bleacher1",
+      "objectIds": [
+        "3f22c292-1bce-4a2e-a514-3e6fba4192d4",
+        "b43d164a-440e-4969-bf4e-91759c53e68d",
+        "de628bdd-4ba6-457f-b320-2fa3cb0df5ef",
+        "b643a077-5ca8-4534-83cb-05feb4d69a18",
+        "85b36478-c4e0-4b98-9971-3e4d6a1edaf2",
+        "a992a9bc-2c94-489e-a2c0-779a771c1961",
+        "c3d968af-bc51-4c57-ae47-ccc25d9578c3",
+        "9d179d24-a80f-46bf-a406-e9970fdbf036",
+        "6b22969e-5812-4ae2-87df-aed085779676",
+        "159aaef4-f2d2-4910-850d-c061e182f84c",
+        "509aff94-204a-4605-b2bd-a71dc8575bf1",
+        "130c6ebf-2a0f-4938-bf9a-b4daeee07ca0",
+        "32e16460-fea7-4ed5-9609-456d57d5e368",
+        "92d42003-67da-4372-a4d0-433e6483888f",
+        "b0f49845-687c-4bee-a60f-ab4e96ee7658"
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "babd092b-1486-497a-b17e-1d5332078cc8",
+      "name": "maneuverability_bleacher1",
+      "objectIds": [
+        "e02fbdfe-492e-4b17-b5c3-5c7b65e680a3",
+        "9502340b-0749-4ca4-9b87-d831e6052727",
+        "c90044f4-0bfa-47d8-b4d0-14ceb801e6ae",
+        "1a2f60e8-e0be-490f-a362-54415ca249c5",
+        "669f6ac9-710d-408b-8775-b38ee400267a",
+        "44a87294-be8a-4bb5-bff6-8b757a0b4e76",
+        "5ccede90-9421-4b8b-a63e-c610bb6a665a",
+        "c5cb4242-957a-42d8-b60c-34d929be93f3",
+        "8bf2fec0-58af-4ed5-b676-b32f24a3667e",
+        "3950e3e0-ac5f-4732-ac09-7d9349182147",
+        "cf9898d0-ebb8-4941-9a75-d43348b9f731",
+        "4acb9d19-f6ac-4e8e-80c9-c99555c33353",
+        "a388318d-4b0b-440c-8da2-a1eadc9a72cc",
+        "80b6c078-8253-44b9-af72-ebe86c02a0c1",
+        "447f001d-247c-41e8-8aae-314616df6aae"
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "9d86647a-b21c-4f54-b037-ee81a9f650db",
+      "name": "dq_thresholds",
+      "objectIds": [
+        "af88e3c9-bef0-43de-9d57-67e824778b93",
+        "5f914a9c-1788-44e8-ad1e-532df33e262a",
+        "54b34246-25a9-4e33-96df-01b3ea3faa21",
+        "3bcdd4c4-ff38-4ae2-b79e-e41dd4e8dcb9",
+        "5b4fe1f7-a77e-4c96-909a-2358ab44ddd0",
+        "1b2f0f22-9039-4b4d-9f2e-84fb928e1e19",
+        "adf23d7a-e37d-43a7-9df3-3e55da850fea",
+        "406c1e67-2bc1-4bbd-b2a6-d8c5619996f3",
+        "76441cb4-d595-4b72-afb7-2531900d96a5",
+        "3bc96496-3f57-446a-a33c-94516ba02094"
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "id": "92a1c3d9-542e-44a7-9caa-1f91ed7bb962",
+      "name": "maneuverabilitiy_posts",
+      "objectIds": [
+        "8b430ef7-a605-4887-9a95-93f78066fa31",
+        "6ca01c4e-3a9d-4911-b830-7072e41996f1",
+        "7b95771a-d84f-447d-bf59-99589b9e355a",
+        "1ac27460-2389-464b-8dc9-2c353f0575cb",
+        "5c75a8ca-cb44-457a-9c3a-1ddde1ac8213",
+        "a94bb687-094b-4bf1-930e-0cda38c497b6",
+        "350752bc-b5d7-4c27-94ae-91d937070e3b",
+        "ef2660ac-9f9c-48cb-ad7d-7c977db89431",
+        "e2eabbd5-f2b4-4f88-bb0f-912a8d0a141d",
+        "44fda80e-c45b-4f0a-94e2-d41328f059c7",
+        "26fed7ab-2c2f-48d9-bdb5-c1e592bccbae",
+        "6ce52149-7f44-40b2-978e-afd22c62a290",
+        "32e0f40f-737d-4c5d-b571-81c9d9af0a07",
+        "c55d2de9-af1e-49a7-95ed-b68bd5e4f539",
+        "6d24c626-a2a2-4ae5-9300-acf2d64b6474",
+        "12aa6a01-8994-4cd4-b1fb-a56bc3810410",
+        "5f667e5d-c009-40e9-ae9b-ee3ed33a1317",
+        "618fed42-38c4-45b3-9341-2281607387f5",
+        "bfdac34e-76db-4113-a416-224e0af65233",
+        "a05fe157-44b0-45c9-b216-f1d76daeebe2",
+        "41e234fc-a9cd-44c6-86c3-ae1e2abdab2c",
+        "3373ef1d-e602-48ed-b36d-a397bffc5c3c",
+        "808de063-162c-4834-a34f-21d23ef2aca1",
+        "e530851b-9f88-4e06-9a36-34aa7d497a4e",
+        "7f3fc3f1-9198-4ec8-8b5e-d462bde9b941",
+        "c9cf7067-c2f2-487d-978c-4de665eef9c5",
+        "43bf2d24-b258-46fc-86e8-cc314f72b5ed",
+        "aef3e1f6-9355-443b-95c7-4e2ddfbe1c52",
+        "9d44ce87-31a4-49b7-ae10-b80362b41472",
+        "a5b60ec4-9405-4de6-8599-d2c284258373",
+        "8c44f02b-8da7-4d15-812c-1a2e988ccb81",
+        "f3435a7a-9642-49d4-a767-3c51dd674c24",
+        "b5fc763b-b0d3-499b-92f9-236327b1e26e",
+        "ae34ef18-649a-4d87-81cc-c2514925802b",
+        "53001bba-9e46-42eb-b35d-c912dff272ad",
+        "995eae67-7c20-428a-9e49-006ea9538259",
+        "d45c8911-9806-4759-9c75-7be3fa0b00ce",
+        "0bdfaa55-7368-435a-abe6-b1ad778731d2",
+        "25d92c1c-2b6a-438a-b0bc-83d84e473c10",
+        "e8134afb-158a-4ffb-8480-105fd15271fc",
+        "f07ff30e-4592-4f2e-bce5-d36feeb34a05",
+        "389b77fe-be41-4278-a1b1-50831b8a72b0",
+        "874fa543-d2ae-492e-b55c-3a811b1e62d5",
+        "3ea55e8a-6acf-4f35-839e-c003707768b8",
+        "c793f03a-3ad4-45c1-8e82-1ad6d92fc2c6",
+        "99d6cd65-36c1-466e-a41d-b0513da1fb8f",
+        "5603f615-44f7-4d33-bb63-0d2e51d609bd",
+        "95eb8d3a-04c7-488f-b8d1-2020ae4a6015",
+        "3e550e0e-f386-4348-871e-7b99ce664fc4",
+        "2d583c41-5bf6-41b8-bc2f-869ddedb792d",
+        "7bc4aea1-5de2-4fc3-a439-75b69246c0fe",
+        "114769bf-1067-431b-a273-54cf1e322b74",
+        "baab2808-a228-46a7-8b17-ffd74e4149de",
+        "2df72527-8228-42e6-9217-7bb2a6698c66",
+        "538c77eb-65a6-438d-9a20-3e4133cfe754",
+        "fd4e08c8-9437-4f8b-b86e-d0410c98e334",
+        "ea3c1e7c-f10c-4159-a55e-01ecece28238",
+        "5df7e93d-63b0-455b-aab9-7af680c03f94",
+        "b2f47e68-8f82-434b-90a3-6add0c568818",
+        "1093bd44-d3c3-463b-9686-2537869d7c2a",
+        "1baea88a-7bc6-4e72-a42c-662dd11e21d3",
+        "34f40634-3852-45f6-bef4-7e014745552d",
+        "e423cab0-942c-40d9-b633-e3f8ad0544d5",
+        "6c5494c4-9337-47e2-a4a7-95b034024a38",
+        "d6c31b3f-8772-4d23-a96a-9d603f0699dd",
+        "3f354b4e-c0cf-4c65-8124-68026a28bb62",
+        "bd50e10e-6262-427e-b4c0-ad2d1db0177e",
+        "feb61322-d269-465f-9b6a-30bfab373919",
+        "7b913e73-6295-40f6-ab7e-06c5d1daa210",
+        "c84bde90-73c3-4fd6-8bfa-97f49d57c51c",
+        "151c6473-afba-424d-8d66-ac84c97e2120",
+        "6093716f-fa34-49a5-a39e-0b49979facd1",
+        "8ed594c1-c676-4e97-a8ca-ea4ae8868e0e",
+        "51586ef9-a372-45af-9cb9-eadac57d517f",
+        "afbe1772-44bb-45a9-a008-2a7b7e95eb15",
+        "eccc9f36-1bc6-494c-a98c-b3dcbad3444f",
+        "be4adfd1-6e60-447c-812e-766c155e727e",
+        "a7e6a010-5969-43d8-81b2-ed9f8af99496",
+        "d9534ff9-c637-4897-a27b-2a0af8463bb4",
+        "f7371a98-2939-4c70-a253-71086a23a175",
+        "f41f4074-1aeb-476e-8200-609e389a9e6b",
+        "7eaf1d5a-97bc-4df0-b9bc-95d0ed6eb81c",
+        "69d288e9-6fac-47f2-89d2-73d4a7a4c187",
+        "a43460aa-b951-47dd-b1b3-94d9088f9224",
+        "8ee1998a-3ba9-4b84-a4df-096e8cfbe652",
+        "b462340c-3757-4571-ab8c-8a91d14718cd",
+        "9ce154ab-0237-4ca4-9caf-d7346385d143",
+        "7f4e925f-65f8-4845-988f-76caf0fa9d8e",
+        "ee577ccb-2581-4eaa-a284-11401207f74b",
+        "6d7a818a-8cd4-4ce8-a434-44fbfeabda45",
+        "e42ff859-2ff7-444e-b21a-333d15f4e793",
+        "ecfa2ed5-c97f-425c-bde5-e8d621ac92b3",
+        "ac919478-26c8-43ce-bdc6-b7066c18a096",
+        "5e8b94d6-4092-49ba-9a8d-d1f3eb98b900",
+        "32459c38-3492-4652-b1c9-c64866c55b71",
+        "24d486d2-8aac-4996-8095-72fc6fa06da8",
+        "116eaa9d-eb21-4bbd-93a2-538031ac6bba",
+        "3add1f02-b1bb-48c0-9be2-9c5df3423f88",
+        "9ab45aa6-041d-4603-bbfc-e1459ac9be96",
+        "5dec1f3e-6025-45d8-95a1-7cdff062c6df",
+        "d6d2be00-4368-49d6-956c-a76d6db471e8",
+        "e7da0930-ee93-4362-97ed-4a693347ec33",
+        "ed64b3c2-b0fe-4c77-a3b9-4db484e21329",
+        "bc7d2c6a-5eaf-4e1c-94be-465ef2251413",
+        "c24d3d84-0fff-472e-86a2-0a35c135a669",
+        "86fadde7-5868-423a-bae4-749017f308aa",
+        "61cb0102-820e-478e-a216-9d74c4e66e80",
+        "47c9fdfb-8010-494e-95db-7f2fb781b02d",
+        "039d53da-d5d9-4b1c-b61f-a16eaaa8fa6f",
+        "29cbd5de-a115-4016-a2bb-31509b64dfd4",
+        "f038633d-e570-4193-8d06-869141c87765",
+        "f25ee8f8-c5e7-49f6-9d1e-e24036641ae3",
+        "942ebabd-1753-4409-a877-cafe89aee366",
+        "d3ece206-bab7-4bab-8bed-f2ea1095e700",
+        "604c4fcc-8597-46d9-a03f-5f8eecef4b45",
+        "af36d47c-a937-4d6b-8e69-da2bcdec41fb",
+        "a702cb33-8d80-41ca-982f-af0e902ba2d8",
+        "e45db7a5-b3a6-4e71-9d57-7327456a55c3",
+        "6a813e55-4efe-4ad5-b454-0e8689f54d5b",
+        "31a75e2d-3855-47dd-8b4f-18ab486c8e4c",
+        "617639b9-2527-4342-8bcc-eed13bca1fc1",
+        "7c7d7a0b-4978-4ad4-9287-ac7f3039b5ee",
+        "3277b0e1-d2ef-4cf9-97a2-7957a572194d",
+        "d03d426f-d9a6-4ade-a3a0-5ede6745b093",
+        "845c72ff-affa-405f-b3c9-225f2a822f73",
+        "edf15c36-bb46-4718-8bb0-189245cc6feb",
+        "2e855b10-1f75-490c-a2f5-ce9c710fbef8",
+        "b61e0170-4124-465d-baa9-baf5189f4365",
+        "5a99c578-2c26-4e50-89c9-0c484bedb91a",
+        "ab4bcf42-0666-417e-be14-64d6c8e66aa6",
+        "77bb841c-5e63-4dd6-87b3-2598572562f0",
+        "08a52491-ca12-4dd8-8892-a9e166d743e4",
+        "8a70a1ec-20ac-488d-89d9-8dceb6d2bf01",
+        "5ae2ecc6-3816-4d45-b38b-edb90fadaf83",
+        "e2de32ba-d4e3-4134-a330-c2727134a4e9",
+        "1d4111bb-e8c1-4855-9afb-bd857343a446",
+        "78d90ef3-d2d0-4c64-b606-5d72580ce3c3",
+        "065c8770-3b5a-47d2-9aa2-4c9cb1a04ca2",
+        "445fffff-254b-4a67-9009-63825f989f0a",
+        "e719e673-4a68-45be-a661-0caa3899fde8",
+        "c1f68069-2bf5-4a92-88c6-61187732769d",
+        "43adf44f-0b23-4a83-9793-c6d8fa9e01ec",
+        "b87f037e-918f-4dc3-9697-e79b98a2516a",
+        "e97662ce-2ac8-4714-96ac-511da463df7a",
+        "60c0394c-e37a-4397-ad4e-e38de7a0a26a",
+        "77294ea6-f787-4661-894e-2ff5dadb22d1",
+        "d1adf9dd-0a0b-40a6-8abf-94009f59657d"
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "id": "93b6b129-49d6-42bd-ad6c-3bf41bf55984",
+      "name": "red_maneuverability_posts",
+      "objectIds": [
+        "dbb229c2-fd0e-43b4-b432-ece6710c59e1",
+        "72d3e3ac-f7ff-4955-8947-7efcab2d5b5e",
+        "eaf8cf25-3736-401f-b84d-823dd502b1f1"
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "id": "43948fd9-13ab-41d0-871a-045899ea2a39",
+      "name": "Group 29",
+      "objectIds": [
+        "285fb98a-ac6b-4cfb-af42-baeb86f1f113",
+        "bdcaf662-76b2-4a43-b47c-f1203ef83376",
+        "675b25a8-078f-4f74-b4f7-290219190cd0",
+        "34a37109-e3a8-43b4-b3a0-3eb2cdca18b8",
+        "d4871cf6-b956-4414-bdb8-b777c432666c",
+        "dc567398-33e4-431d-8c03-d447fe105f40",
+        "9a32ca61-8cdf-4af5-b727-863f4500c206",
+        "70332bd3-0e44-4ab8-b0d9-6d3cca6b649a",
+        "1e5c6ace-c617-42de-9203-c6173ba71d98",
+        "a7941de8-dedd-4b0b-8175-56b0290794f1",
+        "0945dfac-3bbe-4621-a0d5-93d2a6607ac6",
+        "937f842a-fc4b-42c9-9222-53aa07d5a249"
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

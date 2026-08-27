@@ -1,0 +1,2064 @@
+{
+  "version": 1,
+  "name": "Demolition Derby",
+  "vehicleStart": {
+    "position": [
+      -0.5693598436180429,
+      0,
+      0.44743209934594047
+    ],
+    "rotation": [
+      0,
+      1.1124999999999996,
+      0
+    ],
+    "yaw": 1.1124999999999996
+  },
+  "blocks": [
+    {
+      "id": "dce4e5b8-ee0d-42a1-882a-63d5cb3620e2",
+      "name": "Car",
+      "type": "car",
+      "position": [
+        16.161343856021112,
+        0.4947428595698833,
+        3.9389496955787546
+      ],
+      "rotation": [
+        -3.141592653589793,
+        -0.2047785343664651,
+        -3.141592653589793
+      ],
+      "carBehavior": "player",
+      "destinations": [
+        [
+          0.7823869519745141,
+          17.999999999999996
+        ],
+        [
+          0.7823869519745141,
+          29.999999999999996
+        ]
+      ],
+      "tractorHitDamage": 50,
+      "carHitDamage": 10,
+      "maxSpeedMph": 26,
+      "acceleration": 8,
+      "structuralDamage": 0
+    },
+    {
+      "id": "b0a072d8-b373-487e-890c-c149cf64a5ea",
+      "name": "fake_car",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        36.08317718957192,
+        0.1429998609918015,
+        0.8414371236449558
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        0,
+        -1.3937061149149812,
+        0
+      ]
+    },
+    {
+      "id": "55b49595-af28-445e-abd6-6cc81def3b94",
+      "name": "fake_car2",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        37.08317718957192,
+        2.156296131047369,
+        5.862804816175198
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        -2.8308539380254816,
+        -1.3937061149149812,
+        0
+      ]
+    },
+    {
+      "id": "21f138ad-24a0-49db-8812-84bb7fbab4c9",
+      "name": "fake_car3",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        37.08317718957192,
+        0.8337012513956203,
+        9.278004415846649
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        -2.9250272232380627,
+        -1.305667523819522,
+        -3.141592653589793
+      ]
+    },
+    {
+      "id": "e265eb2a-a293-415a-b750-31fff8d5114d",
+      "name": "fake_car3 copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        33.42707235030518,
+        0.8337012513956203,
+        23.798622398102946
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        -3.0659906435872903,
+        -0.7295662857273744,
+        2.9828172549138583
+      ]
+    },
+    {
+      "id": "b6a843f5-2110-4394-988b-881909eff3f2",
+      "name": "fake_car copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        37.21858221063364,
+        0.1429998609918015,
+        16.19598333953391
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        3.141592653589793,
+        -1.167290559220914,
+        3.141592653589793
+      ]
+    },
+    {
+      "id": "86d0700d-8e69-4ecf-bba9-2499e5e76973",
+      "name": "fake_car2 copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        35.3003856740589,
+        2.156296131047369,
+        20.943051440020692
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        -3.0625663977963566,
+        -0.8198682751688458,
+        -0.2483504889697019
+      ]
+    },
+    {
+      "id": "d856e5b5-bef1-4787-8aba-2c09093f02f3",
+      "name": "fake_car3 copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        20.34449988076065,
+        0.8337012513956203,
+        33.74169716246612
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        -3.0847450576600415,
+        -0.13436454641746068,
+        2.9399950198466334
+      ]
+    },
+    {
+      "id": "c7f09013-7559-4e3a-b6a5-f1e386139c15",
+      "name": "fake_car copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        27.75164644888889,
+        0.1429998609918015,
+        29.581186689685964
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        3.141592653589793,
+        -0.5708820125021457,
+        3.141592653589793
+      ]
+    },
+    {
+      "id": "8544ac85-6387-45fd-9c07-06723307236d",
+      "name": "fake_car2 copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        23.498302888490272,
+        2.156296131047369,
+        32.43130985558635
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        -3.086310750840843,
+        -0.2246864707680278,
+        -0.2938503367982561
+      ]
+    },
+    {
+      "id": "7e9bb2fa-afc8-4472-b3c8-88a4836ae929",
+      "name": "fake_car3 copy copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        -19.165685755561384,
+        0.8337012513956209,
+        -33.29385863528728
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        -0.058325560675129146,
+        0.2618893128070226,
+        -0.19410421129108812
+      ]
+    },
+    {
+      "id": "cb282258-07ea-4e17-8a4e-4fed91237eda",
+      "name": "fake_car copy copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        -25.982482736815065,
+        0.14299986099180095,
+        -28.223656805752526
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        1.3106118698874892e-16,
+        0.6986179115127864,
+        -1.2790513750534224e-16
+      ]
+    },
+    {
+      "id": "6f21a644-af10-47d0-9742-4cf511385648",
+      "name": "fake_car2 copy copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        -22.126865591043742,
+        2.156296131047369,
+        -31.59238801034878
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        -0.05741953999218343,
+        0.35222023916961487,
+        2.855241472517259
+      ]
+    },
+    {
+      "id": "4556d01a-8d06-4f5d-adc6-9c4c9c571786",
+      "name": "fake_car3 copy copy copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        33.635268596669036,
+        0.8337012513956203,
+        -28.142710238408075
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        -0.08442452732799641,
+        -0.8396566951651256,
+        -0.27213443628453854
+      ]
+    },
+    {
+      "id": "33ac51f4-f241-4804-9a3b-14eb676f41ce",
+      "name": "fake_car copy copy copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        26.038787106232004,
+        0.1429998609918015,
+        -31.946542075029505
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        0,
+        -0.40512717370117957,
+        0
+      ]
+    },
+    {
+      "id": "3e023fbb-1b58-4a2d-a1d3-810b0fcf4634",
+      "name": "fake_car2 copy copy copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        30.782738792544308,
+        2.156296131047369,
+        -30.02065113795101
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        -0.0736588561457213,
+        -0.7496361319708217,
+        2.7851757538403232
+      ]
+    },
+    {
+      "id": "4c529ebe-36cb-4f32-9644-4c27ace7da33",
+      "name": "fake_car3 copy copy copy copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        -37.83081009969477,
+        0.8337012513956197,
+        -2.076548320134486
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        -0.22281999571832775,
+        1.313160280474519,
+        0.006474432799092783
+      ]
+    },
+    {
+      "id": "69b909ad-538f-4e10-a139-b9fc79709136",
+      "name": "fake_car copy copy copy copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        -36.766070611964466,
+        0.14299986099180229,
+        6.352093177705781
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        -3.1415926535897922,
+        1.3860288699352723,
+        3.141592653589792
+      ]
+    },
+    {
+      "id": "18ebfb29-d310-48fd-a9ca-d9a1381c0700",
+      "name": "fake_car2 copy copy copy copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        -37.80459103327705,
+        2.1562961310473696,
+        1.3385506339446134
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        -0.3244221784433075,
+        1.4009996238495466,
+        -3.1277008606861685
+      ]
+    },
+    {
+      "id": "ddec8838-a6dc-4fa6-9b58-161cba8197d0",
+      "name": "fake_car3 copy copy copy copy copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        -31.00642278299802,
+        0.8337012513956206,
+        21.84076074088898
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        -3.004924172926451,
+        1.1447577834908405,
+        2.807787831824437
+      ]
+    },
+    {
+      "id": "69ba3e1a-2c86-4340-8974-ae890eb165be",
+      "name": "fake_car copy copy copy copy copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        -24.913705885122074,
+        0.1429998609918014,
+        27.76144216097774
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        3.1415926535897927,
+        0.7119697708817022,
+        3.141592653589793
+      ]
+    },
+    {
+      "id": "6dc2301c-425d-4ebf-9287-eba0afeda9fe",
+      "name": "fake_car2 copy copy copy copy copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        -28.854361362334323,
+        2.1562961310473696,
+        24.492594059045892
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        -3.032114744690352,
+        1.0552614336717523,
+        -0.40152052181655173
+      ]
+    },
+    {
+      "id": "e51fe37e-b75b-4e53-a84c-823394e48c10",
+      "name": "fake_car3 copy copy copy copy copy copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        -21.10247635913304,
+        0.8337012513956197,
+        32.11506820649166
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        -3.0666362435994277,
+        0.7198993988300129,
+        2.8828998137539186
+      ]
+    },
+    {
+      "id": "8dad1bec-eda7-4bbe-a3e7-123755e17677",
+      "name": "fake_car copy copy copy copy copy copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        -13.10486808783154,
+        0.14299986099180195,
+        34.9810636033227
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        3.141592653589793,
+        0.28499086298860177,
+        3.141592653589793
+      ]
+    },
+    {
+      "id": "e31b5549-bb31-44e0-8cf2-d8d1511db321",
+      "name": "fake_car2 copy copy copy copy copy copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        -18.045440118874556,
+        2.1562961310473696,
+        33.637604817329745
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        -3.074891007568056,
+        0.6297941200024867,
+        -0.34550303446025465
+      ]
+    },
+    {
+      "id": "428ec49f-d222-42bd-84e4-d6c40e3651b4",
+      "name": "fake_car3 copy copy copy copy copy copy copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        8.011658347202747,
+        0.8337012513956205,
+        -39.46554535537909
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        -0.05644835224222005,
+        -0.06344394105776907,
+        -0.21280373348174184
+      ]
+    },
+    {
+      "id": "202ebc2c-cd59-436c-b649-44499038701a",
+      "name": "fake_car copy copy copy copy copy copy copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        -0.06950175400249847,
+        0.1429998609918013,
+        -36.84437784937426
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        2.5190304985978165e-16,
+        0.37275779444454593,
+        -2.5565423281747066e-17
+      ]
+    },
+    {
+      "id": "d47d2b80-0a22-45ec-856b-4886d5e9037b",
+      "name": "fake_car2 copy copy copy copy copy copy copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        4.661627259154324,
+        2.156296131047369,
+        -38.80155739260791
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        -0.053910431415475635,
+        0.026855488464314608,
+        2.836862550987664
+      ]
+    },
+    {
+      "id": "d14ffda4-a475-4464-bba7-f85ebff2585b",
+      "name": "fake_car3 copy copy copy copy copy copy copy copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        -31.626476386720398,
+        0.8337012513956207,
+        -19.259428557168935
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        -0.08887716280903822,
+        0.8836312808802369,
+        -0.14044195293702036
+      ]
+    },
+    {
+      "id": "26d46429-e033-4e14-bf78-53000e0e9475",
+      "name": "fake_car copy copy copy copy copy copy copy copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        -34.20221993714158,
+        0.14299986099180106,
+        -11.163675791779507
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        1.1020932686984017e-15,
+        1.321872557673569,
+        -1.0618722344852947e-15
+      ]
+    },
+    {
+      "id": "5a5d3fb1-e9f7-41c9-90ae-6319f5569c26",
+      "name": "fake_car2 copy copy copy copy copy copy copy copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        -33.03778831033383,
+        2.1562961310473696,
+        -16.149478885572528
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        -0.09597424962332278,
+        0.9738667348204503,
+        2.914867509988418
+      ]
+    },
+    {
+      "id": "003b3f68-f60b-40f6-a871-db8ffa2357af",
+      "name": "fake_car3 copy copy copy copy copy copy copy copy copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        6.824733056527762,
+        0.8337012513956201,
+        34.21028715475046
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        -3.084121104095471,
+        0.19912807396686927,
+        2.920990854852904
+      ]
+    },
+    {
+      "id": "77eec8a8-bf34-4cd5-8123-25486b8d8f34",
+      "name": "fake_car copy copy copy copy copy copy copy copy copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        15.186510203226984,
+        0.14299986099180173,
+        32.708171771437435
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        3.141592653589793,
+        -0.23685394938406462,
+        3.141592653589793
+      ]
+    },
+    {
+      "id": "227bc6d2-98dd-4778-8e1f-76acbca3c16d",
+      "name": "fake_car2 copy copy copy copy copy copy copy copy copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        10.233835429731496,
+        2.156296131047369,
+        34.0063035411618
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        -3.087380521625345,
+        0.10885041800356948,
+        -0.3120741978027017
+      ]
+    },
+    {
+      "id": "da10ecfd-8c64-4aa4-873a-2343348de3fe",
+      "name": "fake_car3 copy copy copy copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        39.65779687257297,
+        0.8337012513956203,
+        -13.601578730282231
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        -2.9807819932047956,
+        -1.211468470928155,
+        3.08307178181654
+      ]
+    },
+    {
+      "id": "795c4e59-0687-4e0e-b464-c9d308be1321",
+      "name": "fake_car copy copy copy copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        39.4698911240751,
+        0.1429998609918015,
+        -22.0951268172438
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        6.3292242473771e-17,
+        -1.4895675132926527,
+        6.297582747179316e-17
+      ]
+    },
+    {
+      "id": "48664bae-3b63-47c7-804f-55b9f2bb14aa",
+      "name": "fake_car2 copy copy copy copy copy",
+      "type": "asset",
+      "asset": "car.glb",
+      "position": [
+        39.984681498657764,
+        2.156296131047369,
+        -17.001098512078688
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        -2.938205081765611,
+        -1.3008565270248906,
+        -0.10996586805362596
+      ]
+    },
+    {
+      "id": "c5d053bc-21b9-44af-be10-a1de69e96ef1",
+      "name": "Block",
+      "type": "box",
+      "position": [
+        -5.256774291384886,
+        0.9550147466626191,
+        36.08610102024214
+      ],
+      "size": [
+        1,
+        2,
+        9
+      ],
+      "rotation": [
+        0,
+        1.2338012681903905,
+        0
+      ],
+      "color": "#808080",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 10
+    },
+    {
+      "id": "a744f969-d032-4706-a597-f2fa2571e5f4",
+      "name": "Block copy",
+      "type": "box",
+      "position": [
+        2.706378804197278,
+        1.1612413781619173,
+        37.08610102024214
+      ],
+      "size": [
+        1,
+        2,
+        9
+      ],
+      "rotation": [
+        -3.141592653589793,
+        1.1947298950957579,
+        -3.141592653589793
+      ],
+      "color": "#808080",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "6f6a3763-0511-4bbf-8a47-d69771c5069e",
+      "name": "Block copy copy",
+      "type": "box",
+      "position": [
+        -32.60713603412283,
+        1.1612413781619173,
+        14.368945374915974
+      ],
+      "size": [
+        1,
+        2,
+        9
+      ],
+      "rotation": [
+        0,
+        0.08856966961023534,
+        0
+      ],
+      "color": "#808080",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 10
+    },
+    {
+      "id": "8c04b768-a111-4476-b7db-113fe4700a07",
+      "name": "Block copy copy copy",
+      "type": "box",
+      "position": [
+        -31.60713603412283,
+        1.1612413781619173,
+        11.117159625404662
+      ],
+      "size": [
+        1,
+        2,
+        9
+      ],
+      "rotation": [
+        0,
+        0.4714226123681814,
+        0
+      ],
+      "color": "#808080",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 10
+    },
+    {
+      "id": "70a87597-955e-4bec-a528-b2d02b7a35ee",
+      "name": "Block copy copy copy copy",
+      "type": "box",
+      "position": [
+        -34.33323543503319,
+        1.1612413781619173,
+        -3.3070618083645176
+      ],
+      "size": [
+        1,
+        2,
+        9
+      ],
+      "rotation": [
+        -3.141592653589793,
+        0.1390089660151462,
+        -3.141592653589793
+      ],
+      "color": "#808080",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 10
+    },
+    {
+      "id": "3d578c1e-2fcd-4547-92f7-e953f0c2ab10",
+      "name": "Block copy copy copy copy copy",
+      "type": "box",
+      "position": [
+        -29.60713603412283,
+        1.1612413781619173,
+        -23.56139375285003
+      ],
+      "size": [
+        1,
+        2,
+        9
+      ],
+      "rotation": [
+        -3.141592653589793,
+        0.4189284210244451,
+        -3.141592653589793
+      ],
+      "color": "#808080",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "e6c7f77a-ce8e-449c-960a-b0671bfa4a61",
+      "name": "Block copy copy copy copy copy copy",
+      "type": "box",
+      "position": [
+        -9.278475998031567,
+        1.1612413781619173,
+        -38.714945932058
+      ],
+      "size": [
+        1,
+        2,
+        9
+      ],
+      "rotation": [
+        -3.141592653589793,
+        1.19961747340703,
+        -3.141592653589793
+      ],
+      "color": "#808080",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 10
+    },
+    {
+      "id": "3685bef0-4a42-451a-97d9-aee856d6c17a",
+      "name": "Block copy copy copy copy copy copy copy",
+      "type": "box",
+      "position": [
+        -15.71217781711376,
+        1.1612413781619173,
+        -37.714945932058
+      ],
+      "size": [
+        1,
+        2,
+        9
+      ],
+      "rotation": [
+        0,
+        1.2338012681903905,
+        0
+      ],
+      "color": "#808080",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 10
+    },
+    {
+      "id": "fbaa8acd-f269-435f-824f-f09d15779846",
+      "name": "Block copy copy copy copy copy copy copy copy",
+      "type": "box",
+      "position": [
+        18.96160568588894,
+        1.1612413781619173,
+        -36.714945932058
+      ],
+      "size": [
+        1,
+        2,
+        9
+      ],
+      "rotation": [
+        0,
+        1.0589367300974246,
+        0
+      ],
+      "color": "#808080",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 10
+    },
+    {
+      "id": "7a80afd6-10c0-44cd-9d59-4a8bf8bbaa8f",
+      "name": "Block copy copy copy copy copy copy copy copy copy",
+      "type": "box",
+      "position": [
+        11.04130314651854,
+        1.1612413781619173,
+        -35.714945932058
+      ],
+      "size": [
+        1,
+        2,
+        9
+      ],
+      "rotation": [
+        0,
+        1.2338012681903905,
+        0
+      ],
+      "color": "#808080",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 10
+    },
+    {
+      "id": "bcc6116a-2689-483a-8b95-f2233344c263",
+      "name": "Block copy copy copy copy copy copy copy copy copy copy",
+      "type": "box",
+      "position": [
+        35.69381601632658,
+        1.1612413781619173,
+        -10.0320643424742
+      ],
+      "size": [
+        1,
+        2,
+        9
+      ],
+      "rotation": [
+        0,
+        0.16059212921338242,
+        0
+      ],
+      "color": "#808080",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 10
+    },
+    {
+      "id": "42f5b0c9-64ec-4c38-9391-3f61110f8935",
+      "name": "Block copy copy copy copy copy copy copy copy copy copy copy",
+      "type": "box",
+      "position": [
+        36.69381601632658,
+        1.1612413781619173,
+        -1.3369284066464378
+      ],
+      "size": [
+        1,
+        2,
+        9
+      ],
+      "rotation": [
+        0,
+        -0.3658297811313978,
+        0
+      ],
+      "color": "#808080",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "7eded861-5c15-4859-9671-296bd697a271",
+      "name": "Block copy copy copy copy copy copy copy copy copy copy copy copy",
+      "type": "box",
+      "position": [
+        37.69381601632658,
+        1.1612413781619173,
+        -25.977502218834815
+      ],
+      "size": [
+        1,
+        2,
+        9
+      ],
+      "rotation": [
+        0,
+        0.47602065745914124,
+        0
+      ],
+      "color": "#808080",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "9307b2fa-b4c6-4d8b-bf48-a06388aa04e2",
+      "name": "Block copy copy copy copy copy copy copy copy copy copy copy copy copy",
+      "type": "box",
+      "position": [
+        32.36310980384039,
+        1.1612413781619173,
+        27.293921362600763
+      ],
+      "size": [
+        1,
+        2,
+        9
+      ],
+      "rotation": [
+        -3.141592653589793,
+        0.5320588044750832,
+        -3.141592653589793
+      ],
+      "color": "#808080",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 10
+    },
+    {
+      "id": "ff4288ab-4377-4184-93b0-ef8560bf5195",
+      "name": "Block_invis",
+      "type": "box",
+      "position": [
+        18.35569977824241,
+        1.1612413781619173,
+        33.70915769778853
+      ],
+      "size": [
+        1,
+        2,
+        30.7
+      ],
+      "rotation": [
+        -3.1415926535897927,
+        1.3704078637264938,
+        3.141592653589793
+      ],
+      "color": "#ff0000",
+      "sign": null,
+      "invisible": true,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 10
+    },
+    {
+      "id": "a2e38d97-b53b-4970-bc5b-1729ffab7ac2",
+      "name": "Block_invis copy",
+      "type": "box",
+      "position": [
+        25.992800555670307,
+        1.1612413781619173,
+        -32.082913248003166
+      ],
+      "size": [
+        1,
+        2,
+        30.7
+      ],
+      "rotation": [
+        -2.294913502381863e-16,
+        1.0929498874340435,
+        3.883774800464207e-16
+      ],
+      "color": "#ff0000",
+      "sign": null,
+      "invisible": true,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 10
+    },
+    {
+      "id": "09c82404-bd94-4da7-9b2b-337a45226a51",
+      "name": "Block_invis copy",
+      "type": "box",
+      "position": [
+        -24.058431130229213,
+        1.1612413781619173,
+        27.640496293800826
+      ],
+      "size": [
+        1,
+        2,
+        30.7
+      ],
+      "rotation": [
+        -3.141592653589793,
+        -0.8666258423012854,
+        -3.141592653589793
+      ],
+      "color": "#ff0000",
+      "sign": null,
+      "invisible": true,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 10
+    },
+    {
+      "id": "6ca0707f-2f84-4c22-adc1-f3d56fafca44",
+      "name": "Block_invis copy copy",
+      "type": "box",
+      "position": [
+        -14.66585668533497,
+        1.1612413781619173,
+        34.09350946177996
+      ],
+      "size": [
+        1,
+        2,
+        30.7
+      ],
+      "rotation": [
+        -3.229134679728235e-16,
+        1.2378557935901047,
+        4.897728702348454e-16
+      ],
+      "color": "#ff0000",
+      "sign": null,
+      "invisible": true,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 10
+    },
+    {
+      "id": "6398c50d-550b-4b37-b134-bf4cef50dcb6",
+      "name": "Block_invis copy copy copy",
+      "type": "box",
+      "position": [
+        -22.867490162170625,
+        1.1612413781619173,
+        -30.914117401097364
+      ],
+      "size": [
+        1,
+        2,
+        30.7
+      ],
+      "rotation": [
+        -3.141592653589793,
+        0.9708325596551096,
+        -3.141592653589793
+      ],
+      "color": "#ff0000",
+      "sign": null,
+      "invisible": true,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 10
+    },
+    {
+      "id": "85cc3a92-90d7-4af3-8ec1-39dca002dd3d",
+      "name": "Block_invis copy copy copy copy",
+      "type": "box",
+      "position": [
+        -30.217226757894217,
+        1.1612413781619173,
+        -19.627723174133628
+      ],
+      "size": [
+        1,
+        2,
+        30.7
+      ],
+      "rotation": [
+        -3.141592653589793,
+        0.5320588044750832,
+        -3.141592653589793
+      ],
+      "color": "#ff0000",
+      "sign": null,
+      "invisible": true,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 10
+    },
+    {
+      "id": "4ea9217e-d015-425b-bf7f-cbdd26a2528c",
+      "name": "Block_invis copy copy copy copy copy",
+      "type": "box",
+      "position": [
+        -36.151176290097666,
+        1.1612413781619173,
+        3.2052004372045353
+      ],
+      "size": [
+        1,
+        2,
+        30.7
+      ],
+      "rotation": [
+        -3.141592653589793,
+        -0.16512116581245465,
+        -3.141592653589793
+      ],
+      "color": "#ff0000",
+      "sign": null,
+      "invisible": true,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 10
+    },
+    {
+      "id": "3dddb56e-cc9f-4dd6-bd02-c0b6b09c3bb8",
+      "name": "Block_invis copy copy copy copy copy copy",
+      "type": "box",
+      "position": [
+        37.74094369718918,
+        1.1612413781619173,
+        4.205200437204535
+      ],
+      "size": [
+        1,
+        2,
+        30.7
+      ],
+      "rotation": [
+        -3.141592653589793,
+        0.0274669934277376,
+        -3.141592653589793
+      ],
+      "color": "#ff0000",
+      "sign": null,
+      "invisible": true,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 10
+    },
+    {
+      "id": "1735cf9f-c251-473d-9e28-3bcad628434d",
+      "name": "Block_invis copy copy copy copy copy copy copy",
+      "type": "box",
+      "position": [
+        37.35574986053315,
+        1.1612413781619173,
+        15.59296647503831
+      ],
+      "size": [
+        1,
+        2,
+        30.7
+      ],
+      "rotation": [
+        -3.141592653589793,
+        0.36281891340442457,
+        -3.141592653589793
+      ],
+      "color": "#ff0000",
+      "sign": null,
+      "invisible": true,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 10
+    },
+    {
+      "id": "79ede7c9-fa82-400c-b83f-40180a99d37e",
+      "name": "Block_invis copy copy copy copy copy copy copy copy",
+      "type": "box",
+      "position": [
+        41.09991330405374,
+        1.1612413781619173,
+        -23.816126063578402
+      ],
+      "size": [
+        1,
+        2,
+        30.7
+      ],
+      "rotation": [
+        -3.141592653589793,
+        0.3531222387021382,
+        -3.141592653589793
+      ],
+      "color": "#ff0000",
+      "sign": null,
+      "invisible": true,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 10
+    },
+    {
+      "id": "40467a84-7473-422b-b942-05f8d581d079",
+      "name": "Block_invis copy copy copy copy",
+      "type": "box",
+      "position": [
+        -1.1409092920696082,
+        1.1612413781619173,
+        -38.76418278176878
+      ],
+      "size": [
+        1,
+        2,
+        30.7
+      ],
+      "rotation": [
+        -3.141592653589792,
+        1.5221821413298697,
+        3.1415926535897922
+      ],
+      "color": "#ff0000",
+      "sign": null,
+      "invisible": true,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 10
+    },
+    {
+      "id": "29c4560b-806b-4ff4-985c-b7b7809e1d17",
+      "name": "Car copy",
+      "type": "car",
+      "position": [
+        -20.3417680264133,
+        0.4947428595698833,
+        4.938949695578755
+      ],
+      "rotation": [
+        -3.141592653589793,
+        -0.2047785343664651,
+        -3.141592653589793
+      ],
+      "carBehavior": "player",
+      "destinations": [
+        [
+          0.7823869519745141,
+          17.999999999999996
+        ],
+        [
+          0.7823869519745141,
+          29.999999999999996
+        ]
+      ],
+      "tractorHitDamage": 20,
+      "carHitDamage": 5,
+      "maxSpeedMph": 20,
+      "acceleration": 5,
+      "structuralDamage": 0
+    },
+    {
+      "id": "4103ddf0-73bb-4760-bf7e-70c1b7ca91b1",
+      "name": "Car copy copy",
+      "type": "car",
+      "position": [
+        2.0370714355144024,
+        0.4947428595698833,
+        21.289915351805625
+      ],
+      "rotation": [
+        -3.141592653589793,
+        -0.2047785343664651,
+        -3.141592653589793
+      ],
+      "carBehavior": "player",
+      "destinations": [
+        [
+          0.7823869519745141,
+          17.999999999999996
+        ],
+        [
+          0.7823869519745141,
+          29.999999999999996
+        ]
+      ],
+      "tractorHitDamage": 50,
+      "carHitDamage": 20,
+      "maxSpeedMph": 18,
+      "acceleration": 5,
+      "structuralDamage": 0
+    },
+    {
+      "id": "b76c3d62-567b-4a65-a770-20404b3df58f",
+      "name": "Block",
+      "type": "box",
+      "position": [
+        8.961220527659995,
+        0.27657298904181005,
+        18.150898299853488
+      ],
+      "size": [
+        4.9,
+        4.6,
+        4.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c5b234",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "c93f0286-dc47-4178-b3e4-06f1ef0318b6",
+      "name": "Nitrous oxide",
+      "type": "nitro",
+      "position": [
+        9.203810911924332,
+        2.8134028216815867,
+        18.054991054928223
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "structuralDamage": 0
+    },
+    {
+      "id": "b004952b-7ecb-4013-bae6-a92a3a93dfee",
+      "name": "Block",
+      "type": "box",
+      "position": [
+        8.311570091417776,
+        1.0571784420307453,
+        10.760706330587
+      ],
+      "size": [
+        1,
+        0.5,
+        10.6
+      ],
+      "rotation": [
+        -0.2617993877991494,
+        0,
+        0
+      ],
+      "color": "#c67a34",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "d4824818-fbc1-46a6-9cc6-cb633326002c",
+      "name": "Block copy",
+      "type": "box",
+      "position": [
+        9.446464048305081,
+        0.9734397770167065,
+        10.810281797167033
+      ],
+      "size": [
+        1,
+        0.5,
+        10.6
+      ],
+      "rotation": [
+        -0.2617993877991494,
+        0,
+        0
+      ],
+      "color": "#c67a34",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "3a2b7d0d-36c3-46df-83b4-89227ba470e1",
+      "name": "Block",
+      "type": "box",
+      "position": [
+        -9.278053432064455,
+        0.3518186780663708,
+        -11.866106118444044
+      ],
+      "size": [
+        3,
+        1,
+        3
+      ],
+      "rotation": [
+        0,
+        0.6755936656357082,
+        0
+      ],
+      "color": "#ff0000",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 5
+    },
+    {
+      "id": "af97986d-1572-4c86-9e28-6f78d40fd277",
+      "name": "Block",
+      "type": "box",
+      "position": [
+        13.984265316353243,
+        0.517901512431985,
+        -10.600990599578568
+      ],
+      "size": [
+        1,
+        3.9,
+        0.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#444241",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": true,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "f5e7d6f2-b482-405a-9500-1c7518e1a29d",
+      "name": "Block",
+      "type": "box",
+      "position": [
+        6.695079565475687,
+        1.9136333400121235,
+        -22.245537482030706
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#ff0000",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": true,
+      "massKg": 25,
+      "structuralDamage": 10
+    },
+    {
+      "id": "ecea1b30-556b-4314-9b7f-b41e78b05b2f",
+      "name": "Block",
+      "type": "box",
+      "position": [
+        23.727289545786327,
+        0.5204696778846145,
+        -5.28821138520008
+      ],
+      "size": [
+        2.7,
+        0.3,
+        8.2
+      ],
+      "rotation": [
+        -0.3187574593368812,
+        0,
+        0
+      ],
+      "color": "#001eff",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "baabf088-ac30-4750-b2ae-5e5bba684c70",
+      "name": "Block",
+      "type": "box",
+      "position": [
+        23.622858058864995,
+        0.4558640891396166,
+        -1.4219967595575667
+      ],
+      "size": [
+        2.6,
+        1.9,
+        1.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#ff0000",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 10
+    },
+    {
+      "id": "14391e45-f9c6-4a47-837f-9ac58c80b875",
+      "name": "Block",
+      "type": "box",
+      "position": [
+        24.082889751463238,
+        0.4093925095446308,
+        5.598819159867004
+      ],
+      "size": [
+        4.2,
+        1.4,
+        5.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#737373",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "307767e1-4ab8-4a30-898f-c2e1ebea2da9",
+      "name": "Threshold",
+      "type": "threshold",
+      "position": [
+        24.177555085177353,
+        2.186374948732844,
+        4.530737752433353
+      ],
+      "size": [
+        4,
+        2.5,
+        0.08
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "thresholdAction": "maneuver-start",
+      "initiallyActive": true,
+      "message": "",
+      "messageDuration": 3,
+      "stopDuration": 2,
+      "objectChanges": [],
+      "chunkChanges": []
+    },
+    {
+      "id": "82202a92-519b-448b-ad37-92026fc1d385",
+      "name": "Block",
+      "type": "box",
+      "position": [
+        24.128841721329728,
+        3.9106859000408822,
+        4.5443475171478305
+      ],
+      "size": [
+        4,
+        1.2,
+        0.05
+      ],
+      "rotation": [
+        0,
+        3.141592653589793,
+        0
+      ],
+      "color": "#000000",
+      "sign": {
+        "type": "text",
+        "text": "FIX TRACTOR"
+      },
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    }
+  ],
+  "groups": [
+    {
+      "id": "fc506a87-235c-4836-b7a1-5f8c72f9e0ff",
+      "name": "car_boundary_group",
+      "objectIds": [
+        "21f138ad-24a0-49db-8812-84bb7fbab4c9",
+        "b0a072d8-b373-487e-890c-c149cf64a5ea",
+        "55b49595-af28-445e-abd6-6cc81def3b94"
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "daecc926-10c8-4fff-a037-cf550f2fe500",
+      "name": "car_boundary_group copy",
+      "objectIds": [
+        "e265eb2a-a293-415a-b750-31fff8d5114d",
+        "b6a843f5-2110-4394-988b-881909eff3f2",
+        "86d0700d-8e69-4ecf-bba9-2499e5e76973"
+      ],
+      "rotation": [
+        0,
+        -0.5805959794538467,
+        0
+      ]
+    },
+    {
+      "id": "df12cc5c-d862-40f3-8279-8d1c6132f503",
+      "name": "car_boundary_group copy copy",
+      "objectIds": [
+        "d856e5b5-bef1-4787-8aba-2c09093f02f3",
+        "c7f09013-7559-4e3a-b6a5-f1e386139c15",
+        "8544ac85-6387-45fd-9c07-06723307236d"
+      ],
+      "rotation": [
+        0,
+        -1.1770045261726583,
+        0
+      ]
+    },
+    {
+      "id": "cfc94676-9596-41d9-ba78-816dfeebf61d",
+      "name": "car_boundary_group copy copy copy",
+      "objectIds": [
+        "7e9bb2fa-afc8-4472-b3c8-88a4836ae929",
+        "cb282258-07ea-4e17-8a4e-4fed91237eda",
+        "6f21a644-af10-47d0-9742-4cf511385648"
+      ],
+      "rotation": [
+        -3.141592653589793,
+        1.0492686271620122,
+        -3.141592653589793
+      ]
+    },
+    {
+      "id": "5fca2bd8-1a25-45fa-a678-59cc657cc6a3",
+      "name": "car_boundary_group copy copy copy copy",
+      "objectIds": [
+        "4556d01a-8d06-4f5d-adc6-9c4c9c571786",
+        "33ac51f4-f241-4804-9a3b-14eb676f41ce",
+        "3e023fbb-1b58-4a2d-a1d3-810b0fcf4634"
+      ],
+      "rotation": [
+        0,
+        0.9885789412138017,
+        0
+      ]
+    },
+    {
+      "id": "4a5223e2-e759-43f2-92a9-b7dab88525be",
+      "name": "car_boundary_group copy copy copy copy copy",
+      "objectIds": [
+        "4c529ebe-36cb-4f32-9644-4c27ace7da33",
+        "69b909ad-538f-4e10-a139-b9fc79709136",
+        "18ebfb29-d310-48fd-a9ca-d9a1381c0700"
+      ],
+      "rotation": [
+        3.141592653589793,
+        -0.0076772449788983345,
+        3.141592653589793
+      ]
+    },
+    {
+      "id": "c2b77911-370f-48bb-8a5b-47283e03b683",
+      "name": "car_boundary_group copy copy copy copy copy copy",
+      "objectIds": [
+        "ddec8838-a6dc-4fa6-9b58-161cba8197d0",
+        "69ba3e1a-2c86-4340-8974-ae890eb165be",
+        "6dc2301c-425d-4ebf-9287-eba0afeda9fe"
+      ],
+      "rotation": [
+        -3.141592653589793,
+        -0.6817363440332839,
+        -3.141592653589793
+      ]
+    },
+    {
+      "id": "6cfe4d6a-db80-4721-b22d-29cf955c3fbf",
+      "name": "car_boundary_group copy copy copy copy copy copy copy",
+      "objectIds": [
+        "e51fe37e-b75b-4e53-a84c-823394e48c10",
+        "8dad1bec-eda7-4bbe-a3e7-123755e17677",
+        "e31b5549-bb31-44e0-8cf2-d8d1511db321"
+      ],
+      "rotation": [
+        3.141592653589793,
+        -1.1087152519263699,
+        3.141592653589793
+      ]
+    },
+    {
+      "id": "80c09f4f-00b3-4ecf-81da-9254090d728a",
+      "name": "car_boundary_group copy copy copy copy copy copy copy copy",
+      "objectIds": [
+        "428ec49f-d222-42bd-84e4-d6c40e3651b4",
+        "202ebc2c-cd59-436c-b649-44499038701a",
+        "d47d2b80-0a22-45ec-856b-4886d5e9037b"
+      ],
+      "rotation": [
+        -3.141592653589793,
+        1.375128744230268,
+        -3.141592653589793
+      ]
+    },
+    {
+      "id": "559793d0-37d6-407f-88fe-604d13606bb9",
+      "name": "car_boundary_group copy copy copy copy copy copy copy copy copy",
+      "objectIds": [
+        "d14ffda4-a475-4464-bba7-f85ebff2585b",
+        "26d46429-e033-4e14-bf78-53000e0e9475",
+        "5a5d3fb1-e9f7-41c9-90ae-6319f5569c26"
+      ],
+      "rotation": [
+        -3.141592653589793,
+        0.42601398100130955,
+        -3.141592653589793
+      ]
+    },
+    {
+      "id": "b8aa9856-11ca-4a75-a072-f8597a209465",
+      "name": "car_boundary_group copy copy copy copy copy copy copy copy copy copy",
+      "objectIds": [
+        "003b3f68-f60b-40f6-a871-db8ffa2357af",
+        "77eec8a8-bf34-4cd5-8123-25486b8d8f34",
+        "227bc6d2-98dd-4778-8e1f-76acbca3c16d"
+      ],
+      "rotation": [
+        0,
+        -1.511032589290745,
+        0
+      ]
+    },
+    {
+      "id": "3d0964a8-c230-4c7c-9dfb-8f40a6dfc4a8",
+      "name": "car_boundary_group copy copy copy copy copy",
+      "objectIds": [
+        "da10ecfd-8c64-4aa4-873a-2343348de3fe",
+        "795c4e59-0687-4e0e-b464-c9d308be1321",
+        "48664bae-3b63-47c7-804f-55b9f2bb14aa"
+      ],
+      "rotation": [
+        0,
+        -0.09586139837766368,
+        0
+      ]
+    }
+  ]
+}

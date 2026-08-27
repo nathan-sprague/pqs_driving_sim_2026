@@ -1,0 +1,7 @@
+export const POST_BASE_SIZE = [0.1, 0.8, 0.1];
+export const POST_POLE_RADIUS = 0.03;
+export const POST_POLE_HEIGHT = 0.7;
+export const POST_POLE_CENTER_Y = POST_BASE_SIZE[1] + POST_POLE_HEIGHT / 2;
+export const POST_BALL_RADIUS = 0.04;
+export const POST_BALL_CENTER_Y = POST_BASE_SIZE[1] + POST_POLE_HEIGHT + POST_BALL_RADIUS;
+export const POST_CENTER_OF_MASS_Y = 0.6;

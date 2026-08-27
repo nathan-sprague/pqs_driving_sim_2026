@@ -1,0 +1,288 @@
+{
+  "version": 1,
+  "name": "Parkour",
+  "vehicleStart": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "yaw": 0
+  },
+  "blocks": [
+    {
+      "id": "98939375-9bcc-4433-837f-483270d6b940",
+      "name": "Nitrous oxide",
+      "type": "nitro",
+      "position": [
+        4.978227296313458,
+        0.15178170898889087,
+        0.4310286189041892
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "structuralDamage": 0
+    },
+    {
+      "id": "69175014-16bf-4550-b534-8a71dffd325e",
+      "name": "Block",
+      "type": "box",
+      "position": [
+        13.358248711827313,
+        0.700179752925175,
+        0.11564484518114959
+      ],
+      "size": [
+        7.1,
+        0.3,
+        2.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0.2617993877991494
+      ],
+      "color": "#c67a34",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "6eb95840-cccf-47f6-af1b-c2cfd474d0e3",
+      "name": "Block",
+      "type": "box",
+      "position": [
+        22.344229559666584,
+        0.4620457354326375,
+        -0.7024701648254623
+      ],
+      "size": [
+        6.1,
+        1,
+        5.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c67a34",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "abd5e6f6-7e1f-43fe-b465-e5b4c5127c55",
+      "name": "Block copy",
+      "type": "box",
+      "position": [
+        21.86688890281901,
+        1.6533107368461253,
+        -6.39775918376684
+      ],
+      "size": [
+        7.1,
+        0.3,
+        2.3
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0.2617993877991494
+      ],
+      "color": "#c67a34",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "85f0f673-65e0-48d5-9b7e-765ceac560ce",
+      "name": "Block copy copy",
+      "type": "box",
+      "position": [
+        21.65335419679391,
+        2.656857069019881,
+        -13.629871701419246
+      ],
+      "size": [
+        7.1,
+        0.3,
+        2.3
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0.2617993877991494
+      ],
+      "color": "#c67a34",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "9c845fc7-d0e1-4980-b616-8ae7b599a71f",
+      "name": "Block copy copy copy",
+      "type": "box",
+      "position": [
+        19.961417259820568,
+        3.8358475762593534,
+        -21.27246569969291
+      ],
+      "size": [
+        7.1,
+        0.3,
+        2.3
+      ],
+      "rotation": [
+        -3.141592653589793,
+        0.9127750683425766,
+        -2.879793265790644
+      ],
+      "color": "#c67a34",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "dd6f6226-cad1-42a9-81d1-b06cb4005d5f",
+      "name": "Block copy copy copy copy",
+      "type": "box",
+      "position": [
+        17.969096245926305,
+        3.8358475762593534,
+        -26.26136436967821
+      ],
+      "size": [
+        7.1,
+        0.3,
+        1
+      ],
+      "rotation": [
+        -3.1237016364226147,
+        -0.6351079810912448,
+        3.027342337517872
+      ],
+      "color": "#c67a34",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "d6b89f3a-16ab-4431-a00a-a70fe3d4fa70",
+      "name": "Block copy copy copy copy copy",
+      "type": "box",
+      "position": [
+        16.800143210894532,
+        3.8358475762593534,
+        -27.137187840772206
+      ],
+      "size": [
+        7.1,
+        0.3,
+        1
+      ],
+      "rotation": [
+        -3.1237016364226147,
+        -0.6351079810912448,
+        -3.0281462522101616
+      ],
+      "color": "#c67a34",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "6eb958dd-e182-4e5f-8fd5-abe1b22d200a",
+      "name": "Block copy copy copy copy copy",
+      "type": "box",
+      "position": [
+        15.893590647235898,
+        3.2129874697308614,
+        -27.969602599642617
+      ],
+      "size": [
+        7.1,
+        0.3,
+        1
+      ],
+      "rotation": [
+        -3.1237016364226147,
+        -0.6351079810912448,
+        3.027342337517872
+      ],
+      "color": "#c67a34",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    },
+    {
+      "id": "d5d2566d-a483-428b-a21e-c31f3e23ffde",
+      "name": "Block",
+      "type": "box",
+      "position": [
+        12.418012040865404,
+        2.2142283494382724,
+        -30.60270068940213
+      ],
+      "size": [
+        4.8,
+        1.2,
+        6.6
+      ],
+      "rotation": [
+        0,
+        0.9075712110370514,
+        0
+      ],
+      "color": "#c67a34",
+      "sign": null,
+      "invisible": false,
+      "initiallyActive": true,
+      "castShadow": true,
+      "movable": false,
+      "massKg": 25,
+      "structuralDamage": 0
+    }
+  ],
+  "groups": []
+}

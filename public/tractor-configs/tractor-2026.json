@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 4,
+  "name": "tractor_2026",
+  "specs": {
+    "massLb": 900,
+    "powerHp": 34,
+    "topSpeedMph": 5,
+    "durability": 100,
+    "centerOfMassInches": [16.61, 22.83, 0],
+    "transmission": "automatic",
+    "lengthMetres": 3,
+    "widthMetres": 1.05
+  },
+  "tractor": {
+    "position": [
+      0,
+      -0.042895,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      -0.030353
+    ]
+  },
+  "parts": {
+    "seat": {
+      "file": "/assets/models/tractor/seat/seat.glb",
+      "position": [
+        -0.614368,
+        0.74353,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "front-wheel": {
+      "file": "/assets/models/tractor/front_wheel/front_wheel.glb",
+      "position": [
+        1.36286,
+        0.317947,
+        0.382805
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "front-wheel-2": {
+      "file": "/assets/models/tractor/front_wheel/front_wheel.glb",
+      "position": [
+        1.347107,
+        0.308665,
+        -0.420963
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "rear-wheel": {
+      "file": "/assets/models/tractor/rear_wheel/rear_wheel.glb",
+      "position": [
+        -0.500196,
+        0.334779,
+        0.356643
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "rear-wheel-2": {
+      "file": "/assets/models/tractor/rear_wheel/rear_wheel.glb",
+      "position": [
+        -0.513307,
+        0.352188,
+        -0.398672
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "joystick": {
+      "file": "/assets/models/tractor/joysticks/joystick.glb",
+      "position": [
+        -0.240093,
+        -0.072384,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "2026-tractor-body": {
+      "file": "/assets/models/tractor/bodies/2026_tractor_body.glb",
+      "position": [
+        -0.514015,
+        0.346795,
+        0
+      ],
+      "rotation": [
+        0,
+        1.570796,
+        0
+      ]
+    }
+  },
+  "eyeLevel": {
+    "position": [
+      -0.3,
+      1.601084,
+      0
+    ],
+    "rotation": [
+      0,
+      1.570796,
+      0
+    ],
+    "personVisible": false
+  },
+  "display": {
+    "position": [
+      0.302,
+      0.991,
+      -0.002854
+    ],
+    "rotation": [
+      0,
+      -1.570796,
+      0
+    ],
+    "scale": [
+      0.63,
+      0.62,
+      0.46
+    ]
+  }
+}

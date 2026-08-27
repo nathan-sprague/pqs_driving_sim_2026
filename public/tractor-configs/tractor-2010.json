@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 4,
+  "name": "tractor_2010",
+  "tractor": {
+    "position": [
+      -0.050364,
+      0.09,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0.010472
+    ]
+  },
+  "parts": {
+    "rear-wheel": {
+      "file": "/assets/models/tractor/rear_wheel/rear_wheel.glb",
+      "position": [
+        0,
+        0.215565,
+        -0.467001
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "rear-wheel-2": {
+      "file": "/assets/models/tractor/rear_wheel/rear_wheel.glb",
+      "position": [
+        0,
+        0.212099,
+        0.500312
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "2010-tractor-body": {
+      "file": "/assets/models/tractor/bodies/2010_tractor_body.glb",
+      "position": [
+        0,
+        0.210096,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "front-wheel": {
+      "file": "/assets/models/tractor/front_wheel/front_wheel.glb",
+      "position": [
+        1.707636,
+        0.030422,
+        -0.391253
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "front-wheel-2": {
+      "file": "/assets/models/tractor/front_wheel/front_wheel.glb",
+      "position": [
+        1.714525,
+        0.02904,
+        0.41308
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "eyeLevel": {
+    "position": [
+      0.306601,
+      1.528662,
+      0
+    ],
+    "rotation": [
+      0,
+      1.570796,
+      0
+    ],
+    "personVisible": true
+  },
+  "display": null
+}

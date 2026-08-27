@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 4,
+  "name": "tractor_2019",
+  "specs": {
+    "massLb": 950,
+    "powerHp": 34,
+    "topSpeedMph": 6,
+    "durability": 92,
+    "centerOfMassInches": [17, 23.5, 0],
+    "transmission": "automatic",
+    "lengthMetres": 3.05,
+    "widthMetres": 1.1
+  },
+  "tractor": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ]
+  },
+  "parts": {
+    "31hp-briggs": {
+      "file": "/assets/models/tractor/engine/31hp_briggs.glb",
+      "position": [
+        -0.538152,
+        0.392651,
+        0.013899
+      ],
+      "rotation": [
+        0,
+        1.570796,
+        0
+      ]
+    },
+    "front-wheel2": {
+      "file": "/assets/models/tractor/front_wheel/front_wheel2.glb",
+      "position": [
+        1.050904,
+        0.045851,
+        0.408048
+      ],
+      "rotation": [
+        0,
+        1.570796,
+        0
+      ]
+    },
+    "front-wheel2-2": {
+      "file": "/assets/models/tractor/front_wheel/front_wheel2.glb",
+      "position": [
+        1.014207,
+        0.02446,
+        -0.406293
+      ],
+      "rotation": [
+        0,
+        1.570796,
+        0
+      ]
+    },
+    "joystick": {
+      "file": "/assets/models/tractor/joysticks/joystick.glb",
+      "position": [
+        0.453927,
+        -0.301656,
+        0.137093
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "rear-wheel": {
+      "file": "/assets/models/tractor/rear_wheel/rear_wheel.glb",
+      "position": [
+        -0.623065,
+        0.10802,
+        -0.340679
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "rear-wheel-2": {
+      "file": "/assets/models/tractor/rear_wheel/rear_wheel.glb",
+      "position": [
+        -0.58621,
+        0.137473,
+        0.473423
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "2019-tractor-body": {
+      "file": "/assets/models/tractor/bodies/2019_tractor_body.glb",
+      "position": [
+        -1.084154,
+        0.248136,
+        0.19868
+      ],
+      "rotation": [
+        0,
+        -1.570796,
+        0
+      ]
+    }
+  },
+  "eyeLevel": {
+    "position": [
+      0.1801,
+      1.514887,
+      0
+    ],
+    "rotation": [
+      0,
+      1.570796,
+      0
+    ],
+    "personVisible": true
+  },
+  "display": {
+    "position": [
+      0.713244,
+      0.925879,
+      0.466797
+    ],
+    "rotation": [
+      0,
+      -2.095966,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  }
+}
