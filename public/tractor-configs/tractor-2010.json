@@ -1,6 +1,31 @@
 {
   "schemaVersion": 4,
   "name": "tractor_2010",
+    "specs": {
+    "massLb": 2000,
+    "powerHp": 80,
+    "topSpeedMph": 5,
+    "durability": 40,
+    "centerOfMassInches": [15.5, 22, 0],
+    "transmission": "manual",
+    "finalDriveRatio": 1.1,
+    "gearRatios": [
+      3,
+      2,
+      1
+    ],
+    "lengthMetres": 2.8,
+    "widthMetres": 1.05
+  },
+  "transmissionSetup": {
+    "transmission": "manual",
+    "finalDriveRatio": 1.1,
+    "gearRatios": [
+      3,
+      2,
+      1
+    ]
+  },
   "tractor": {
     "position": [
       -0.050364,

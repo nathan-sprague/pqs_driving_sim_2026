@@ -6,12 +6,12 @@ export const tractorAssetFolders = tractorAssets.reduce((folders, file) => {
   (folders[folder] ??= []).push(file);
   return folders;
 }, {});
-export const DEFAULT_TRACTOR_MODEL_ID = tractorConfigs.find((entry) => entry.id === '2026_tractor')?.id ?? tractorConfigs[0]?.id;
+export const DEFAULT_TRACTOR_MODEL_ID = tractorConfigs.find((entry) => entry.id === 'tractor-2026')?.id ?? tractorConfigs[0]?.id;
 export const CUSTOM_TRACTOR_MODEL_ID = 'custom-cad-tractor';
 export const CUSTOM_TRACTOR_STORAGE_KEY = 'quarter-scale-custom-tractor';
 
 export const tractorModels = Object.fromEntries(tractorConfigs.map(({ id, file, data }) => [id, {
-  name: data.name ?? id.replaceAll(/[-_]/g, ' '),
+  name: (data.name ?? id).replaceAll(/[-_]/g, ' '),
   specs: data.specs ?? null,
   placementFile: file,
   placement: data,

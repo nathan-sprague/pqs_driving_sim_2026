@@ -2,14 +2,29 @@
   "schemaVersion": 4,
   "name": "tractor_2007",
   "specs": {
-    "massLb": 850,
-    "powerHp": 16,
-    "topSpeedMph": 5,
-    "durability": 72,
+    "massLb": 2200,
+    "powerHp": 96,
+    "topSpeedMph": 10,
+    "durability": 30,
     "centerOfMassInches": [15.5, 22, 0],
-    "transmission": "automatic",
+    "transmission": "manual",
+    "finalDriveRatio": 1.1,
+    "gearRatios": [
+      3,
+      2,
+      1
+    ],
     "lengthMetres": 2.8,
     "widthMetres": 1.05
+  },
+  "transmissionSetup": {
+    "transmission": "manual",
+    "finalDriveRatio": 1.1,
+    "gearRatios": [
+      3,
+      2,
+      1
+    ]
   },
   "tractor": {
     "position": [

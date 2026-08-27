@@ -2,7 +2,7 @@ import { formatHighScore, highScoreEvents, loadHighScores } from '../config/high
 import { unofficialEvents } from '../config/mapLibrary.js';
 
 export function renderHome(root, events, { developerMode = false } = {}) {
-  document.title = developerMode ? 'Developer Tools | Quarter Scale' : 'Quarter Scale Competition';
+  document.title = developerMode ? 'Developer Tools | Quarter Scale' : 'Purdue Quarter Scale Tractor Pulling Simulator';
   if (developerMode) renderDeveloperHome(root, events);
   else renderPlayerHome(root, events);
 }
@@ -12,10 +12,7 @@ function renderPlayerHome(root, events) {
   root.innerHTML = `
     <main class="player-home-shell">
       <header class="player-home-hero">
-        <p class="brand-mark"><span>QS</span> Quarter Scale Competition</p>
-        <p class="kicker">Driver paddock</p>
-        <h1>Ready to<br><em>compete?</em></h1>
-        <p>Choose your tractor, enter the full competition world, or practice one event at a time.</p>
+        <h1>PURDUE QUARTER SCALE TRACTOR PULLING SIMULATOR</h1>
       </header>
       <nav class="player-home-actions" aria-label="Competition options">
         <a href="?mode=tractor-select">
@@ -108,13 +105,9 @@ function highScoreBoard(scores) {
 function eventCard(event, index) {
   return `
     <a class="event-card event-card--${index + 1}" href="?mode=map&amp;map=${event.mapId}">
-      <div class="event-number">0${index + 1}</div>
       <div class="event-copy">
-        <p>${event.eyebrow}</p>
         <h3>${event.name}</h3>
-        <span>${event.description}</span>
       </div>
-      <div class="event-arrow" aria-hidden="true">↗</div>
     </a>
   `;
 }
@@ -123,7 +116,5 @@ function unofficialEventCard(event, index) {
   return eventCard({
     mapId: event.id,
     name: event.name,
-    eyebrow: 'Unofficial event',
-    description: event.description,
   }, index);
 }

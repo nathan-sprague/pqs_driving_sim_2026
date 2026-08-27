@@ -319,6 +319,7 @@ export function createWorld(container, { eventId, map = null, onReady, showFps =
     scoringHudHideAt = null;
     scoringIncompleteUntil = null;
     durabilityStartTime = null;
+    durabilityWasAttached = false;
     durabilityFinished = false;
     durabilityResult = '';
     durabilityLaps = 0;
@@ -424,6 +425,7 @@ export function createWorld(container, { eventId, map = null, onReady, showFps =
   let scoringHudHideAt = null;
   let scoringIncompleteUntil = null;
   let durabilityStartTime = null;
+  let durabilityWasAttached = false;
   let durabilityLaps = 0;
   let durabilityLapPt1Crossed = false;
   let durabilityLapPt2Crossed = false;
@@ -479,11 +481,16 @@ export function createWorld(container, { eventId, map = null, onReady, showFps =
       if (scoringStartTime === null && autoStartManeuverability && !hasStartAction(actions, 'maneuver')) {
         startManeuverability(time, telemetry);
       }
-      if (durabilityStartTime === null && telemetry.attachedCarts > 0) durabilityStartTime = time;
+      const durabilityAttached = telemetry.attachedCarts > 0;
+      if (durabilityStartTime === null && durabilityAttached) durabilityStartTime = time;
+      if (durabilityAttached) durabilityWasAttached = true;
       if (!durabilityFinished && (
         telemetry.trailerStructuralDurability <= 0
         || telemetry.trailerDrivelineDurability <= 0
       )) finishDurability('broken');
+      if (!durabilityFinished && durabilityStartTime !== null && durabilityWasAttached && !durabilityAttached) {
+        finishDurability('disconnected', time);
+      }
       if (durabilityFinished && telemetry.attachedCarts > 0) tractorPhysics.releaseCart();
       const pullingAttached = telemetry.attachedPullingSleds > 0;
       if (pullingAttached && !pullingWasAttached) {
@@ -522,10 +529,6 @@ export function createWorld(container, { eventId, map = null, onReady, showFps =
         if (trigger.action === 'clear-breakdown-smoke') {
           breakdownSmoke?.stop();
           tractorPhysics.resetDurability();
-          if (durabilityResult === 'broken') {
-            durabilityFinished = false;
-            durabilityResult = '';
-          }
           if (thresholdMessage.textContent === 'RETURN TO THE PIT') {
             thresholdMessage.classList.remove('is-visible');
             messageVisibleUntil = 0;
@@ -598,7 +601,7 @@ export function createWorld(container, { eventId, map = null, onReady, showFps =
           ? savedScoreState('durability')
           : !durabilityFinished
             ? { state: 'active' }
-            : { state: 'complete', score: durabilityLaps * 10 },
+            : { state: 'complete', score: durabilityScore(durabilityLaps) },
         pulling: !pullingStarted
           ? savedScoreState('pulling')
           : pullingFinishDistanceMetres === null
@@ -721,7 +724,7 @@ export function createWorld(container, { eventId, map = null, onReady, showFps =
     durabilityResult = result;
     durabilityLapPt1Crossed = false;
     durabilityLapPt2Crossed = false;
-    if (result === 'complete') recordHighScore('durability', durabilityLaps * 10, 'Durability');
+    recordHighScore('durability', durabilityScore(durabilityLaps), 'Durability');
     if (result === 'broken') {
       tractorPhysics?.freezeFor(5);
       breakdownSmoke?.start();
@@ -743,7 +746,7 @@ export function createWorld(container, { eventId, map = null, onReady, showFps =
       ...loadedEventScores,
       ...(scoringFinishSeconds !== null && !scoringDisqualified
         ? { maneuverability: maneuverabilityScore(scoringFinishSeconds, scoringFinishStats) } : {}),
-      ...(durabilityFinished && durabilityResult === 'complete' ? { durability: durabilityLaps * 10 } : {}),
+      ...(durabilityFinished ? { durability: durabilityScore(durabilityLaps) } : {}),
       ...(pullingFinishDistanceMetres !== null ? { pulling: pullingFinishDistanceMetres * 3.28084 * 2 } : {}),
     };
   }
@@ -965,7 +968,7 @@ function createDurabilityHud() {
     <strong>Durability</strong>
     <div class="durability-score">
       <div><span>Time remaining</span><strong data-durability-time>6:00</strong></div>
-      <div><span>Laps</span><strong data-durability-laps>0</strong></div>
+      <div><span data-durability-score-label>Laps</span><strong data-durability-laps>0</strong></div>
     </div>
     ${createDurabilityBar('Structural durability', 'structural')}
     ${createDurabilityBar('Driveline', 'driveline')}
@@ -978,14 +981,16 @@ function createDurabilityHud() {
       root.classList.toggle('has-result', Boolean(result));
       root.classList.toggle('is-complete', result === 'complete');
       root.setAttribute('aria-hidden', 'false');
-      root.querySelector('.durability-score').hidden = !cartAttached;
+      root.querySelector('.durability-score').hidden = !cartAttached && !result;
       const resultLabels = {
         disqualified: 'DISQUALIFIED',
+        disconnected: 'SLED DISCONNECTED',
         broken: 'BROKEN TRACTOR',
         complete: 'COURSE COMPLETE',
       };
       root.querySelector('[data-durability-time]').textContent = resultLabels[result] ?? formatCountdown(remainingSeconds);
-      root.querySelector('[data-durability-laps]').textContent = laps;
+      root.querySelector('[data-durability-score-label]').textContent = result ? 'Score' : 'Laps';
+      root.querySelector('[data-durability-laps]').textContent = result ? `${durabilityScore(laps)} pts` : laps;
       updateBar('structural', telemetry.trailerStructuralDurability);
       updateBar('driveline', telemetry.trailerDrivelineDurability);
       updateBar('temperature', telemetry.trailerTemperature);
@@ -1096,10 +1101,15 @@ function maneuverabilityStatsSince(telemetry, start) {
 
 function maneuverabilityScore(elapsedSeconds, stats) {
   const timeBonus = Math.max(0, Math.floor((120 - elapsedSeconds) / 15));
-  return timeBonus
+  return 200
+    + timeBonus
     - stats.yellowBallsKnocked
     - stats.yellowPostsKnocked * 2
     - Math.max(0, stats.directionChanges - 3);
+}
+
+function durabilityScore(laps) {
+  return laps * 100;
 }
 
 function createScoreSummary(openWorldSaving = false) {

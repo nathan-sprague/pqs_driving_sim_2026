@@ -2,10 +2,10 @@
   "schemaVersion": 4,
   "name": "tractor_2019",
   "specs": {
-    "massLb": 950,
-    "powerHp": 34,
+    "massLb": 1600,
+    "powerHp": 31,
     "topSpeedMph": 6,
-    "durability": 92,
+    "durability": 70,
     "centerOfMassInches": [17, 23.5, 0],
     "transmission": "automatic",
     "lengthMetres": 3.05,
