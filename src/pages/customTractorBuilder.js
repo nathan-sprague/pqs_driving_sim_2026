@@ -5,7 +5,7 @@ const stages = ['Driveline', 'Frame', 'Operator station', 'Analysis'];
 
 export async function renderCustomTractorBuilder(root) {
   root.innerHTML = `<main class="custom-cad-shell">
-    <header class="cad-topbar"><a href="/" aria-label="Home">QS</a><div><b>Custom Tractor</b><span data-save-state>Unsaved concept</span></div>
+    <header class="cad-topbar"><a href="./" aria-label="Home">QS</a><div><b>Custom Tractor</b><span data-save-state>Unsaved concept</span></div>
       <div class="cad-view-controls"><button data-view="perspective" class="active">Perspective</button><button data-view="top">Top</button><button data-view="front">Front</button><button data-view="right">Right</button><button data-projection>Orthographic</button><button data-save-json>Save JSON</button><button data-load-json>Load JSON</button><input type="file" accept="application/json,.json" data-json-file hidden></div>
     </header>
     <aside class="cad-steps"><p>Design workflow</p>${stages.map((stage, index) => `<button data-stage-label="${index}" ${index ? 'disabled' : ''}><i>0${index + 1}</i><span>${stage}<small>${index ? 'Locked' : 'In progress'}</small></span></button>`).join('')}<section class="cad-parts-browser"><header><span>Parts</span><small><i></i> Constrained</small><small><i></i> Unconstrained</small></header><div data-parts-list><p class="cad-empty-parts">No parts added</p></div></section></aside>
@@ -47,7 +47,7 @@ export async function renderCustomTractorBuilder(root) {
       <button class="cad-primary cad-complete" data-complete>Complete build</button>
     </div><p class="cad-status" data-status>Select an engine to begin.</p></aside>
     <footer class="cad-toolbar"><button data-mode="translate" class="active">↔ Move <kbd>G</kbd></button><button data-mode="rotate">⟳ Rotate <kbd>R</kbd></button><button data-mode="scale">↗ Scale <kbd>S</kbd></button><label><input type="checkbox" data-snap checked> Snap</label><button data-delete>Delete</button></footer>
-  </main><section class="cad-completion-screen" data-completion-screen hidden><div><p class="panel-kicker">Build complete</p><h1>Your custom tractor</h1><div class="cad-results" data-results></div><nav><button data-return-build>← Return to build</button><a href="/">Go to homepage</a></nav></div></section>`;
+  </main><section class="cad-completion-screen" data-completion-screen hidden><div><p class="panel-kicker">Build complete</p><h1>Your custom tractor</h1><div class="cad-results" data-results></div><nav><button data-return-build>← Return to build</button><a href="./">Go to homepage</a></nav></div></section>`;
 
   let stage = 0;
   let highestCompletedStage = 0;

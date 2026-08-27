@@ -1,4 +1,5 @@
 import { normalizeMap } from './maps.js';
+import { publicUrl } from './publicUrl.js';
 
 export const mapLibrary = [
   { id: 'pulling', name: 'Pulling', file: 'pulling.json', description: 'Official tractor-pull course.' },
@@ -15,7 +16,7 @@ export const unofficialEvents = mapLibrary.filter(({ id }) => ['demolition_derby
 export async function loadLibraryMap(id) {
   const entry = mapLibrary.find((candidate) => candidate.id === id);
   if (!entry) throw new Error('Unknown map.');
-  const response = await fetch(`/maps/${entry.file}`);
+  const response = await fetch(publicUrl(`maps/${entry.file}`));
   if (!response.ok) throw new Error(`${entry.file} is not installed yet.`);
   const value = await response.json();
   if (!value || !Array.isArray(value.blocks) || !value.vehicleStart) {

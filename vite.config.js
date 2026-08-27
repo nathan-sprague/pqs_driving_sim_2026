@@ -5,6 +5,7 @@ import { basename, extname, join, relative } from 'node:path';
 const root = process.cwd();
 
 export default defineConfig({
+  base: '/pqs_driving_sim_2026/',
   plugins: [{
     name: 'tractor-library',
     resolveId(id) { return id === 'virtual:tractor-library' ? `\0${id}` : null; },
@@ -14,13 +15,13 @@ export default defineConfig({
       const configRoot = join(root, 'public/tractor-configs');
       const assets = readdirSync(modelRoot, { recursive: true, withFileTypes: true })
         .filter((entry) => entry.isFile() && extname(entry.name).toLowerCase() === '.glb')
-        .map((entry) => `/assets/models/tractor/${relative(modelRoot, join(entry.parentPath, entry.name)).replaceAll('\\', '/')}`)
+        .map((entry) => `/pqs_driving_sim_2026/assets/models/tractor/${relative(modelRoot, join(entry.parentPath, entry.name)).replaceAll('\\', '/')}`)
         .sort();
       const configs = readdirSync(configRoot)
         .filter((file) => file.endsWith('.json'))
         .map((file) => ({
           id: basename(file, '.json'),
-          file: `/tractor-configs/${file}`,
+          file: `/pqs_driving_sim_2026/tractor-configs/${file}`,
           data: JSON.parse(readFileSync(join(configRoot, file), 'utf8')),
         }))
         .filter(({ data }) => Object.values(data.parts ?? {}).every((part) => typeof part.file === 'string'));

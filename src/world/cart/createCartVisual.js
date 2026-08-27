@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import { publicUrl } from '../../config/publicUrl.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 
 const CART_COLOR = '#496b3f';
@@ -25,7 +26,7 @@ export function createCartVisual(cart) {
     mesh.userData.blockId = cart.id;
   }
 
-  new GLTFLoader().loadAsync('/assets/models/tractor/rear_wheel/rear_wheel.glb').then(({ scene }) => {
+  new GLTFLoader().loadAsync(publicUrl('assets/models/tractor/rear_wheel/rear_wheel.glb')).then(({ scene }) => {
     if (!root.parent) return;
     scene.traverse((object) => {
       if (!object.isMesh) return;

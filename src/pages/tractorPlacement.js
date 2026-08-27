@@ -10,7 +10,7 @@ export async function renderTractorPlacement(root) {
     `<optgroup label="${label(folder)}">${files.map((file) => `<option value="${file}">${file.split('/').at(-1)}</option>`).join('')}</optgroup>`
   )).join('');
   root.innerHTML = `<main class="tractor-config-shell"><section class="tractor-config-view" data-placement-view><p>Drag empty space to orbit · Scroll to zoom · Drag gizmo to edit</p></section><aside class="tractor-config-panel tractor-placement-panel">
-    <a class="back-link" href="/">← Home</a><p class="panel-kicker">Model workshop</p><h1>Build tractor</h1>
+    <a class="back-link" href="./">← Home</a><p class="panel-kicker">Model workshop</p><h1>Build tractor</h1>
     <label>Start from<select data-model><option value="blank" ${modelId === 'blank' ? 'selected' : ''}>Blank tractor</option>${Object.entries(tractorModels).map(([id, entry]) => `<option value="${id}" ${id === modelId ? 'selected' : ''}>${entry.name}</option>`).join('')}</select></label>
     <label>Tractor name<input data-name value="${escapeAttribute(model.name)}" maxlength="80"></label>
     <label>Available model<select data-asset>${assetOptions}</select></label>

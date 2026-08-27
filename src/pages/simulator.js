@@ -8,7 +8,7 @@ export function renderSimulator(root, event, map = null, { returnToBuilder = fal
       <div class="viewport" data-world></div>
       <header class="sim-header">
         <nav class="sim-navigation" aria-label="Simulator navigation">
-          ${returnToBuilder ? '<a class="back-link" href="/?mode=builder">← Course Builder</a>' : ''}
+          ${returnToBuilder ? '<a class="back-link" href="?mode=builder">← Course Builder</a>' : ''}
         </nav>
         <div class="event-title">
           <span>Event</span>

@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import { publicUrl } from '../../config/publicUrl.js';
 import { TransformControls } from 'three/addons/controls/TransformControls.js';
 import { loadTractor } from './loadTractor.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
@@ -139,7 +140,7 @@ export async function createTractorPlacementEditor(container, modelId, onChange)
   };
 
   async function addEyeLevelObject(transform = {}) {
-    const { scene: person, animations } = await new GLTFLoader().loadAsync('/assets/models/human/person.glb');
+    const { scene: person, animations } = await new GLTFLoader().loadAsync(publicUrl('assets/models/human/person.glb'));
     person.name = 'eyeLevel';
     person.children.forEach((child) => { child.position.y -= 1.65; });
     personMixer = new THREE.AnimationMixer(person);

@@ -11,13 +11,13 @@ export async function renderMapBuilder(root) {
       <div class="builder-viewport" data-builder-world></div>
       <div class="builder-crosshair" aria-hidden="true">+</div>
       <header class="builder-topbar">
-        <a class="back-link" href="/">← Home</a>
+        <a class="back-link" href="./">← Home</a>
         <input class="map-name" data-map-name value="${escapeAttribute(map.name)}" aria-label="Map name">
         <div class="builder-actions">
           <label class="upload-button">Upload JSON<input type="file" accept="application/json,.json" data-map-upload></label>
           <button data-action="download">Download JSON</button>
           <button class="reset-map-button" data-action="reset-map">Reset course</button>
-          <a href="/?mode=map">Test drive</a>
+          <a href="?mode=map">Test drive</a>
         </div>
       </header>
       <aside class="builder-panel">
@@ -300,7 +300,7 @@ export async function renderMapBuilder(root) {
       const hasItems = map.blocks.length > 0 || map.groups.length > 0;
       if (hasItems && !window.confirm('Reset this course? All objects in the current world will be removed.')) return;
       saveMap(createEmptyMap());
-      window.location.assign('/?mode=builder');
+      window.location.assign('?mode=builder');
     }
   });
 
@@ -452,7 +452,7 @@ export async function renderMapBuilder(root) {
       const importedMap = await importMapFile(event.target.files[0]);
       saveMap(importedMap);
       status.textContent = `Loaded ${importedMap.name}. Reopening the editor…`;
-      window.location.assign('/?mode=builder');
+      window.location.assign('?mode=builder');
     } catch (error) {
       status.textContent = error.message;
       event.target.value = '';

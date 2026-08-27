@@ -47,7 +47,7 @@ function renderMapError(root, message) {
       <p class="kicker">Map unavailable</p>
       <h1>Could not load map.</h1>
       <p>${escapeHtml(message)}</p>
-      <a class="back-link" href="/">← Return home</a>
+      <a class="back-link" href="./">← Return home</a>
     </main>
   `;
 }

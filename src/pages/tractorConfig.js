@@ -10,13 +10,13 @@ export function renderTractorSelect(root) {
       <nav class="tractor-roster" aria-label="Tractor roster">
         <header><span>Competition garage</span><strong>Tractor roster</strong></header>
         <div data-tractor-roster>${tractorRoster(config.modelId)}</div>
-        <a href="/?mode=custom-tractor"><span>Design studio</span><strong>Build a custom tractor</strong></a>
+        <a href="?mode=custom-tractor"><span>Design studio</span><strong>Build a custom tractor</strong></a>
       </nav>
       <div class="tractor-select-vehicle-name"><span>Selected machine</span><strong data-selected-tractor-name>${selectedTractorName(config.modelId)}</strong></div>
       <p>Drag to rotate · Scroll to zoom</p>
     </section>
     <aside class="tractor-config-panel tractor-select-panel">
-      <a class="back-link" href="/">← Home</a>
+      <a class="back-link" href="./">← Home</a>
       <p class="panel-kicker">Garage · Competition setup</p><h1>Choose your machine.</h1>
       <p class="tractor-select-intro">Review your tractor’s performance package, then take it to the competition. Stats are locked in the player garage.</p>
       <section class="tractor-stat-card" aria-label="Tractor performance statistics">
@@ -32,7 +32,7 @@ export function renderTractorSelect(root) {
       </section>
       <p class="config-status" data-config-status>Your current tractor is selected.</p>
       <div class="tractor-garage-actions">
-        <a class="tractor-select-start" href="/?mode=map&amp;map=open_world">Start the competition →</a>
+        <a class="tractor-select-start" href="?mode=map&amp;map=open_world">Start the competition →</a>
       </div>
     </aside>
   </main>`;
@@ -77,7 +77,7 @@ export function renderTractorConfig(root) {
   root.innerHTML = `<main class="tractor-config-shell">
     <section class="tractor-config-view" data-tractor-view><p>Drag to rotate · Scroll to zoom</p></section>
     <aside class="tractor-config-panel">
-      <a class="back-link" href="/">← Home</a>
+      <a class="back-link" href="./">← Home</a>
       <p class="panel-kicker">Vehicle setup</p><h1>Configure tractor</h1>
       <label>Tractor to drive<select data-config="modelId">${hasCustomTractor() ? `<option value="${CUSTOM_TRACTOR_MODEL_ID}" ${config.modelId === CUSTOM_TRACTOR_MODEL_ID ? 'selected' : ''}>My custom tractor</option>` : ''}${Object.entries(tractorModels).map(([id, model]) => `<option value="${id}" ${config.modelId === id ? 'selected' : ''}>${model.name}</option>`).join('')}</select></label>
       ${numberField('Weight (lb)', 'massLb', config.massLb, 100, 5000, 1)}

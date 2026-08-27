@@ -18,10 +18,10 @@ function renderPlayerHome(root, events) {
         <p>Choose your tractor, enter the full competition world, or practice one event at a time.</p>
       </header>
       <nav class="player-home-actions" aria-label="Competition options">
-        <a href="/?mode=tractor-select">
+        <a href="?mode=tractor-select">
           <span>01 · Vehicle</span><strong>Pick your tractor</strong><i aria-hidden="true">→</i>
         </a>
-        <a class="is-primary" href="/?mode=map&amp;map=open_world">
+        <a class="is-primary" href="?mode=map&amp;map=open_world">
           <span>02 · Open world</span><strong>Begin the competition</strong><i aria-hidden="true">→</i>
         </a>
         <details>
@@ -61,27 +61,27 @@ function renderDeveloperHome(root, events) {
         </div>
         ${highScoreBoard(highScores)}
         <div class="home-tools">
-          <a class="builder-entry custom-tractor-entry" href="/?mode=custom-tractor">
+          <a class="builder-entry custom-tractor-entry" href="?mode=custom-tractor">
             <span>CAD design studio</span>
             <strong>Build a custom tractor</strong>
             <i aria-hidden="true">→</i>
           </a>
-          <a class="builder-entry" href="/?mode=tractor-placement">
+          <a class="builder-entry" href="?mode=tractor-placement">
             <span>Model workshop</span>
             <strong>Place tractor parts</strong>
             <i aria-hidden="true">→</i>
           </a>
-          <a class="builder-entry" href="/?mode=tractor-config">
+          <a class="builder-entry" href="?mode=tractor-config">
             <span>Vehicle setup</span>
             <strong>Configure tractor</strong>
             <i aria-hidden="true">→</i>
           </a>
-          <a class="builder-entry" href="/?mode=map&amp;map=open_world">
+          <a class="builder-entry" href="?mode=map&amp;map=open_world">
             <span>Free drive</span>
             <strong>Explore the open world</strong>
             <i aria-hidden="true">→</i>
           </a>
-          <a class="builder-entry" href="/?mode=builder">
+          <a class="builder-entry" href="?mode=builder">
             <span>Map workshop</span>
             <strong>Build a custom test course</strong>
             <i aria-hidden="true">→</i>
@@ -107,7 +107,7 @@ function highScoreBoard(scores) {
 
 function eventCard(event, index) {
   return `
-    <a class="event-card event-card--${index + 1}" href="/?mode=map&amp;map=${event.mapId}">
+    <a class="event-card event-card--${index + 1}" href="?mode=map&amp;map=${event.mapId}">
       <div class="event-number">0${index + 1}</div>
       <div class="event-copy">
         <p>${event.eyebrow}</p>

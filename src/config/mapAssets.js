@@ -1,4 +1,6 @@
-export const MAP_ASSET_BASE_PATH = '/assets/models/map-assets/';
+import { publicUrl } from './publicUrl.js';
+
+export const MAP_ASSET_BASE_PATH = publicUrl('assets/models/map-assets/');
 
 export async function loadMapAssetNames() {
   try {

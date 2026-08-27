@@ -1,6 +1,7 @@
 import * as THREE from 'three';
 import { formatHighScore, saveHighScore } from '../config/highScores.js';
 import { loadOpenWorldSave, saveOpenWorld } from '../config/openWorldSave.js';
+import { publicUrl } from '../config/publicUrl.js';
 import { loadTractor } from './tractor/loadTractor.js';
 import { createTractorPhysics } from './physics/createTractorPhysics.js';
 import { createMapBlockVisuals, createObstacleVisuals } from './obstacles/createObstacleVisuals.js';
@@ -75,13 +76,13 @@ export function createWorld(container, { eventId, map = null, onReady, showFps =
   scene.add(sun);
 
   const textureLoader = new THREE.TextureLoader();
-  const groundTexture = textureLoader.load('/assets/textures/dirt.webp');
+  const groundTexture = textureLoader.load(publicUrl('assets/textures/dirt.webp'));
   const infiniteGround = createInfiniteGround(groundTexture);
   const groundTrackingPosition = new THREE.Vector3();
   infiniteGround.update(groundTrackingPosition);
   scene.add(infiniteGround.root);
 
-  textureLoader.load('/assets/textures/skycube.webp', (texture) => {
+  textureLoader.load(publicUrl('assets/textures/skycube.webp'), (texture) => {
     texture.mapping = THREE.EquirectangularReflectionMapping;
     texture.colorSpace = THREE.SRGBColorSpace;
     scene.background = texture;
@@ -1114,7 +1115,7 @@ function createScoreSummary(openWorldSaving = false) {
     <nav class="score-summary-actions">
       <button type="button" data-score-back>Back to game</button>
       ${openWorldSaving ? '<button type="button" data-score-save>Save open world</button><button type="button" data-score-load>Load save</button>' : ''}
-      <a href="/">Main menu</a>
+      <a href="./">Main menu</a>
     </nav>
     ${openWorldSaving ? '<p class="score-save-status" data-score-save-status role="status" aria-live="polite"></p>' : ''}
   `;

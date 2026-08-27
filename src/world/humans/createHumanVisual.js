@@ -1,8 +1,9 @@
 import * as THREE from 'three';
+import { publicUrl } from '../../config/publicUrl.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { clone } from 'three/addons/utils/SkeletonUtils.js';
 
-const HUMAN_MODEL_PATH = '/assets/models/human/person.glb';
+const HUMAN_MODEL_PATH = publicUrl('assets/models/human/person.glb');
 let humanAssetPromise;
 
 export function createHumanVisual(human) {

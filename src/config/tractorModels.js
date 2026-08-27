@@ -1,4 +1,5 @@
 import { tractorAssets, tractorConfigs } from 'virtual:tractor-library';
+import { publicUrl } from './publicUrl.js';
 
 export const tractorAssetFolders = tractorAssets.reduce((folders, file) => {
   const folder = file.split('/').at(-2);
@@ -39,10 +40,11 @@ export function hasCustomTractor() {
 
 export function definition(file) {
   const folder = file?.split('/').at(-2) ?? 'other';
+  const resolvedFile = file ? publicUrl(file.replace(import.meta.env.BASE_URL, '')) : file;
   return {
     folder,
-    files: tractorAssetFolders[folder] ?? (file ? [file] : []),
-    defaultFile: file,
+    files: tractorAssetFolders[folder] ?? (resolvedFile ? [resolvedFile] : []),
+    defaultFile: resolvedFile,
     role: folder === 'front_wheel' ? 'steering' : folder === 'rear_wheel' ? 'drive-wheel' : null,
   };
 }
